@@ -1,0 +1,183 @@
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container { 
+  height: 480px;
+  position:static;
+  }
+
+#img1, #img2, #img3, #img4 {
+  height: 580px;
+  background-size: cover;
+}
+
+#img1{
+  background-image: url("/Assets/OneDrive/img-sld-rivpe.png");
+}
+
+#img2{
+  background-image: url("/Assets/OneDrive/img-sld-publicacao.png");
+}
+
+#img3{
+  background-image: url("/Assets/OneDrive/img-sld-sei.png");
+}
+#img4{
+  background-image: url("/Assets/OneDrive/img-sld-sei.png");
+}
+
+  /* Hide the images by default */
+.mySlides {
+  display: none;
+  }
+  
+  /* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: 0;
+  padding: 16px 23px;   
+  color: #008ad1;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+.next {
+  right: 18px;
+  border-radius: 50%;
+  }
+.prev {
+  left: 18px;
+  border-radius: 50%; 
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(75, 70, 70, 0.8);
+  color: #f2f2f2;
+  }
+
+.dots {
+  margin-top: 40px;
+} 
+
+  /* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #26a3e2;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.1s ;
+  }
+  
+.atual, .dot:hover {
+  background-color: #043558;
+  }
+
+#btn-manual-slide {
+  background-color: #ffc276;
+  color: #000;
+  font-size: 25px;
+  font-weight: lighter;
+  border: none;
+  border-radius: 40px;
+  padding: 25px 30px ;
+  margin-top: 380px;
+  margin-left:calc(50% - 126px);
+  word-break: break-all;
+}  
+
+#btn-manual-slide:hover {
+  color: #ffc276;
+  background-color: #645a51;
+}
+
+#img1 .text, #img2 .text, #img3 .text, #img4 .text {
+  background-color: #f0f8ff8e;
+  color: #008bd2;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-left: calc(50% - 481.5px);
+  margin-top: 250px;
+  padding: 20px 50px;
+  position:absolute;
+}
+
+#img2 .text,#img3 .text, #img4 .text {
+  background-color: #f0f8ffdc;
+  margin-top: 250px;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Responsividade */ 
+@media only screen and (max-width: 1230px) {
+  #img1 .text {
+    font-size: 25px;
+    margin-left:calc(50% - 384.5px);
+  }
+
+  #btn-manual-slide {
+    font-size: 20px;
+    margin-top: 380px;
+    margin-left:calc(50% - 106.71px);
+  
+  }  
+
+}  
+
+@media only screen and (max-width: 800px) {
+  #img1 .text {
+    margin-left:calc(50% - 302.65px);
+    padding: 5px 15px;
+
+  }
+
+  #btn-manual-slide {
+    font-size: 15px;
+    margin-top: 380px;
+    border-radius: 30px;
+    padding: 20px 25px ;
+    margin-left:calc(50% - 82.5px);
+  
+  }  
+
+}  
+
+@media only screen and (max-width: 650px) {
+  #img1 .text {
+    margin-left: auto;
+    padding: 5px 15px;
+
+  }
+
+  #btn-manual-slide {
+    font-size: 15px;
+    margin-top: 380px;
+    border-radius: 30px;
+    padding: 20px 25px ;
+    margin-left:calc(50% - 82.5px);
+  
+  }  
+
+}  
