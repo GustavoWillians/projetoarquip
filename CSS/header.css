@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
 body {
     margin: 0;
     }
@@ -9,13 +12,12 @@ body {
     background-image: url("/Assets/OneDrive/Cabeçalho.png");
     background-repeat: no-repeat;
     background-position: left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
    
 }
 .menu-fixo {
     background-color: #92ccf350;
     display: flex;
-   /* margin-top: -46px;*/
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
@@ -23,8 +25,6 @@ body {
     -moz-transition: .5s; /* Firefox 4 */
     -webkit-transition: .5s; /* Safari and Chrome */
     -o-transition: .5s; /* Opera */
-    /* position: -webkit-sticky; /* Necessário para funcionar no Safari */
-    /* position: sticky; */
     top: 0;
     z-index: 99;
     }

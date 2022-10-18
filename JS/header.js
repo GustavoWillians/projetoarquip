@@ -30,8 +30,8 @@ window.onload = function(e) {
         }
       }
       
-      var tela = window.matchMedia("(max-width: 350px)")
-      logoFixo(tela) // Call listener function at run time */
-      tela.addListener(logoFixo); //faz a verificação na "tela" pra atender os valores atribuídos  
+    var tela = window.matchMedia("(max-width: 350px)")
+    logoFixo(tela) // Call listener function at run time */
+    tela.addListener(logoFixo); //faz a verificação na "tela" pra atender os valores atribuídos  
       
 }

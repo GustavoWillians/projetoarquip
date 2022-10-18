@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
 * {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
 
 img {vertical-align: middle;}
 
@@ -95,7 +97,7 @@ img {vertical-align: middle;}
   padding: 25px 30px ;
   margin-top: 380px;
   margin-left:calc(50% - 126px);
-  word-break: break-all;
+  font-family: 'Gilroy-Medium', sans-serif;
 }  
 
 #btn-manual-slide:hover {
@@ -108,6 +110,7 @@ img {vertical-align: middle;}
   color: #008bd2;
   text-align: center;
   font-size: 30px;
+  font-family: 'Questrial', sans-serif;
   font-weight: lighter;
   margin-left: calc(50% - 481.5px);
   margin-top: 250px;

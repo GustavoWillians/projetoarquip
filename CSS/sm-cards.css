@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
 .container-cards-sm {
     margin-top: 40px;
     display: flex;
@@ -17,12 +20,14 @@
     grid-area: titulo; 
     height: fit-content;
     width: 100%;
+    font-family: 'Questrial', sans-serif;
 }
 .it3-grid{
     grid-area: texto;
     margin-top: 15px; 
     padding: 15px;
     color: #8d8c8c;
+    font-family: 'Gilroy-Medium', sans-serif;
 }
 
 .ms-card {

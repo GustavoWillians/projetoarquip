@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
 .container-sistemas{
     display: grid;
     grid:
@@ -11,6 +14,7 @@
 
 .it1-grid-sistemas{
     grid-area: titulo;
+    font-family: 'Questrial', sans-serif;
 }
 
 .it2-grid-sistemas{
@@ -63,12 +67,14 @@
 .it2-grid-sistemas-card {
     grid-area: titulo; 
     height: fit-content;
+    font-family: 'Questrial', sans-serif;
     width: 100%;
 }
 .it3-grid-sistemas-card {
     grid-area: texto;
     margin-top: 0px; 
     padding: 15px;
+    font-family: 'Gilroy-Medium', sans-serif;
     color: #8d8c8c;
 }
 .it4-grid-sistemas-card {grid-area: botao; }
@@ -96,7 +102,7 @@
 .sm-interno-sistemas{
     background-color: #ffc276;
     color: #000000;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
     font-weight: 100;
     font-size: 20px;
     padding: 5px 10px;
