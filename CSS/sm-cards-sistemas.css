@@ -1,0 +1,139 @@
+.container-sistemas{
+    display: grid;
+    grid:
+    'titulo'
+    'card';
+    grid-template-rows: 10% 90%;
+    grid-gap: 0;
+    background-image: url("/Assets/OneDrive/Fundo_tela_de_Sistemas_de_Arquivos_SP.png");
+    height: 900px;
+}
+
+.it1-grid-sistemas{
+    grid-area: titulo;
+}
+
+.it2-grid-sistemas{
+    grid-area: card;
+}
+
+.titulo-sistemas{
+    background-color: #EFDDCA ;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 8%;
+    padding: 15px;
+    width: fit-content;
+}
+
+.container-card-sistemas{  
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ms-card-sistemas{
+    box-shadow: 0px 4px 8px 0px #32323238;
+    display: grid;
+    grid:
+    'imagem'
+    'titulo'
+    'quebra1'
+    'texto'
+    'quebra2'
+    'botao';
+    grid-template-rows: 10% 10% 5% 65% 5% 5%;
+    grid-gap: 1px;
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    background-color: #f4f4f5ab;
+    border-radius: 0;
+    margin: auto;
+    text-align: center;
+    justify-items: center;
+}
+
+.it1-grid-sistemas-card {
+    grid-area: imagem;
+    top: -10px;
+}
+.it2-grid-sistemas-card {
+    grid-area: titulo; 
+    height: fit-content;
+    width: 100%;
+}
+.it3-grid-sistemas-card {
+    grid-area: texto;
+    margin-top: 0px; 
+    padding: 15px;
+    color: #8d8c8c;
+}
+.it4-grid-sistemas-card {grid-area: botao; }
+
+.it5-grid-sistemas-card {
+    grid-area: quebra1;
+    margin: 5px;
+ }
+.it6-grid-sistemas-card {
+    grid-area: quebra2;
+    margin-top: -30px;
+    margin-bottom: 0%;
+}
+
+.sm-rodape {
+    display: flex;
+    align-items: flex-end;
+}
+
+.ms-card-sistemas img {
+    height: 180px;
+    margin-top: -150px;
+}
+
+.sm-interno-sistemas{
+    background-color: #ffc276;
+    color: #000000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+a.sm-interno-sistemas{
+    text-decoration: none;
+}
+@media only screen and (max-width: 1260px) {
+    .ms-card-sistemas{
+        width: auto;
+        height: auto;
+        margin-top: 90px;
+
+    }
+
+    .container-card-sistemas{  
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+
+    .container-sistemas{
+        background-size: cover;
+        background-attachment: scroll;
+        height: fit-content;
+    }
+    
+    .titulo-sistemas{
+        font-size: 20px;
+        margin-top: 40px;
+        padding: 20px;
+        padding-top: 25px;
+        padding-bottom: 0%;
+        text-align: left;
+        vertical-align: baseline;
+    }
+}
