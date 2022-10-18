@@ -1,0 +1,40 @@
+footer {
+    height: 300px;
+    background-image: url('../Assets/OneDrive/footer.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: black;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+footer img {
+    height: 40%;
+}
+
+footer p img {
+    height: 20px;
+}
+
+@media only screen and (max-width: 1260px) {
+    footer img {
+        height: 30%;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    footer {
+        flex-direction: column-reverse;
+        text-align: center;
+        background-color: black;
+        margin-bottom: 0;
+    }
+    p {
+        margin-bottom: 0;
+        padding-bottom: 15px;
+    }
+}
