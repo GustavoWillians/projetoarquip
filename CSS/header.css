@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    }
+
+
+.capa {
+    height: 182px;
+    background-color: #000;
+    background-image: url("/Assets/OneDrive/Cabeçalho.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.menu-fixo {
+    background-color: #92ccf350;
+    display: flex;
+   /* margin-top: -46px;*/
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    transition: .5s; /* Class transition */
+    -moz-transition: .5s; /* Firefox 4 */
+    -webkit-transition: .5s; /* Safari and Chrome */
+    -o-transition: .5s; /* Opera */
+    /* position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    /* position: sticky; */
+    top: 0;
+    z-index: 99;
+    }
+
+#logo-arquip{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    height: 80px;
+    transition: .5s; /* Class transition */
+    -moz-transition: .5s; /* Firefox 4 */
+    -webkit-transition: .5s; /* Safari and Chrome */
+    -o-transition: .5s; /* Opera */
+    }    
+
+.menu button {
+        padding: 15px;
+        font-size: medium;
+        border:none;
+        text-align: center;
+        text-decoration: none;
+        background-color: #fff0;
+        color: #f0f8ff;
+        transition-duration: 0.5s;
+    }
+      
+.menu button:hover {
+        background-color: #4cb0e2; 
+        color: white;
+    }
+
+.video {
+    text-align: center;
+}
+
+/* Responsividade */
+@media only screen and (max-width: 1230px) {
+    .menu {
+        background-color: #1e7bb9f5;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+    #logo-arquip{
+        margin-right: 75px;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    #logo-arquip{
+        text-align: center;
+        margin-top: 5%;
+        height: 80px;
+    } 
+    .menu-fixo {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #logo-arquip{
+        text-align: center;
+        margin-top: 20%;
+        display: flex;
+        justify-content: flex-end;
+    } 
+    .menu-fixo {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+}
