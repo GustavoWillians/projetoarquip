@@ -60,7 +60,7 @@ a.sm-interno {
     color: #000000;
     text-decoration: none;   
 }
- a.sm-interno:link, a.sm-interno:visited {
+a.sm-interno:link, a.sm-interno:visited {
 	text-decoration: none
 	}
 
