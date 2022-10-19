@@ -3,13 +3,13 @@
 
 body {
     margin: 0;
-    }
+}
 
 
 .capa {
     height: 182px;
     background-color: #000;
-    background-image: url("/Assets/OneDrive/Cabeçalho.png");
+    background-image: url("/Assets/header/Cabeçalho.png");
     background-repeat: no-repeat;
     background-position: left;
     font-family: 'Gilroy-Medium', sans-serif;
