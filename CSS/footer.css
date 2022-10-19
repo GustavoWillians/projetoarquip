@@ -39,9 +39,13 @@ footer p img {
         text-align: center;
         background-color: black;
         margin-bottom: 0;
+        height: fit-content;
     }
     p {
         margin-bottom: 0;
         padding-bottom: 15px;
+    }
+    footer img{
+        height: 80px;
     }
 }
