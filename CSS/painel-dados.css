@@ -2,3 +2,26 @@ body {
     background-color: #00b7ff7e ;
     text-align: center;
 }
+iframe {
+    margin: 20px 0 20px 0;
+}
+.container-iframe{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.controls-iframe{
+    margin-top: 40px;
+}
+
+.botoes button{
+    background-color: #0004ff;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    border-color: #fff;
+    cursor: pointer;
+}

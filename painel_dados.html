@@ -13,19 +13,26 @@
 </head>
 <body>
     <header class="capa menu-fixo"> 
-        <!-- contem fundo pg inicio header.css -->
         <img id="logo-arquip" src="./Assets/header/Logo-ARQUIP-branco.png" alt="Logo-ARQUIP"> 
         
         <div class="menu">
-            <button>Menu</button>
+          
+            <button><a href="./index.html">inicio</a></button>
+            <button>menu</button>
             <button>Sistemas</button>
             <button><a href="./painel_dados.html">Painel de Dados</a></button>
             <button>Buscar</button>
         </div>
     </header> <!-- header fim -->
-
-    <!-- <iframe title="Fisico" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=39948c4b-ae11-4c27-a86b-572773c98697&autoAuth=true&ctid=f398df9c-fd0c-4829-a003-c770a1c4a063" frameborder="0" allowFullScreen="true"></iframe> -->
-    <iframe title="SEGES DIGITAL" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=e00dad84-eba8-4e72-9af9-f15e194452de&autoAuth=true&ctid=f398df9c-fd0c-4829-a003-c770a1c4a063" frameborder="0" allowFullScreen="true"></iframe>
+    <div class="container-iframe">
+      <div class="controls-iframe">
+        <div class="botoes"><button>iframe btn 1</button></div>
+        <div class="botoes"><button>iframe btn 2</button></div>
+        <div class="botoes"><button>iframe btn 3</button></div>
+      </div>
+      
+      <iframe id="iframe_dados" title="SEGES DIGITAL Atualizado" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=f9997d95-f14d-4dd5-bb0a-dc0292c44dc5&autoAuth=true&ctid=f398df9c-fd0c-4829-a003-c770a1c4a063" frameborder="0" allowFullScreen="true"></iframe>
+    </div> 
 
     <footer>
         <div class="infos">
@@ -40,5 +47,8 @@
         <img src="./Assets/footer/logo-prefeitura.png" alt="Prefeitura da cidade de São Paulo">
         <img src="./Assets/footer/Logo-branco.png" alt="Arquip">
       </footer>
+
+      <script src="./JS/header.js"></script>
+      <script src="./JS/painel_dados/painel_seges_digital.js"></script>
 </body>
 </html>
