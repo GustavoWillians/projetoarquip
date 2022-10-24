@@ -9,15 +9,12 @@ img {vertical-align: middle;}
 .slideshow-container { 
   height: 480px;
   position:static;
+  text-align: center;
   }
 
 #img1, #img2, #img3, #img4 {
   height: 580px;
   background-size: cover;
-}
-
-#img4 {
-  background-position: top;
 }
 
 #img1{
@@ -33,6 +30,7 @@ img {vertical-align: middle;}
 }
 #img4{
   background-image: url("/Assets/carousel/img-sld-pesquisa.png");
+  background-position: top;
 }
 
   /* Hide the images by default */
@@ -97,12 +95,10 @@ img {vertical-align: middle;}
   background-color: #ffc276;
   color: #000;
   font-size: 25px;
-  font-weight: lighter;
   border: none;
   border-radius: 40px;
   padding: 25px 30px ;
   margin-top: 380px;
-  margin-left:calc(50% - 126px);
   font-family: 'Gilroy-Medium', sans-serif;
 }  
 
@@ -112,7 +108,7 @@ img {vertical-align: middle;}
 }
 
 #img1 .text, #img2 .text, #img3 .text, #img4 .text {
-  background-color: #f0f8ff8e;
+  background-color: #f0f8ffdc;
   color: #008bd2;
   text-align: center;
   font-size: 30px;
@@ -121,11 +117,6 @@ img {vertical-align: middle;}
   margin-top: 250px;
   padding: 20px 50px;
   position:absolute;
-}
-
-#img2 .text,#img3 .text, #img4 .text {
-  background-color: #f0f8ffdc;
-  margin-top: 250px;
 }
 
 #img1 .text {
@@ -144,21 +135,7 @@ img {vertical-align: middle;}
   margin-left: calc(50% - 353.17px);
 }
 
-#btn-sld-1 {
-  margin-left: calc(50% - 126.35px);
-}
 
-#btn-sld-2 {
-  margin-left: calc(50% - 93.43px);
-}
-
-#btn-sld-3 {
-  margin-left: calc(50% - 91.47px);
-}
-
-#btn-sld-4 {
-  margin-left: calc(50% - 130.24px);
-}
 
 .fade {
   animation-name: fade;
@@ -172,52 +149,35 @@ img {vertical-align: middle;}
 
 /* Responsividade */ 
 @media only screen and (max-width: 1230px) {
-  #img1 .text {
-    font-size: 25px;
-    margin-left:calc(50% - 384.5px);
-  }
-
   .btn-manual-slide {
     font-size: 20px;
     margin-top: 380px;
-    margin-left:calc(50% - 106.71px);
   
   }  
 
 }  
 
 @media only screen and (max-width: 800px) {
-  #img1 .text {
-    margin-left:calc(50% - 302.65px);
-    padding: 5px 15px;
-
-  }
-
   .btn-manual-slide {
-    font-size: 15px;
+    font-size: 18px;
     margin-top: 380px;
     border-radius: 30px;
-    padding: 20px 25px ;
-    margin-left:calc(50% - 82.5px);
-  
+    padding: 20px 25px ;  
   }  
 
 }  
 
 @media only screen and (max-width: 650px) {
-  #img1 .text {
+  #img1 .text , #img2 .text, #img4 .text {
     margin-left: auto;
     padding: 5px 15px;
 
   }
 
   .btn-manual-slide {
-    font-size: 15px;
     margin-top: 380px;
     border-radius: 30px;
-    padding: 20px 25px ;
-    margin-left:calc(50% - 82.5px);
-  
+    padding: 20px 25px ;  
   }  
 
 }  
