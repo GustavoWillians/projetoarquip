@@ -15,7 +15,12 @@ iframe {
     margin-top: 40px;
 }
 
+.botoes {
+    display: flex;
+    flex-direction: column;
+}
 .botoes button{
+    text-align: left;
     background-color: #0004ff;
     color: #fff;
     font-weight: 500;
