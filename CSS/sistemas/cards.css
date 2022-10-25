@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+.card-sistema {
+    display: flex;
+    margin: 20px 2%;
+}
+
+.card-sistema-container a, .card-sistema-container a:link, .card-sistema-container a:visited {
+    text-decoration: none;
+}
+
+.card-sistema-container a h3 {
+    color: #000;
+}
+.card-sistema-container a p {
+    color: #686868;
+}
+
+.img-card {
+    width: 240px;
+    height: 160px;
+    margin: 20px;
+    background-color: #7ab4eb;
+}
+
+.text-card {
+    padding: 20px;
+    margin-right: 12%;
+}
