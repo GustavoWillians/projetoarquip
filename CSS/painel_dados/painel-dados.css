@@ -1,0 +1,32 @@
+body {
+    background-color: #00b7ff7e ;
+    text-align: center;
+}
+iframe {
+    margin: 20px 0 20px 0;
+}
+.container-iframe{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.controls-iframe{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.botoes button{
+    text-align: left;
+    background-color: #00b7ff;
+    color: #e7e9fc;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: #fff;
+    cursor: pointer;
+}
