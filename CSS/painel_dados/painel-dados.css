@@ -1,5 +1,5 @@
 body {
-    background-color: #00b7ff7e ;
+    background-color: #bbe1ffa9;
     text-align: center;
 }
 iframe {
@@ -16,17 +16,21 @@ iframe {
     margin-top: 40px;
     display: flex;
     flex-direction: row;
+    background-color: #ffc276;
 }
 
 .botoes button{
-    text-align: left;
-    background-color: #00b7ff;
-    color: #e7e9fc;
+    text-align: center;
+    /*background-color: #00b7ff;
+    color: #e7e9fc;*/
     font-weight: 500;
     font-size: 20px;
     margin: 5px;
     padding: 10px;
-    border-radius: 8px;
-    border-color: #fff;
+    /*border-radius: 8px;
+    border-color: #fff;*/
+    background-color: rgba(255, 255, 255, 0);
+    color: #000000;
+    border: none;
     cursor: pointer;
 }
