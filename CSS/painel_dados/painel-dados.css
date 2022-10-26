@@ -21,15 +21,11 @@ iframe {
 
 .botoes button{
     text-align: center;
-    /*background-color: #00b7ff;
-    color: #e7e9fc;*/
     font-weight: 500;
     font-size: 20px;
     margin: 5px;
     padding: 10px;
-    /*border-radius: 8px;
-    border-color: #fff;*/
-    background-color: rgba(255, 255, 255, 0);
+    background-color: #ffffff00;
     color: #000000;
     border: none;
     cursor: pointer;
