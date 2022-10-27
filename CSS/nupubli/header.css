@@ -58,7 +58,7 @@ display: inline-flex;
 }
       
 .menu button:hover {
-    background-color: #4cb0e2; 
+    background-color: #f58e93; 
     color: #ffffff;
 }
 .menu button:hover .menu-dropdown-btn-menu {
@@ -87,7 +87,7 @@ display: inline-flex;
   }
   
   .dropdown-content a:hover {
-    background-color: #49a4dc;
+    background-color: #fa6464;
 }
   
   .dropdown:hover .dropdown-content {
@@ -97,7 +97,7 @@ display: inline-flex;
 .menu-dropdown-btn-menu {
     display: none;
     position: absolute;
-    background-color: #4cb0e2;
+    background-color: #f87f7f;
     width: max-content;
     box-shadow: 0px 0px 16px 8px rgba(0,0,0,0.2);
     flex-direction: column;
@@ -106,7 +106,7 @@ display: inline-flex;
 /* Responsividade */
 @media only screen and (max-width: 1230px) {
     .menu {
-        background-color: #1e7bb9f5;
+        background-color: #fa6464c2;
         width: 100%;
         display: flex;
         justify-content: end;

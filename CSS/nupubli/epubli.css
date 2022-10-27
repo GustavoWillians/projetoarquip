@@ -1,0 +1,43 @@
+body {
+    background-color: #f8d2d2;
+}
+
+.container-pagina {
+    margin-left: 12%;
+    margin-right: 12%;
+    background-color: #ffffff;
+}
+
+.container-pagina h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px 10px;
+}
+
+.container-pagina h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.container-card-novidades {
+    padding: 20px 0;
+    background-color: #000;
+    height: 350px;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.img-novidades img {
+    height: 50%;
+}
+
+.texto-card-novidades {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5%;
+}
