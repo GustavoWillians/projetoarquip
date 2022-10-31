@@ -102,3 +102,23 @@ body {
 .video-novidades video{
     width: 100%;
 }
+
+.container-segunda-parte-novidades{
+    display: flex;
+}
+
+.container-segunda-parte-novidades video{
+    width: 250px;
+}
+
+.container-texto-novidades{
+    padding: 15px 10px;
+    text-align: center;
+    font-family: 'gilroy';
+}
+
+.container-texto-novidades h4 {
+    font-size: 45px;
+    font-weight: bolder;
+    width: 70%;
+}
