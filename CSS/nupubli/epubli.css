@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
 body {
     background-color: #f8d2d2;
 }
@@ -8,17 +12,50 @@ body {
     background-color: #ffffff;
 }
 
-.container-pagina h2{
+.container-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.titulo-txt h2 {
     margin-top: 0;
     margin-bottom: 0;
     padding: 15px 10px;
+    font-family: 'Gilroy-Medium', sans-serif;
 }
 
-.container-pagina h3{
+.container-pagina h3 {
     margin-top: 0;
     margin-bottom: 0;
     padding: 15px 10px;
     text-align: center;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+
+#titulo-inicial {
+    padding-left: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #ff6e6e;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+
+#btn-download-manual{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #ff6e6e;
+    border: none;   
+    margin-right: 20px;
+}
+
+#btn-download-manual span{
+    margin-left: 5px;
 }
 
 .container-card-novidades {
@@ -40,4 +77,28 @@ body {
     text-align: center;
     font-size: 30px;
     padding-top: 5%;
+}
+
+.texto-card-novidades h3 {
+    font-size: 50px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.texto-card-novidades p {
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.texto-card-novidades button {
+    font-size: 15px;
+    font-family: 'Questrial', sans-serif;
+    background-color: #e57976;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 30px;
+}
+
+.video-novidades video{
+    width: 100%;
 }
