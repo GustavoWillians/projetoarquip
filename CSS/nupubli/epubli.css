@@ -44,7 +44,7 @@ body {
     font-family: 'Gilroy-Medium', sans-serif;
 }
 
-#btn-download-manual{
+#btn-download-manual {
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
     padding: 10px 15px;
@@ -55,7 +55,12 @@ body {
     margin-right: 20px;
 }
 
-#btn-download-manual span{
+#btn-download-manual a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#btn-download-manual span {
     margin-left: 5px;
 }
 

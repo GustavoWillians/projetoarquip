@@ -1,0 +1,34 @@
+.container-tutoriais {
+    margin: 10px 0;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.story-video {
+    width: 250px;
+    height: 100%;
+}
+
+.card-story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-story a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #fc5252;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.card-story button {
+    padding: 5px 15px;
+    margin: 10px;
+    border: 0;
+    border-radius: 7px;
+    background-color: #fc5252;
+}
