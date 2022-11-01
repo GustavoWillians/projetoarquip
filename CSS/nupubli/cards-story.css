@@ -32,3 +32,10 @@
     border-radius: 7px;
     background-color: #fc5252;
 }
+
+@media only screen and (max-width: 600px) {
+    .container-tutoriais {
+        flex-direction: column;
+    }
+
+}
