@@ -106,10 +106,11 @@ body {
 
 .container-segunda-parte-novidades{
     display: flex;
+    align-items: center;
 }
 
 .container-segunda-parte-novidades video{
-    width: 250px;
+    width: 400px;
 }
 
 .container-texto-novidades{
@@ -121,5 +122,8 @@ body {
 .container-texto-novidades h4 {
     font-size: 45px;
     font-weight: bolder;
-    width: 70%;
+}
+
+.container-texto-novidades p {
+    font-size: 30px;
 }
