@@ -3,7 +3,7 @@
 @import url('http://fonts.cdnfonts.com/css/gilroy-bold');
 
 body {
-    background-color: #f8d2d2;
+    background-color:/* #f8d2d2;*/#fff;
 }
 
 .container-pagina {
@@ -32,6 +32,7 @@ body {
     padding: 15px 10px;
     text-align: center;
     font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 25px;
 }
 
 #titulo-inicial {
