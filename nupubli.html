@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./CSS/nupubli/header.css">
     <link rel="stylesheet" href="./CSS/nupubli/epubli.css">
     <link rel="stylesheet" href="./CSS/nupubli/footer.css">
+    <link rel="stylesheet" href="./CSS/nupubli/cards-story.css">
     <title>Nupubli</title>
 </head>
 <body>
@@ -62,8 +63,8 @@
           <h2>Núcleo de Publicação Oficial e Comunicação</h2>
           <p id="titulo-inicial">Tudo sobre o Diário Oficial de São Paulo</p>
         </div>
-        <button id="btn-download-manual" >Manual de publicação<span>&#10515;</span></button>
-      </div>
+        <button id="btn-download-manual"> <a href="./Assets/nupubli/Manual-de-publicação-epubli.pdf" download> Manual de publicação<span>&#10515; </a></span></button>
+      </div><!-- container-titulo fim -->
       <div class="container-card-novidades">
           <div class="texto-card-novidades">
               <h3>PUBLIQUE COM 1 CLIQUE</h3>
@@ -71,7 +72,7 @@
               <button>SAIBA MAIS</button>
           </div>
           <img class="img-novidades" src="./Assets/nupubli/btn-publique.png" alt="NOVO-BOTÃO-PUBLIQUE">
-      </div>
+      </div><!-- container-card-novidades fim -->
       <h3>Novidades</h3>
       <div class="container-novidades">
         <div class="video-novidades">
@@ -95,25 +96,60 @@
             e assistir pelo seu reprodutor de mídia favorito!
           </video>  
         </div>  
-      </div>
+      </div><!-- container-novidades fim -->
       <h3>Tutoriais</h3>
       <div class="container-tutoriais">
-
-      </div>
-    </div>    
+        <div class="card-story">
+          <video class="story-video" controls poster="./Assets/nupubli/capa-story-PUBLICAÇÃO-INTERNA.png">
+            <source src="./Assets/nupubli/Story-PUBLICAÇÃO-INTERNA.mp4" type="video/mp4">
+            Desculpa, o seu navegador não suporta vídeos incorporados,
+            mas você pode <a href="./Assets/nupubli/Story-PUBLICAÇÃO-INTERNA.mp4" download >baixá-lo</a>
+            e assistir pelo seu reprodutor de mídia favorito!
+          </video>
+          <button><a href="./Assets/nupubli/Story-PUBLICAÇÃO-INTERNA.mp4" download >Download</a></button>
+        </div>
+        <div class="card-story">
+          <video class="story-video" controls poster="./Assets/nupubli/capa-story-PUBLICAÇÃO-EXTERNA.png">
+            <source src="./Assets/nupubli/Story-PUBLICAÇÃO-EXTERNA.mp4" type="video/mp4">
+            Desculpa, o seu navegador não suporta vídeos incorporados,
+            mas você pode <a href="./Assets/nupubli/Story-PUBLICAÇÃO-EXTERNA.mp4" download >baixá-lo</a>
+            e assistir pelo seu reprodutor de mídia favorito!
+          </video>
+          <button><a href="./Assets/nupubli/Story-PUBLICAÇÃO-EXTERNA.mp4" download >Download</a></button>
+        </div>
+        <div class="card-story">
+          <video class="story-video" controls poster="./Assets/nupubli/capa-story-MANUTENÇÃO.png">
+            <source src="./Assets/nupubli/Story-MANUTENÇÃO.mp4" type="video/mp4">
+            Desculpa, o seu navegador não suporta vídeos incorporados,
+            mas você pode <a href="./Assets/nupubli/Story-MANUTENÇÃO.mp4" download >baixá-lo</a>
+            e assistir pelo seu reprodutor de mídia favorito!
+          </video>
+          <button><a href="./Assets/nupubli/Story-MANUTENÇÃO.mp4" download >Download</a></button>
+        </div>
+        <div class="card-story">
+          <video class="story-video" controls poster="./Assets/nupubli/capa-story-TABELA.png">
+            <source src="./Assets/nupubli/Story-PUBLICAÇÃO-TABELA.mp4" type="video/mp4">
+            Desculpa, o seu navegador não suporta vídeos incorporados,
+            mas você pode <a href="./Assets/nupubli/Story-PUBLICAÇÃO-TABELA.mp4" download >baixá-lo</a>
+            e assistir pelo seu reprodutor de mídia favorito!
+          </video>
+          <button><a href="./Assets/nupubli/Story-PUBLICAÇÃO-TABELA.mp4" download >Download</a></button>
+        </div>
+      </div><!-- container-tutoriais fim -->
+    </div><!-- container-pagina fim -->    
     <footer>
         <div class="infos">
           <p>
             Secretaria Municipal de Gestão <br>
             <img src="./Assets/footer/logo-simples-branco.png" alt="Arquip"> Arquivo Público Municipal "Jornalista Paulo Roberto Dutra" <br>
-            Endereço? <br>
-            E-mail? <br>
+            Rua Balsa 331, Freguesia do Ó - 02910-025 <br>
+            segesnupubli@prefeitura.sp.gpv.br <br>
             São Paulo/SP- Brasil <br>
           </p>
         </div>
         <img src="./Assets/footer/logo-prefeitura.png" alt="Prefeitura da cidade de São Paulo">
         <img src="./Assets/footer/Logo-branco.png" alt="Arquip">
-      </footer>
+    </footer>
       
 <script src="./JS/header.js"></script>   
 </body>
