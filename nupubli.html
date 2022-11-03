@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./CSS/nupubli/epubli.css">
     <link rel="stylesheet" href="./CSS/nupubli/footer.css">
     <link rel="stylesheet" href="./CSS/nupubli/cards-story.css">
+    <link rel="stylesheet" href="./CSS/nupubli/perg-fqts.css">
     <title>Nupubli</title>
 </head>
 <body>
@@ -99,11 +100,41 @@
       </div><!-- container-novidades fim -->
       <h3>Tutoriais</h3>
       <div class="container-tutoriais">
-
       </div><!-- container-tutoriais fim -->
+      <h3>Perguntas Frequentes</h3>
       <div class="container-perguntas-fqts">
+        <button class="collapsible">Ainda é necessária a utilização do Certificado Digital?</button>
+        <div class="content">
+          <p>As publicações pelo SEI serão realizadas apenas com o acesso do usuário ao sistema, apenas para acesso ao Pubnet continua sendo necessária a utilização de Certificado Digital.</p>
+        </div>
 
-      </div> 
+        <button class="collapsible">Como serão publicados os documentos de licitação?</button>
+        <div class="content">
+          <p>Inicialmente o botão do SEI é apenas para publicações de Matérias. Licitações serão mantidas no Pubnet por enquanto.</p>
+        </div>
+
+        <button class="collapsible">Qualquer pessoa consegue publicar um documento?</button>
+        <div class="content">
+          <p>O botão "P" não será habilitado para usuários, mas sim para documentos; ou seja, se o documento for publicável, qualquer usuário consegue visualizar o botão.</p>
+        </div>
+
+        <button class="collapsible">Haverá um horário limite para envio de publicação?</button>
+        <div class="content">
+          <p>O horário limite será o dia, até 23h59min será possível o envio. Caso seja enviado após esse horário a publicação saíra no dia seguinte.</p>
+        </div>
+
+        <button class="collapsible">Como formatar o texto para publicar no SEI?</button>
+        <div class="content">
+          <p>O documento deve manter os parâmetros e formatação que possui hoje no SEI. Não deve ser utilizada a formatação por comandos do Pubnet, como ((TEXTO)) e ((NG)) ((CL)).</p>
+        </div>
+
+        <button class="collapsible">Como escolher o caderno onde as publicações serão feitas? (Despachos, concursos, editais, etc)</button>
+        <div class="content">
+          <p>Inicialmente os documentos que permitem publicação estão parametrizados para serem publicados nos cadernos que correspondem a seus respectivos assuntos. Assim que todas as publicações começarem a ser feitas pelo SEI, ao clicar no P [botão de publicação], um menu com os cadernos disponíveis no jornal será apresentado ao usuário, então ele poderá escolher antes de confirmar.</p>
+        </div>
+
+      </div> <!-- container-perguntas-fqts fim -->
+
     </div><!-- container-pagina fim -->    
     <footer>
         <div class="infos">
@@ -119,7 +150,8 @@
         <img src="./Assets/footer/Logo-branco.png" alt="Arquip">
     </footer>
 
-<script src="./JS/nupubli/tutoriais.js"></script>    
-<script src="./JS/header.js"></script>   
+    <script defer src="./JS/nupubli/colapse.js"></script>  
+    <script defer src="./JS/nupubli/tutoriais.js"></script>      
+    <script defer src="./JS/header.js"></script>   
 </body>
 </html>
