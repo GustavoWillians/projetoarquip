@@ -1,6 +1,6 @@
-const storyTutoriais = [
-    {   poster: './Assets/nupubli/capa-story-PUBLICAÇÃO-INTERNA.png',
-        src:'./Assets/nupubli/Story-PUBLICAÇÃO-INTERNA.mp4'
+const storyTutoriais = [{
+      poster: './Assets/nupubli/capa-story-PUBLICAÇÃO-INTERNA.png',
+      src:'./Assets/nupubli/Story-PUBLICAÇÃO-INTERNA.mp4'
     },{
       poster: './Assets/nupubli/capa-story-PUBLICAÇÃO-EXTERNA.png',
       src:'./Assets/nupubli/Story-PUBLICAÇÃO-EXTERNA.mp4'

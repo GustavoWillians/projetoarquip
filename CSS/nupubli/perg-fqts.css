@@ -1,0 +1,52 @@
+.container-perguntas-fqts{
+    margin: 10px 0;
+}
+
+.collapsible {
+    background-color: #fc9696;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+}
+
+.active, .collapsible:hover {
+    background-color: #fa7777;
+}
+
+.collapsible:after {
+    content: '\279E';
+    color: #ffffff;
+    font-weight: lighter;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\1F817";
+}
+
+.content {
+    font-size: 18px;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color:#fcb1b1ef;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0f0f0f;
+  }
+
+  @media only screen and (max-width: 400px) {
+    .content {
+        font-size: 18px;
+    }
+    
+    .collapsible{
+        font-size: 20px;
+    }
+}
