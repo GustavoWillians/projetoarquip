@@ -2,7 +2,7 @@ const cards_sistemas = [
   {
     img:'./Assets/sistemas/CAC.png',
     titulo: 'CAC',
-    descricao:'descrição descrição descrição descrição descrição descrição',
+    descricao:'O Controle de Acesso Corporativo é um sistema utilizado para restringir o acesso dos usuários às aplicações desenvolvidas pela Prodam.',
     link: 'https://admin.cacplus.prodam/Autenticacao?ReturnUrl=%2f'
   },{
     img:'./Assets/sistemas/DIARIO-OFICIAL-NOVO.png',
