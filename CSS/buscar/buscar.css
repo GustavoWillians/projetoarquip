@@ -1,0 +1,22 @@
+.container-busca {
+    margin: 10px 12%;
+}
+
+.buscador {
+    text-align: center;
+}
+
+#buscadorSite {
+    width: 250px;
+    height: 40px;
+    border: solid #000 1px;
+    border-radius: 5px;
+}
+
+#btn-submit {
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+    color: #fff;
+    background-color:#0069d9;
+}
