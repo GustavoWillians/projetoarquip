@@ -12,6 +12,9 @@ footer {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 footer img {
