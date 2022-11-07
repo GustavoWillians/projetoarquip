@@ -8,13 +8,16 @@
     <link rel="stylesheet" href="./CSS/header.css">
     <link rel="stylesheet" href="./CSS/buscar/buscar.css">
     <link rel="stylesheet" href="./CSS/buscar/footer.css">
-    <title>Buscar</title>
+    <title>Pesquisar</title>
 </head>
 <body>
     <header class="capa menu-fixo"> 
         <!-- contem fundo pg inicio header.css -->
         <img id="logo-arquip" src="./Assets/header/Logo-ARQUIP-branco.png" alt="Logo-ARQUIP"> 
           <div class="menu">
+            <div>
+              <button><a href="./index.html">Inicio</a></button>
+            </div>
             <div class="dropdown">
               <button class="dropbtn">Menu</button>
               <div class="menu-dropdown-btn-menu dropdown-content">
@@ -58,8 +61,11 @@
             <input type="search" placeholder="Pesquisar..." name="buscadorSite" id="buscadorSite">
             <input type="submit" value="Buscar" id="btn-submit">
         </div>
-        <div class="resultado-busca">
 
+        <div class="container-resultado">
+
+          <ul class="resultado-busca">
+          </ul>
         </div>
     </div>
     <footer>
@@ -75,7 +81,7 @@
         <img src="./Assets/footer/logo-prefeitura.png" alt="Prefeitura da cidade de São Paulo">
         <img src="./Assets/footer/Logo-branco.png" alt="Arquip">
       </footer>
-      
+  <script src="./JS/buscar.js"></script>    
   <script src="./JS/header.js"></script>
 </body>
 </html>
