@@ -11,12 +11,22 @@
     height: 40px;
     border: solid #000 1px;
     border-radius: 5px;
+    padding-left: 15px ;
+    font-size: 20px;
 }
 
 #btn-submit {
     height: 40px;
+    padding: 0 25px;
     border-radius: 5px;
+    font-size: 20px;
     border-style: none;
     color: #fff;
     background-color:#0069d9;
+    transition: .5s;
+}
+
+#btn-submit:hover {
+    background-color:#01458d;
+    cursor: pointer;
 }
