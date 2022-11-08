@@ -50,9 +50,14 @@ const busca = [{
 
 let submitBtn = document.getElementById('btn-submit');
 let links = document.getElementsByClassName('resultado-busca');
+let caixaBusca = document.getElementById('buscador');
+
+
 
 submitBtn.onclick = function buscadorLista(){
     
+    caixaBusca.style.marginTop = "1%";
+
     links[0].innerHTML =  '';
     let buscaUsuario = document.getElementById('buscadorSite');
     
@@ -61,7 +66,7 @@ submitBtn.onclick = function buscadorLista(){
         if(buscaUsuario.value === busca[i].buscado){
             links[0].innerHTML +=  `<li class="links-resultado">
             <a href="${busca[i].link}"> ${busca[i].buscado}  </a>
-            <p> ${busca[i].descricao} </p>
+            <p class="descricao-links-resultado" > ${busca[i].descricao} </p>
             </li>`;
         }
         console.log(buscaUsuario.value);
