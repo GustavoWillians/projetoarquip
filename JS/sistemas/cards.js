@@ -47,7 +47,10 @@ const cards_sistemas = [
   },{
     img:'./Assets/sistemas/TID.png',
     titulo: 'TID',
-    descricao:'descrição descrição descrição descrição descrição descrição',
+    descricao: `O sistema TID - Tramitação Interna de Documentos - é um sistema de informações, 
+                operado em ambiente WEB. Seu conceito é o controle das tramitações de documentos. 
+                O  TID  destina-se  exclusivamente  ao  registro  e  acompanhamento  de  
+                documentos em  circulação nas unidades da Secretaria`,
     link: 'http://tid.prodam.sp.gov.br'
   },
 ];
