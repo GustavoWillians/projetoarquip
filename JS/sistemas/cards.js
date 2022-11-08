@@ -22,7 +22,12 @@ const cards_sistemas = [
   },{
     img:'./Assets/sistemas/SEI.png',
     titulo: 'SEI',
-    descricao:'descrição descrição descrição descrição descrição descrição',
+    descricao: `O Sistema Eletrônico de Informações (SEI), é uma ferramenta de gestão 
+                de documentos e processos eletrônicos, e tem como objetivo promover a 
+                eficiência administrativa. O SEI integra o Processo Eletrônico Nacional 
+                (PEN), uma iniciativa conjunta de órgãos e entidades de diversas esferas 
+                da administração pública, com o intuito de construir uma infraestrutura 
+                pública de processos e documentos administrativos eletrônicos.`,
     link: 'https://sip.prefeitura.sp.gov.br/sip/login.php?sigla_orgao_sistema=PMSP&sigla_sistema=SEI&infra_url=L3NlaS8='
   },{
     img:'./Assets/sistemas/SEI-TREINAMENTO.png',
@@ -42,7 +47,12 @@ const cards_sistemas = [
   },{
     img:'./Assets/sistemas/sip.png',
     titulo: 'SIP',
-    descricao:'descrição descrição descrição descrição descrição descrição',
+    descricao: `Sistema de Permissões - SIP, faz parte das atribuições dos gestores, 
+                gerenciar usuários internos e externos, gerar pontos de controle e 
+                outras funcionalidades que estão disponíveis para consulta. O Sistema 
+                SIP permite realizar o cadastro inicial das unidades, a montagem da 
+                hierarquia das unidades, cadastro dos usuários e a concessão das 
+                respectivas permissões de acesso. No que se refere ao Sistema SEI`,
     link: 'https://sip.prefeitura.sp.gov.br/sip/login.php?sigla_orgao_sistema=PMSP&sigla_sistema=SIP&infra_url=L3NpcC8='
   },{
     img:'./Assets/sistemas/TID.png',
