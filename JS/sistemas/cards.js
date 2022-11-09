@@ -27,7 +27,7 @@ const cards_sistemas = [
                 eficiência administrativa. O SEI integra o Processo Eletrônico Nacional 
                 (PEN), uma iniciativa conjunta de órgãos e entidades de diversas esferas 
                 da administração pública, com o intuito de construir uma infraestrutura 
-                pública de processos e documentos administrativos eletrônicos.`,
+                pública de processos e documentos administrativos eletrônicos. Cedido gratuitamente pelo TRF4 em 2015.`,
     link: 'https://sip.prefeitura.sp.gov.br/sip/login.php?sigla_orgao_sistema=PMSP&sigla_sistema=SEI&infra_url=L3NlaS8='
   },{
     img:'./Assets/sistemas/SEI-TREINAMENTO.png',
@@ -41,7 +41,7 @@ const cards_sistemas = [
     link: 'https://simproc.prefeitura.sp.gov.br/Forms/login.aspx'
   },{
     img:'./Assets/sistemas/simproc.png',
-    titulo: 'Simproc Antigo',
+    titulo: 'Simproc (Ambiente Anterior)',
     descricao:'descrição descrição descrição descrição descrição descrição',
     link: 'https://simprocantigo.prefeitura.sp.gov.br/SJ0934/servlet/LOGIN'
   },{
