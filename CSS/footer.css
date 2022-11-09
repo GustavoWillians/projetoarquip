@@ -49,4 +49,7 @@ footer p img {
     footer img{
         height: 80px;
     }
+    .infos{
+        text-align: center;
+    }
 }
