@@ -107,6 +107,16 @@ img {vertical-align: middle;}
   background-color: #645a51;
 }
 
+.btn-manual-slide a:hover {
+  color: #ffc276;
+  background-color: #645a51;
+}
+
+.btn-manual-slide a{
+  text-decoration: none;
+  color: #000;
+}
+
 #img1 .text, #img2 .text, #img3 .text, #img4 .text {
   background-color: #f0f8ffdc;
   color: #008bd2;
