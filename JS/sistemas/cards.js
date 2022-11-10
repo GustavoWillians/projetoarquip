@@ -2,22 +2,32 @@ const cards_sistemas = [
   {
     img:'./Assets/sistemas/CAC.png',
     titulo: 'CAC',
-    descricao:'O Controle de Acesso Corporativo é um sistema utilizado para restringir o acesso dos usuários às aplicações desenvolvidas pela Prodam.',
+    descricao: `O Controle de Acesso Corporativo é um sistema 
+                utilizado para restringir o acesso dos usuários 
+                às aplicações desenvolvidas pela Prodam.`,
     link: 'https://admin.cacplus.prodam/Autenticacao?ReturnUrl=%2f'
   },{
     img:'./Assets/sistemas/DIARIO-OFICIAL-NOVO.png',
     titulo: 'Diário Oficial NOVO',
-    descricao:'descrição descrição descrição descrição descrição descrição',
+    descricao: `O Diário Oficial publica diariamente os atos oficiais no âmbito 
+                do governo municipal, tais como leis, decretos, portarias, 
+                editais de licitação, nomeações e exonerações dentre outros. 
+                Mas agora de cara nova.`,
     link: 'https://epubli.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=inicio'
   },{
     img:'./Assets/sistemas/diario2.png',
     titulo: 'Diário Oficial',
-    descricao:'descrição descrição descrição descrição descrição descrição',
+    descricao: `O Diário Oficial publica diariamente os atos 
+                oficiais no âmbito do governo municipal, 
+                tais como leis, decretos, portarias, editais 
+                de licitação, nomeações e exonerações dentre outros.`,
     link: 'http://www.docidadesp.imprensaoficial.com.br/Busca.aspx'
   },{
     img:'./Assets/sistemas/PORTAL-PROCESSOS.png',
     titulo: 'Portal de Processos ',
-    descricao:'descrição descrição descrição descrição descrição descrição',
+    descricao: `Efetue consultas a processos administrativos municipais, 
+                solicite vistas e copias de processos arquivados, complemente 
+                documentos e acompanhe o andamento de processo administrativo.`,
     link: 'https://processos.prefeitura.sp.gov.br/Forms/Principal.aspx'
   },{
     img:'./Assets/sistemas/SEI.png',
@@ -32,17 +42,23 @@ const cards_sistemas = [
   },{
     img:'./Assets/sistemas/SEI-TREINAMENTO.png',
     titulo: 'SEI TREINAMENTO',
-    descricao:'descrição descrição descrição descrição descrição descrição',
+    descricao: `Um sistema de treinamento para o Sistema Eletrônico 
+                de Informações (SEI) cedido gratuitamente pelo TRF4 em 2015.`,
     link: 'https://treinamentosip4.prefeitura.sp.gov.br/sip/login.php?sigla_orgao_sistema=PMSP&sigla_sistema=SEI&infra_url=L3NlaS8='
   },{
     img:'./Assets/sistemas/simproc-web.png',
     titulo: 'Simproc Web',
-    descricao:'descrição descrição descrição descrição descrição descrição',
+    descricao: `O Sistema Municipal de Processos - SIMPROC controla os 
+                processos administrativos desde 1997, mostrando a 
+                localização, despachos, comunique-se e a situação 
+                atual do processo em um ambiente mais moderno.`,
     link: 'https://simproc.prefeitura.sp.gov.br/Forms/login.aspx'
   },{
     img:'./Assets/sistemas/simproc.png',
     titulo: 'Simproc (Ambiente Anterior)',
-    descricao:'descrição descrição descrição descrição descrição descrição',
+    descricao: `SIMPROC controla os processos administrativos 
+                desde 1997, mostrando a localização, despachos, 
+                comunique-se e a situação atual do processo.`,
     link: 'https://simprocantigo.prefeitura.sp.gov.br/SJ0934/servlet/LOGIN'
   },{
     img:'./Assets/sistemas/sip.png',
