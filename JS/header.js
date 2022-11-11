@@ -35,3 +35,13 @@ window.onload = function(e) {
     tela.addListener(logoFixo); //faz a verificação na "tela" pra atender os valores atribuídos  
       
 }
+
+let dropdownMenu = document.getElementById('submenu');
+let submenuAba = document.getElementsByClassName('submenu-aba');
+
+dropdownMenu.addEventListener("mouseover", onMenu);
+
+function onMenu(){
+    submenuAba.style.display = "block";
+    submenuAba.style.zIndex = "2";
+}
