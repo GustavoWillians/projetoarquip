@@ -36,6 +36,7 @@ window.onload = function(e) {
       
 }
 
+/*
 let dropdownMenu = document.getElementById('submenu');
 let submenuAba = document.getElementsByClassName('submenu-aba');
 
@@ -45,3 +46,4 @@ function onMenu(){
     submenuAba.style.display = "block";
     submenuAba.style.zIndex = "2";
 }
+*/
