@@ -35,5 +35,15 @@ function troca(troca){
 }
 
 for(let i = 0; i < btn_iframe.length; i++){
-  btn_iframe[i].onclick = () => {troca(iframes[i].link)};
+  let select;
+  btn_iframe[i].onclick = () => {
+    troca(iframes[i].link)
+    btn_iframe[i].style.backgroundColor = "#0b2768";
+    select = i;
+    for(let i = 0; i < btn_iframe.length; i++){
+      if (i != select){
+        btn_iframe[i].style.backgroundColor = "#fa8d5b";
+      }
+    }
+  }
 }
