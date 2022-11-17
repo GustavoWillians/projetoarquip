@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap');
+
 body {
     background-color: #ffffff;
     text-align: center;
+    font-family: 'Questrial', sans-serif;
 }
 iframe {
     margin: 20px 0 20px 0;
+    border: solid 2px #0b2768;
 }
 .container-iframe{
     display:inline-flex;
@@ -12,18 +17,17 @@ iframe {
     flex-direction: column;
     padding: 10px;
     background-color: #0b2768;
-
 }
 
 .controls-iframe{
     margin-top: 40px;
+    margin-bottom: 5px;
     display: flex;
     flex-direction: row;
     background-color: #fa8d5b;
     border-top: solid 5px #fa8d5b;
     border-left: solid 5px #fa8d5b;
     border-right: solid 5px #fa8d5b;
-    
 }
 
 .botoes button{
@@ -36,10 +40,7 @@ iframe {
     color: #ffffff;
     border: none;
     cursor: pointer;
-}
-
-.botoes button:hover {
-    background-color: #ffffff9a;
+    font-family: 'Montserrat', sans-serif;    
 }
 
 #iframe_dados {
