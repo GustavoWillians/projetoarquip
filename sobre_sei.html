@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="./Assets/index/Logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="./CSS/header.css">
     <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/sobre-sei/sobre-sei.css">
+    <link rel="stylesheet" href="./CSS/sobre-sei/perg-fqts.css">
 
     <title>Sobre o SEI!</title>
 </head>
@@ -60,14 +62,70 @@
     
     <div class="container-pagina">
         <div class="container-texto">
-          <h2>Política Municipal de Gestão Documental PGDOC</h2>
-          <p>Conheça os principais pontos da política de Gestão Documental.  <br>
-            Acesse na íntegra o decreto e a portaria.</p>
-
+          <h2>Sobre o SEI</h2>
+          <h3>Lançada nova versão do SEI</h3>
+          <p>&emsp;O SEI foi atualizado para a versão 4, trazendo nova interface gráfica e aprimorando a acessibilidade em dispositivos móveis e para pessoas com deficiência visual, novo painel de controle de processos e autenticação em dois fatores.</p>
+          <div class="video-apresentacao">
+            <p>Assista o vídeo para saber mais.</p>
+            <video controls poster="">
+                <source src="./Assets/sobre-sei/sei-apresentacao.mp4" type="video/mp4">
+                Desculpa, o seu navegador não suporta vídeos incorporados,
+                mas você pode <a href="./Assets/sobre-sei/sei-apresentacao.mp4">baixá-lo</a>
+                e assistir pelo seu reprodutor de mídia favorito!
+            </video> 
+          </div>  
         </div>
-       
+        <h3 id="assinatura" >Prefeito Ricardo Nunes e Des. Ricardo Teixeira assinam Termo de Cessão do Uso do SEI</h3>
+        <div class="assinatura-uso">
+        
+        </div>
+        
+        <h3 id="perg-fqts">Perguntas Frequentes</h3>
+        <div class="container-perguntas-fqts">
+          <button class="collapsible color-1">Qual o endereço de acesso ao SEI?</button>
+          <div class="content">
+            <p>O SEI pode ser acessado através do link: <a target="_blank" href="http://sei.prefeitura.sp.gov.br"> sei.prefeitura.sp.gov.br</a>.</p>
+          </div>
+  
+          <button class="collapsible color-2">Como serão publicados os documentos de licitação?</button>
+          <div class="content">
+            <p>Inicialmente o botão do SEI é apenas para publicações de Matérias. Licitações serão mantidas no Pubnet por enquanto.</p>
+          </div>
+  
+          <button class="collapsible color-1">Qualquer pessoa consegue publicar um documento?</button>
+          <div class="content">
+            <p>O botão "P" não será habilitado para usuários, mas sim para documentos; ou seja, se o documento for publicável, qualquer usuário consegue visualizar o botão.</p>
+          </div>
+  
+          <button class="collapsible color-2">Haverá um horário limite para envio de publicação?</button>
+          <div class="content">
+            <p>O horário limite será o dia, até 23h59min será possível o envio. Caso seja enviado após esse horário a publicação saíra no dia seguinte.</p>
+          </div>
+  
+          <button class="collapsible color-1">Como formatar o texto para publicar no SEI?</button>
+          <div class="content">
+            <p>O documento deve manter os parâmetros e formatação que possui hoje no SEI. Não deve ser utilizada a formatação por comandos do Pubnet, como ((TEXTO)) e ((NG)) ((CL)).</p>
+          </div>
+  
+          <button class="collapsible color-2">Como escolher o caderno onde as publicações serão feitas? (Despachos, concursos, editais, etc)</button>
+          <div class="content">
+            <p>Inicialmente os documentos que permitem publicação estão parametrizados para serem publicados nos cadernos que correspondem a seus respectivos assuntos. Assim que todas as publicações começarem a ser feitas pelo SEI, ao clicar no P [botão de publicação], um menu com os cadernos disponíveis no jornal será apresentado ao usuário, então ele poderá escolher antes de confirmar.</p>
+          </div>
+
+          <button class="collapsible color-1">Como fazer a liberação de um usuário externo?</button>
+          <div class="content">
+            <p>O documento deve manter os parâmetros e formatação que possui hoje no SEI. Não deve ser utilizada a formatação por comandos do Pubnet, como ((TEXTO)) e ((NG)) ((CL)).</p>
+          </div>
+  
+          <button class="collapsible color-2">Como posso desativar uma unidade?</button>
+          <div class="content">
+            <p>Para desativar uma unidade a mesma não pode conter processos ou permissões de perfis. Apenas o Administrador Local pode solicitar um chamado ao suporte central do Arquivo Público para efetivar a ação.</p>
+          </div>
+  
+        </div> <!-- container-perguntas-fqts fim -->
     </div>
 
+    <script src="./JS/sobre_sei/perg-fqts.js"></script>
     <footer>
         <div class="infos">
           <p>
