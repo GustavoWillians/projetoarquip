@@ -8,7 +8,7 @@ body {
 }
 iframe {
     margin: 20px 0 20px 0;
-    border: solid 2px #0b2768;
+    border: solid 2px #fff;
 }
 .container-iframe{
     display:inline-flex;
@@ -16,7 +16,7 @@ iframe {
     justify-content: space-evenly;
     flex-direction: column;
     padding: 10px;
-    background-color: #0b2768;
+    background-color: #fff;
 }
 
 .controls-iframe{
@@ -24,10 +24,10 @@ iframe {
     margin-bottom: 5px;
     display: flex;
     flex-direction: row;
-    background-color: #fa8d5b;
-    border-top: solid 5px #fa8d5b;
-    border-left: solid 5px #fa8d5b;
-    border-right: solid 5px #fa8d5b;
+    background-color: #289ddb;
+    border-top: solid 5px #289ddb;
+    border-left: solid 5px #289ddb;
+    border-right: solid 5px #289ddb;
 }
 
 .botoes button{
@@ -37,10 +37,14 @@ iframe {
     margin: 5px;
     padding: 10px 15px;
     background-color: #ffffff00;
-    color: #ffffff;
+    color: #000;
     border: none;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;    
+}
+
+.botoes {
+    border-bottom: solid 2px #000;
 }
 
 #iframe_dados {
