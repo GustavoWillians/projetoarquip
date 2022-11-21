@@ -44,12 +44,7 @@ body {
     font-size: 20px;
 }
 
-.assinatura-uso {
-    margin: 0px 20px;
-    display: flex;
-}
-
-#assinatura, #perg-fqts {
+#assinatura, #perg-fqts, #sobre {
     margin: 10px 20px;
     padding: 5px 15px;
     background-color: #3ea7dd;
@@ -60,4 +55,31 @@ body {
     width: fit-content;
 }
 
+#sobre{
+    background-color: #a5b61b;
+}
 
+.assinatura-uso {
+    margin: 30px 20px;
+    display: flex;
+}
+
+.assinatura-uso video {
+    width: 290px;
+}
+
+.texto-assinatura, .text-dev-sei p {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: 3%;
+}
+
+.text-dev-sei {
+   margin: 20px;
+   display: flex;
+}
+
+.text-dev-sei img {
+    width: 240px;
+}
