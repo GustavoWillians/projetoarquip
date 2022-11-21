@@ -1,22 +1,10 @@
 const iframes = [
   {
-    titulo: 'Fisico',
-    link: 'https://app.powerbi.com/reportEmbed?reportId=39948c4b-ae11-4c27-a86b-572773c98697&autoAuth=true&ctid=f398df9c-fd0c-4829-a003-c770a1c4a063'
-  },{
-    titulo:'SEGES DIGITAL',
-    link:'https://app.powerbi.com/reportEmbed?reportId=e00dad84-eba8-4e72-9af9-f15e194452de&autoAuth=true&ctid=f398df9c-fd0c-4829-a003-c770a1c4a063'
-  },{
     titulo: 'SEI',
-    link:'https://sip.prefeitura.sp.gov.br'
+    link:'https://app.powerbi.com/reportEmbed?reportId=849fd5bb-a9d3-42f1-9e94-27cb507d3e57&autoAuth=true&ctid=f398df9c-fd0c-4829-a003-c770a1c4a063'
   },{
-    titulo: 'Gestão Documental',
-    link:'http://gestaodocumental.prefeitura.sp.gov.br/'
-  },{
-    titulo: 'Diário Oficial',
-    link:'http://gestaodocumental.prefeitura.sp.gov.br/diario-2-0/'
-  },{
-    titulo: 'forms',
-    link:'https://forms.office.com/Pages/ResponsePage.aspx?id=nN-Y8wz9KUigA8dwocSgYycsRMAyBIdLiNtcu4EKCcxUQ0tNMjI0NjcyR01VSUJMRk8yRjRJVjdKNy4u&embed=true'
+    titulo: 'SIMPROC',
+    link:'https://app.powerbi.com/reportEmbed?reportId=bbc9f652-da28-42db-9823-454b859734a8&autoAuth=true&ctid=f398df9c-fd0c-4829-a003-c770a1c4a063'
   }];
 
 
