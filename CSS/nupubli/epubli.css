@@ -132,6 +132,10 @@ body {
     font-family: 'Questrial', sans-serif;
 }
 
+.space {
+    margin-top: 35px !important; 
+}
+
 .container-texto-novidades p {
     font-size: 30px;
     font-family: 'Gilroy', sans-serif;
