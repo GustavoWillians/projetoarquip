@@ -1,17 +1,5 @@
 const iframes = [
   {
-    titulo: 'TESTE',
-    link:'https://app.powerbi.com/reportEmbed?reportId=849fd5bb-a9d3-42f1-9e94-27cb507d3e57&autoAuth=true&ctid=f398df9c-fd0c-4829-a003-c770a1c4a063'
-  },
-  {
-    titulo: 'TESTE',
-    link:'https://app.powerbi.com/reportEmbed?reportId=849fd5bb-a9d3-42f1-9e94-27cb507d3e57&autoAuth=true&ctid=f398df9c-fd0c-4829-a003-c770a1c4a063'
-  },
-  {
-    titulo: 'TESTE',
-    link:'https://app.powerbi.com/reportEmbed?reportId=849fd5bb-a9d3-42f1-9e94-27cb507d3e57&autoAuth=true&ctid=f398df9c-fd0c-4829-a003-c770a1c4a063'
-  },
-  {
     titulo: 'SEI',
     link:'https://app.powerbi.com/reportEmbed?reportId=849fd5bb-a9d3-42f1-9e94-27cb507d3e57&autoAuth=true&ctid=f398df9c-fd0c-4829-a003-c770a1c4a063'
   },
