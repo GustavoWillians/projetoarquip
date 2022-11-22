@@ -1,6 +1,6 @@
 const cards_sistemas = [
   {
-    img:'./Assets/sistemas/CAC.png',
+    img:'./Assets/sistemas/cac.png',
     titulo: 'CAC',
     descricao: `O Controle de Acesso Corporativo é um sistema 
                 utilizado para restringir o acesso dos usuários 
