@@ -19,6 +19,10 @@ body {
     flex-direction: row;
 }
 
+.titulo-txt {
+    width: 100%;
+}
+
 .titulo-txt h2 {
     margin-top: 0;
     margin-bottom: 0;
@@ -35,16 +39,29 @@ body {
     font-size: 25px;
 }
 
-#titulo-inicial {
+.titulos-manuais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.titulos-manuais a, titulos-manuais a:visited {
+    text-decoration: none;
+}
+
+#titulo-inicial-1, #titulo-inicial-2 {
     padding-left: 10px;
     margin: 0;
     margin-bottom: 10px;
     font-size: 25px;
     color: #72DECF;
     font-family: 'Gilroy-Medium', sans-serif;
+    
 }
 
-#btn-download-manual {
+#btn-download-manual-1, #btn-download-manual-2 {
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
     padding: 10px 15px;
@@ -55,12 +72,20 @@ body {
     margin-right: 20px;
 }
 
-#btn-download-manual a {
+#btn-download-manual-2 {
+    background-color: #326120;
+}
+
+#titulo-inicial-2 {
+    color: #326120;
+}
+
+#btn-download-manual-1 a, #btn-download-manual-2 a  {
     text-decoration: none;
     color: #fff;
 }
 
-#btn-download-manual span {
+#btn-download-manual-1 span, #btn-download-manual-2 span  {
     margin-left: 5px;
 }
 
