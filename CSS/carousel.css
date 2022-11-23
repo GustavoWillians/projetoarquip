@@ -13,7 +13,7 @@ img {vertical-align: middle;}
   text-align: center;
   }
 
-#img1, #img2, #img3, #img4, #img5, #img6 {
+#img1, #img2, #img3, #img4, #img5{
   height: 580px;
   background-size: cover;
   background-position: bottom;
@@ -38,12 +38,6 @@ img {vertical-align: middle;}
 
 #img5{
   background-image: url("/Assets/carousel/img-sld-form.png");
-  background-size: cover;
-}
-
-#img6{
-  background-image: url("/Assets/carousel/img-sld-aviso.png");
-  background-position:left;
   background-size: cover;
 }
 
@@ -131,7 +125,7 @@ img {vertical-align: middle;}
   color: #000;
 }
 
-#img1 .text, #img2 .text, #img3 .text, #img4 .text, #img5 .text, #img6 .text {
+#img1 .text, #img2 .text, #img3 .text, #img4 .text, #img5 .text{
   background-color: #f0f8ffdc;
   color: #008bd2;
   text-align: center;
@@ -199,19 +193,6 @@ img {vertical-align: middle;}
   padding: 5px 10px;
   background-color: #e67e7c;
   display: inline;
-}
-
-.rodape-img6 {
-  display: flex;
-}
-
-.rodape-img6 img {
-  width: 200px;
-  margin-right: 20px;
-}
-
-.rodape-img6 p {
-  margin-top: 40px;
 }
 
 .img-container {
