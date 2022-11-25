@@ -94,7 +94,7 @@ body {
 }
 
 .container-o-que-e img {
-    max-width: 400px;
+   width: 400px;
 }
 
 .card-secao {
@@ -147,30 +147,43 @@ body {
     margin: 20px 0;
 }
 
+.titulo {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 28px;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 10px 0;
+    background-color: #326120;
+    color: #fff;
+}
 
+#requerimento, #reativacao {
+    color: transparent;
+    margin-bottom: 200px;
+}
 
-@media only screen and (max-width: 1253px) {
-    
-    .texto-card-novidades h3 {
-        text-align: center;
-        font-size: 35px;
-    }
-    
-    .texto-card-novidades p {
-        text-align: center;
-        font-size: 25px;
+.container-reativacao p {
+    text-align: justify;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1380px) {
+    .card-video {
+        flex-direction: column;
     }
 
-    .img-novidades {
-        height: 70%;
-    }
 
 }    
 
-@media only screen and (max-width: 800px) {
-    
-    
-
+@media only screen and (max-width: 860px) {
+    .container-o-que-e {
+        flex-direction: column-reverse;
+    }
+    .container-o-que-e img {
+        width: 200px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -185,5 +198,29 @@ body {
     .container-titulo {
         margin-bottom: 10px;
         flex-direction: column;
+    }
+
+    #requerimento, #reativacao {
+        color: transparent;
+        margin-bottom: 100px;
+    }
+
+    .titulos-manuais {
+      flex-direction: column;
+    }
+    .titulo-txt ul  {
+        margin: 5px 0px;
+    }
+    .card-secao p {
+        font-size: 18px;
+    }
+    .card-secao ul li {
+        font-size: 18px;
+    }  
+    .container-reativacao p {
+        font-size: 18px;
+    }  
+    .card-video p {
+        font-size: 18px;
     }
 }
