@@ -30,6 +30,12 @@ body {
     font-family: 'Gilroy-Medium', sans-serif;
 }
 
+.titulo-txt ul  {
+    margin: 5px -20px;
+    border: solid 2px #326120;
+    border-radius: 5px;
+}
+
 .container-pagina h3 {
     margin-top: 0;
     margin-bottom: 0;
@@ -51,41 +57,33 @@ body {
     text-decoration: none;
 }
 
-#titulo-inicial-1, #titulo-inicial-2 {
+#titulo-inicial {
     padding-left: 10px;
     margin: 0;
     margin-bottom: 10px;
     font-size: 25px;
-    color: #72DECF;
+    color: #326120;
     font-family: 'Gilroy-Medium', sans-serif;
     
 }
 
-#btn-download-manual-1, #btn-download-manual-2 {
+.btn-download-manual {
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
     padding: 10px 15px;
     border-radius: 12px;
     color: #fff;
-    background-color: #72DECF;
+    background-color: #326120;
     border: none;   
     margin-right: 20px;
 }
 
-#btn-download-manual-2 {
-    background-color: #326120;
-}
-
-#titulo-inicial-2 {
-    color: #326120;
-}
-
-#btn-download-manual-1 a, #btn-download-manual-2 a  {
+.btn-download-manual a {
     text-decoration: none;
     color: #fff;
 }
 
-#btn-download-manual-1 span, #btn-download-manual-2 span  {
+.btn-download-manual span {
     margin-left: 5px;
 }
 
@@ -148,6 +146,8 @@ body {
     font-size: 20px;
     margin: 20px 0;
 }
+
+
 
 @media only screen and (max-width: 1253px) {
     
