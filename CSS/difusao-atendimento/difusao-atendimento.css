@@ -19,21 +19,11 @@ body {
     flex-direction: row;
 }
 
-.titulo-txt {
-    width: 100%;
-}
-
 .titulo-txt h2 {
     margin-top: 0;
     margin-bottom: 0;
     padding: 15px 10px;
     font-family: 'Gilroy-Medium', sans-serif;
-}
-
-.titulo-txt ul  {
-    margin: 5px -20px;
-    border: solid 2px #326120;
-    border-radius: 5px;
 }
 
 .container-pagina h3 {
@@ -62,7 +52,7 @@ body {
     margin: 0;
     margin-bottom: 10px;
     font-size: 25px;
-    color: #326120;
+    color: #ff8d17;
     font-family: 'Gilroy-Medium', sans-serif;
     
 }
@@ -73,7 +63,7 @@ body {
     padding: 10px 15px;
     border-radius: 12px;
     color: #fff;
-    background-color: #326120;
+    background-color: #ff8d17;
     border: none;   
     margin-right: 20px;
 }
@@ -87,14 +77,9 @@ body {
     margin-left: 5px;
 }
 
-.container-o-que-e {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.container-o-que-e img {
-   width: 400px;
+.card-secao ol li {
+    list-style-type: upper-roman;
+    font-size: 22px;
 }
 
 .card-secao {
@@ -122,7 +107,7 @@ body {
 }
 
 .card-video {
-    background: url(../../../Assets/avaliacao-documental/requerimento/onda-verde-fundo.png);
+    background: url(../../Assets/difusão-atendimento/Onda-transparente-laranja.png);
     display: flex;
     font-family: 'Titillium Web', sans-serif;
     font-size: 22px;
@@ -135,31 +120,6 @@ body {
 .card-video p {
     text-align: justify;
     margin-right: 15px;
-}
-
-.card-secao ul {
-    background: url(../../../Assets/avaliacao-documental/requerimento/fundo-verde.png);
-    padding: 3% 8%;
-}
-
-.card-secao ul li {
-    font-size: 20px;
-    margin: 20px 0;
-}
-
-.titulo {
-    text-align: center;
-    margin-top: 70px;
-    font-size: 28px;
-    font-family: 'Titillium Web', sans-serif;
-    padding: 10px 0;
-    background-color: #326120;
-    color: #fff;
-}
-
-#requerimento, #reativacao {
-    color: transparent;
-    margin-bottom: 200px;
 }
 
 .container-reativacao p {
@@ -198,11 +158,6 @@ body {
     .container-titulo {
         margin-bottom: 10px;
         flex-direction: column;
-    }
-
-    #requerimento, #reativacao {
-        color: transparent;
-        margin-bottom: 100px;
     }
 
     .titulos-manuais {
