@@ -4,6 +4,7 @@
 
 body {
     background-color:/* #f8d2d2;*/#fff;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .container-pagina {
@@ -26,21 +27,11 @@ body {
     font-family: 'Gilroy-Medium', sans-serif;
 }
 
-.container-pagina h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 15px 10px;
-    text-align: center;
-    font-family: 'Gilroy-Medium', sans-serif;
-    font-size: 25px;
-}
-
 #titulo-inicial {
     padding-left: 10px;
     margin: 0;
     margin-bottom: 10px;
-    font-size: 25px;
-    color: #ff6e6e;
+    font-size: 22px;
     font-family: 'Gilroy-Medium', sans-serif;
 }
 
@@ -53,17 +44,6 @@ body {
     background-color: #ff6e6e;
     border: none;   
     margin-right: 20px;
-}
-
-.container-card-novidades {
-    padding: 20px 0;
-    background-color: #000;
-    height: 350px;
-    width: 100%;
-    color: #ffffff;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 .img-novidades {

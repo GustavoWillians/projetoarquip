@@ -1,9 +1,16 @@
 .container-perguntas-fqts{
-    margin: 10px 0;
+    margin: 15px 0 82px 0;
+}
+
+.bg-1 {
+    background-color: #92ccf2;
+}
+
+.bg-2 {
+    background-color: #ffc276;
 }
 
 .collapsible {
-    background-color: #fc9696;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -12,10 +19,6 @@
     text-align: left;
     outline: none;
     font-size: 25px;
-}
-
-.active, .collapsible:hover {
-    background-color: #fa7777;
 }
 
 .collapsible:after {
@@ -36,7 +39,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color:#fcb1b1ef;
+    background-color:#ffffff00;
     font-family: Arial, Helvetica, sans-serif;
     color: #0f0f0f;
   }
