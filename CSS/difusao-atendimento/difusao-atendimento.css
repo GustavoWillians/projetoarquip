@@ -107,7 +107,7 @@ body {
 }
 
 .card-video {
-    background: url(../../Assets/difusão-atendimento/Onda-transparente-laranja.png);
+    background: url(../../Assets/difusao-atendimento/Onda-transparente-laranja.png);
     display: flex;
     font-family: 'Titillium Web', sans-serif;
     font-size: 22px;
@@ -163,13 +163,13 @@ body {
     .titulos-manuais {
       flex-direction: column;
     }
-    .titulo-txt ul  {
+    .titulo-txt ol  {
         margin: 5px 0px;
     }
     .card-secao p {
         font-size: 18px;
     }
-    .card-secao ul li {
+    .card-secao ol li {
         font-size: 18px;
     }  
     .container-reativacao p {
