@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Assets/index/Logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/boas-praticas/boas-praticas.css">
+    <link rel="stylesheet" href="./CSS/boas-praticas/footer.css">
+    <link rel="stylesheet" href="./CSS/boas-praticas/perg-fqts.css">
+    <title>Boas Práticas</title>
+</head>
+<body>
+    <header class="capa menu-fixo"> 
+        <!-- contem fundo pg inicio header.css -->
+        <img id="logo-arquip" src="./Assets/header/Logo-ARQUIP-branco.png" alt="Logo-ARQUIP"> 
+          <div class="menu">
+            <div>
+                <button><a href="./index.html">Inicio</a></button>
+            </div>
+            <div class="dropdown">  <!-- menu principal-->
+              <button class="dropbtn">Menu</button>
+              <div class="menu-dropdown-btn-menu dropdown-content">
+                <a target="_blank" href="https://www.prefeitura.sp.gov.br/cidade/secretarias/gestao/arquivo_publico/institucional/index.php" >Órgão Central ARQUIP</a>
+                <a target="_blank" href="https://www.prefeitura.sp.gov.br/cidade/secretarias/cultura/arquivo_historico/" >Arquivo Histórico</a>
+                <a href="./nupubli.html">Sobre o Diário Oficial</a>
+                <a href="./pgdoc.html">Orientação - Edoc</a>
+                <a href="./avaliacao_documental.html">Avaliação Documental</a>
+                <a href="./difusao_atendimento.html">Difusão e Atendimento</a>
+                <a href="http://">Preservação Digital</a>
+                <a href="./sobre_sei.html">Sobre o SEI!</a>
+                <a href="./boas_praticas.html">Boas Praticas</a>
+              </div>
+            </div>
+            <div class="dropdown">  <!-- sistemas -->
+              <button class="dropbtn"><a href="./sistemas.html">Sistemas</a></button>    
+              <div class="menu-dropdown-btn-menu dropdown-content">
+                <a target="_blank" href="https://admin.cacplus.prodam/Autenticacao?ReturnUrl=%2f">CAC</a>
+                <a target="_blank" href="http://www.docidadesp.imprensaoficial.com.br/Busca.aspx">Diário Oficial CidadeSp</a>
+                <a target="_blank" href="https://epubli.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=inicio">Suplemento Eletrônico</a>
+                <a target="_blank" href="https://processos.prefeitura.sp.gov.br/Forms/Principal.aspx">Portal de Processos</a>
+                <a target="_blank" href="https://sip.prefeitura.sp.gov.br/sip/login.php?sigla_orgao_sistema=PMSP&sigla_sistema=SEI&infra_url=L3NlaS8=">SEI</a>
+                <a target="_blank" href="https://treinamentosip4.prefeitura.sp.gov.br/sip/login.php?sigla_orgao_sistema=PMSP&sigla_sistema=SEI&infra_url=L3NlaS8=">SEI Treinamento</a>
+                <a target="_blank" href="https://simprocantigo.prefeitura.sp.gov.br/SJ0934/servlet/LOGIN">SIMPROC</a>
+                <a target="_blank" href="https://simproc.prefeitura.sp.gov.br/Forms/login.aspx">SIMPROC WEB</a>
+                <a target="_blank" href="https://sip.prefeitura.sp.gov.br/sip/login.php?sigla_orgao_sistema=PMSP&sigla_sistema=SIP&infra_url=L3NpcC8=">SIP</a>
+                <a target="_blank" href="http://tid.prodam.sp.gov.br">TID</a>
+              </div>
+            </div>
+            <div>
+              <button><a href="https://gestaodocumental.prefeitura.sp.gov.br/chat/">Contato</a></button>
+            </div>
+            <div>
+              <button><a href="./busca.html">Buscar</a></button>
+            </div>
+          </div>
+        
+    </header> <!-- header fim -->
+    <div class="container-pagina">
+      <div class="container-titulo">
+        <div class="titulo-txt">
+          <h2>Publicação Oficial e Comunicação</h2>
+          <p id="titulo-inicial">Tudo sobre o Diário Oficial de São Paulo</p>
+        </div>
+        <button id="btn-download-manual"> <a href="./Assets/nupubli/Manual-de-publicação-epubli.pdf" download> Manual de publicação<span>&#10515; </a></span></button>
+      </div><!-- container-titulo fim -->
+
+      <h3>Perguntas Frequentes</h3>
+      <div class="container-perguntas-fqts">
+        <button class="collapsible">Ainda é necessária a utilização do Certificado Digital?</button>
+        <div class="content">
+          <p>As publicações pelo SEI serão realizadas apenas com o acesso do usuário ao sistema, apenas para acesso ao Pubnet continua sendo necessária a utilização de Certificado Digital.</p>
+        </div>
+
+        <button class="collapsible">Como serão publicados os documentos de licitação?</button>
+        <div class="content">
+          <p>Inicialmente o botão do SEI é apenas para publicações de Matérias. Licitações serão mantidas no Pubnet por enquanto.</p>
+        </div>
+
+        <button class="collapsible">Qualquer pessoa consegue publicar um documento?</button>
+        <div class="content">
+          <p>O botão "P" não será habilitado para usuários, mas sim para documentos; ou seja, se o documento for publicável, qualquer usuário consegue visualizar o botão.</p>
+        </div>
+
+        <button class="collapsible">Haverá um horário limite para envio de publicação?</button>
+        <div class="content">
+          <p>O horário limite será o dia, até 23h59min será possível o envio. Caso seja enviado após esse horário a publicação saíra no dia seguinte.</p>
+        </div>
+
+        <button class="collapsible">Como formatar o texto para publicar no SEI?</button>
+        <div class="content">
+          <p>O documento deve manter os parâmetros e formatação que possui hoje no SEI. Não deve ser utilizada a formatação por comandos do Pubnet, como ((TEXTO)) e ((NG)) ((CL)).</p>
+        </div>
+
+        <button class="collapsible">Como escolher o caderno onde as publicações serão feitas? (Despachos, concursos, editais, etc)</button>
+        <div class="content">
+          <p>Inicialmente os documentos que permitem publicação estão parametrizados para serem publicados nos cadernos que correspondem a seus respectivos assuntos. Assim que todas as publicações começarem a ser feitas pelo SEI, ao clicar no P [botão de publicação], um menu com os cadernos disponíveis no jornal será apresentado ao usuário, então ele poderá escolher antes de confirmar.</p>
+        </div>
+
+      </div> <!-- container-perguntas-fqts fim -->
+
+    </div><!-- container-pagina fim -->    
+    <footer>
+        <div class="infos">
+          <p>
+            Secretaria Municipal de Gestão <br>
+            <img src="./Assets/footer/logo-simples-branco.png" alt="Arquip"> Arquivo Público Municipal "Jornalista Paulo Roberto Dutra" <br>
+            <!--arquivo@prefeitura.sp.gov.br <br>
+          Rua Balsa 331, Freguesia do Ó - 02910-025 <br>-->
+            São Paulo/SP- Brasil <br>
+          </p>
+        </div>
+        <img src="./Assets/footer/logo-prefeitura.png" alt="Prefeitura da cidade de São Paulo">
+        <img src="./Assets/footer/Logo-branco.png" alt="Arquip">
+    </footer>
+
+    <script defer src="./JS/nupubli/colapse.js"></script>    
+    <script defer src="./JS/header.js"></script>   
+</body>
+</html>
