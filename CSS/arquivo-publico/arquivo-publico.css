@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+body {
+    background-color:/* #f8d2d2;*/#fff;
+}
+
+.container-pagina {
+    margin-left: 12%;
+    margin-right: 12%;
+    background-color: #ffffff;
+}
+
+.container-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.titulo-txt {
+    width: 100%;
+}
+
+.titulo-txt h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px 10px;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+
+.titulo-txt ul  {
+    margin: 5px -20px;
+    border: solid 2px #326120;
+    border-radius: 5px;
+}
+
+.container-pagina h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px 10px;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 25px;
+}
+
+.titulos-manuais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.titulos-manuais a, titulos-manuais a:visited {
+    text-decoration: none;
+}
+
+#titulo-inicial {
+    padding-left: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #326120;
+    font-family: 'Gilroy-Medium', sans-serif;
+    
+}
+
+.btn-download-manual {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #326120;
+    border: none;   
+    margin-right: 20px;
+}
+
+.btn-download-manual a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-download-manual span {
+    margin-left: 5px;
+}
+
+.container-o-que-e {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-o-que-e img {
+   width: 400px;
+}
+
+.card-secao {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.card-secao p {
+    font-size: 22px;
+}
+
+.card-secao h3 {
+    float: left;
+    background-color: #ffd197;
+    width: fit-content;
+    margin-top: 40px;
+    padding: 10px 75px;
+    font-weight: 300;
+}
+
+.card-secao img {
+    max-width: 100%;
+    margin: 30px 20%;
+}
+
+.card-video {
+    background: url(../../../Assets/avaliacao-documental/requerimento/onda-verde-fundo.png);
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+}
+
+.card-video video {
+    max-width: 1000px;
+}
+
+.card-video p {
+    text-align: justify;
+    margin-right: 15px;
+}
+
+.card-secao ul {
+    background: url(../../../Assets/avaliacao-documental/requerimento/fundo-verde.png);
+    padding: 3% 8%;
+}
+
+.card-secao ul li {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 28px;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 10px 0;
+    background-color: #326120;
+    color: #fff;
+}
+
+#requerimento, #reativacao {
+    color: transparent;
+    margin-bottom: 200px;
+}
+
+.container-reativacao p {
+    text-align: justify;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1380px) {
+    .card-video {
+        flex-direction: column;
+    }
+
+
+}    
+
+@media only screen and (max-width: 860px) {
+    .container-o-que-e {
+        flex-direction: column-reverse;
+    }
+    .container-o-que-e img {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container-pagina {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .container-titulo {
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+
+    #requerimento, #reativacao {
+        color: transparent;
+        margin-bottom: 100px;
+    }
+
+    .titulos-manuais {
+      flex-direction: column;
+    }
+    .titulo-txt ul  {
+        margin: 5px 0px;
+    }
+    .card-secao p {
+        font-size: 18px;
+    }
+    .card-secao ul li {
+        font-size: 18px;
+    }  
+    .container-reativacao p {
+        font-size: 18px;
+    }  
+    .card-video p {
+        font-size: 18px;
+    }
+}
