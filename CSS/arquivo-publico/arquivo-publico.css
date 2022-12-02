@@ -118,8 +118,9 @@ body {
 
     #img-seta {
         transform: rotate(90deg);
+        max-width: 53.25px;
+        max-height: 31.5px;
     }
-
     .titulo {
         margin: 70px 0%;
     }
