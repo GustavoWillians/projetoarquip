@@ -129,6 +129,13 @@ body {
     margin-top: 20px;
 }
 
+meter {
+    width: 400px;
+    height: 100px;
+    background-color: #ff8d17;
+    
+}
+
 @media only screen and (max-width: 1380px) {
     .card-video {
         flex-direction: column;
