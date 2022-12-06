@@ -3,7 +3,7 @@
 }
 
 .collapsible {
-    color: #ff8d17;
+    color: #ad6bcd;
     background-color: #ffffff00;
     cursor: pointer;
     padding: 18px;
@@ -16,7 +16,7 @@
 
 .collapsible:after {
     content: '\279E';
-    color: #ff8d17;
+    color: #ad6bcd;
     font-weight: lighter;
     float: right;
     margin-left: 5px;
