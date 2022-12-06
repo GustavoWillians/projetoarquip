@@ -3,7 +3,7 @@
 @import url('http://fonts.cdnfonts.com/css/gilroy-bold');
 
 body {
-    background-color:/* #f8d2d2;*/#fff;
+    background-color:#ffffff;
 }
 
 .container-pagina {
@@ -35,46 +35,14 @@ body {
     font-size: 25px;
 }
 
-.titulos-manuais {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin: 10px 0;
-}
-
-.titulos-manuais a, titulos-manuais a:visited {
-    text-decoration: none;
-}
-
 #titulo-inicial {
     padding-left: 10px;
     margin: 0;
     margin-bottom: 10px;
     font-size: 25px;
-    color: #ff8d17;
+    color: #ad6bcd;
     font-family: 'Gilroy-Medium', sans-serif;
     
-}
-
-.btn-download-manual {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 20px;
-    padding: 10px 15px;
-    border-radius: 12px;
-    color: #fff;
-    background-color: #ff8d17;
-    border: none;   
-    margin-right: 20px;
-}
-
-.btn-download-manual a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.btn-download-manual span {
-    margin-left: 5px;
 }
 
 .card-secao ol li {
@@ -106,50 +74,95 @@ body {
     margin: 30px 20%;
 }
 
-.card-video {
-    background: url(../../Assets/difusao-atendimento/Onda-transparente-laranja.png);
+.bg-roxo{
+    background: url(../../Assets/pgdoc/Onda-transparente-roxa.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.card-img {
     display: flex;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 22px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.card-video video {
-    max-width: 1000px;
+.card-img img {
+    max-width: 25%;
+    margin: 30px 20px;
 }
 
-.card-video p {
-    text-align: justify;
-    margin-right: 15px;
+.collapsible-equipes {
+    color: #000000;
+    background-color: #ffffff00;
+    cursor: pointer;
+    padding: 18px;
+    margin-top: 25px;
+    width: 100%;
+    border: none;
+    border-bottom:  4px solid #ad6bcd;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
 }
 
-.container-reativacao p {
-    text-align: justify;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 22px;
-    margin-top: 20px;
+.collapsible-equipes:after {
+    content: '\02C3';
+    color: #000000;
+    font-weight: lighter;
+    float: right;
+    margin-left: 5px;
 }
 
-meter {
-    width: 400px;
-    height: 100px;
-    background-color: #ff8d17;
-    
+.active-equipes:after {
+    content: "\02C5";
 }
 
-@media only screen and (max-width: 1380px) {
-    .card-video {
+.content-equipes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0f0f0f;
+    background-color: #faf0ff;
+} 
+
+.equipes-h3 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #002756 !important; 
+    width: fit-content;
+    margin-top: 40px;
+    padding: 10px 75px;
+    font-weight: 300;
+}
+
+table {
+    margin: 30px 0;
+    width: 80%;
+}
+
+table th {
+    text-align: left;
+}
+
+table td {
+    width: 50%;
+}
+
+@media only screen and (max-width: 950px) {
+    .card-img {
         flex-direction: column;
     }
 
-
-}    
-
-@media only screen and (max-width: 860px) {
-    .container-o-que-e {
-        flex-direction: column-reverse;
-    }
-    .container-o-que-e img {
-        width: 200px;
+    .card-img img {
+        max-width: 50%;
+        margin: 25px 10px;
     }
 }
 
@@ -166,7 +179,6 @@ meter {
         margin-bottom: 10px;
         flex-direction: column;
     }
-
     .titulos-manuais {
       flex-direction: column;
     }
@@ -178,11 +190,15 @@ meter {
     }
     .card-secao ol li {
         font-size: 18px;
-    }  
-    .container-reativacao p {
-        font-size: 18px;
-    }  
+    }   
     .card-video p {
         font-size: 18px;
+    }
+    .content-equipes {
+        font-size: 18px;
+    }
+    
+    .collapsible-equipes {
+        font-size: 20px;
     }
 }
