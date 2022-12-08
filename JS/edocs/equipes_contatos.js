@@ -1,42 +1,240 @@
 const contatos = [{
     titulo: 'Companhia de Engenharia de Tráfego - CET',
-    th:['Líder da Equipe',],
-    src:'./Assets/nupubli/Story-PUBLICAÇÃO-INTERNA.mp4'
-  },{
-    poster: './Assets/nupubli/capa-story-PUBLICAÇÃO-EXTERNA.png',
-    src:'./Assets/nupubli/Story-PUBLICAÇÃO-EXTERNA.mp4'
+    th: [{
+        cargo: 'Líder da Equipe',
+        contatoName: ['Rodrigo do Carmo Molina (Titular)', 'Tatiana Aparecida Galante (Suplente)'],
+        contatoEmail: ['rmolina@cetsp.com.br', 'tatianag@cetsp.com.br']
+    },
+    {
+        cargo: 'Administrador local do SEI',
+        contatoName: ['Edward Nogueira Junior  (Titular)', 'Leonardo Pizzanelli (Suplente)'],
+        contatoEmail: ['edwardj@cetsp.com.br', 'leonardopizzanelli@gmail.com']
+    },
+    {
+        cargo: 'Submestre do SIMPROC',
+        contatoName: ['Pedro Gabriel Sirna dos Santos'],
+        contatoEmail: ['pedrog@cetsp.com.br']
+    },
+    {
+        cargo: 'Responsável pelo Setor de Protocolo',
+        contatoName: ['Valquíria dos Santos de Passos'],
+        contatoEmail: ['valquiriap@cetsp.com.br']
+    },
+    {
+        cargo: 'Pontos Focais da Tabela de Temporalidade',
+        contatoName: ['Telma Paulino Senaubar (Titular)', 'Ilza Harumi Tadano (Suplente)'],
+        contatoEmail: ['telmap@cetsp.com.br', 'ilzah@cetsp.com.br']
+    },
+    {
+        cargo: 'Responsável do Órgão Setorial do SAMSP',
+        contatoName: ['Valquíria dos Santos de Passos'],
+        contatoEmail: ['valquiriap@cetsp.com.br']
+    }
+    ],
+}, {
+  titulo: 'CONTROLADORIA GERAL DO MUNICÍPIO - CGM',
+  th: [{
+      cargo: 'Líder da Equipe',
+      contatoName: ['Alexsandro Pereira de Almeida (Titular)', 'Thais Almeida Valvassoura (Suplente)'],
+      contatoEmail: ['alexsandropa@prefeitura.sp.gov.br', 'thaisalmeida@prefeitura.sp.gov.br']
   },
   {
-    poster: './Assets/nupubli/capa-story-MANUTENÇÃO.png',
-    src:'./Assets/nupubli/Story-MANUTENÇÃO.mp4'
+      cargo: 'Administrador local do SEI',
+      contatoName: ['Edward Nogueira Junior  (Titular)', 'Leonardo Pizzanelli (Suplente)'],
+      contatoEmail: ['edwardj@cetsp.com.br', 'leonardopizzanelli@gmail.com']
   },
   {
-    poster: './Assets/nupubli/capa-story-TABELA.png',
-    src:'./Assets/nupubli/Story-PUBLICAÇÃO-TABELA.mp4'
-  }];
+      cargo: 'Submestre do SIMPROC',
+      contatoName: ['Pedro Gabriel Sirna dos Santos'],
+      contatoEmail: ['pedrog@cetsp.com.br']
+  },
+  {
+      cargo: 'Responsável pelo Setor de Protocolo',
+      contatoName: ['Valquíria dos Santos de Passos'],
+      contatoEmail: ['valquiriap@cetsp.com.br']
+  },
+  {
+      cargo: 'Pontos Focais da Tabela de Temporalidade',
+      contatoName: ['Telma Paulino Senaubar (Titular)', 'Ilza Harumi Tadano (Suplente)'],
+      contatoEmail: ['telmap@cetsp.com.br', 'ilzah@cetsp.com.br']
+  },
+  {
+      cargo: 'Responsável do Órgão Setorial do SAMSP',
+      contatoName: ['Valquíria dos Santos de Passos'],
+      contatoEmail: ['valquiriap@cetsp.com.br']
+  }
+  ],
+},{
+  titulo: 'CONTROLADORIA GERAL DO MUNICÍPIO - CGM',
+  th: [{
+      cargo: 'Líder da Equipe',
+      contatoName: ['Alexsandro Pereira de Almeida (Titular)', 'Thais Almeida Valvassoura (Suplente)'],
+      contatoEmail: ['alexsandropa@prefeitura.sp.gov.br', 'thaisalmeida@prefeitura.sp.gov.br']
+  },
+  {
+      cargo: 'Administrador local do SEI',
+      contatoName: ['Edward Nogueira Junior  (Titular)', 'Leonardo Pizzanelli (Suplente)'],
+      contatoEmail: ['edwardj@cetsp.com.br', 'leonardopizzanelli@gmail.com']
+  },
+  {
+      cargo: 'Submestre do SIMPROC',
+      contatoName: ['Pedro Gabriel Sirna dos Santos'],
+      contatoEmail: ['pedrog@cetsp.com.br']
+  },
+  {
+      cargo: 'Responsável pelo Setor de Protocolo',
+      contatoName: ['Valquíria dos Santos de Passos'],
+      contatoEmail: ['valquiriap@cetsp.com.br']
+  },
+  {
+      cargo: 'Pontos Focais da Tabela de Temporalidade',
+      contatoName: ['Telma Paulino Senaubar (Titular)', 'Ilza Harumi Tadano (Suplente)'],
+      contatoEmail: ['telmap@cetsp.com.br', 'ilzah@cetsp.com.br']
+  },
+  {
+      cargo: 'Responsável do Órgão Setorial do SAMSP',
+      contatoName: ['Valquíria dos Santos de Passos'],
+      contatoEmail: ['valquiriap@cetsp.com.br']
+  }
+  ],
+},{
+  titulo: 'CONTROLADORIA GERAL DO MUNICÍPIO - CGM',
+  th: [{
+      cargo: 'Líder da Equipe',
+      contatoName: ['Alexsandro Pereira de Almeida (Titular)', 'Thais Almeida Valvassoura (Suplente)'],
+      contatoEmail: ['alexsandropa@prefeitura.sp.gov.br', 'thaisalmeida@prefeitura.sp.gov.br']
+  },
+  {
+      cargo: 'Administrador local do SEI',
+      contatoName: ['Edward Nogueira Junior  (Titular)', 'Leonardo Pizzanelli (Suplente)'],
+      contatoEmail: ['edwardj@cetsp.com.br', 'leonardopizzanelli@gmail.com']
+  },
+  {
+      cargo: 'Submestre do SIMPROC',
+      contatoName: ['Pedro Gabriel Sirna dos Santos'],
+      contatoEmail: ['pedrog@cetsp.com.br']
+  },
+  {
+      cargo: 'Responsável pelo Setor de Protocolo',
+      contatoName: ['Valquíria dos Santos de Passos'],
+      contatoEmail: ['valquiriap@cetsp.com.br']
+  },
+  {
+      cargo: 'Pontos Focais da Tabela de Temporalidade',
+      contatoName: ['Telma Paulino Senaubar (Titular)', 'Ilza Harumi Tadano (Suplente)'],
+      contatoEmail: ['telmap@cetsp.com.br', 'ilzah@cetsp.com.br']
+  },
+  {
+      cargo: 'Responsável do Órgão Setorial do SAMSP',
+      contatoName: ['Valquíria dos Santos de Passos'],
+      contatoEmail: ['valquiriap@cetsp.com.br']
+  }
+  ],
+},{
+  titulo: 'CONTROLADORIA GERAL DO MUNICÍPIO - CGM',
+  th: [{
+      cargo: 'Líder da Equipe',
+      contatoName: ['Alexsandro Pereira de Almeida (Titular)', 'Thais Almeida Valvassoura (Suplente)'],
+      contatoEmail: ['alexsandropa@prefeitura.sp.gov.br', 'thaisalmeida@prefeitura.sp.gov.br']
+  },
+  {
+      cargo: 'Administrador local do SEI',
+      contatoName: ['Edward Nogueira Junior  (Titular)', 'Leonardo Pizzanelli (Suplente)'],
+      contatoEmail: ['edwardj@cetsp.com.br', 'leonardopizzanelli@gmail.com']
+  },
+  {
+      cargo: 'Submestre do SIMPROC',
+      contatoName: ['Pedro Gabriel Sirna dos Santos'],
+      contatoEmail: ['pedrog@cetsp.com.br']
+  },
+  {
+      cargo: 'Responsável pelo Setor de Protocolo',
+      contatoName: ['Valquíria dos Santos de Passos'],
+      contatoEmail: ['valquiriap@cetsp.com.br']
+  },
+  {
+      cargo: 'Pontos Focais da Tabela de Temporalidade',
+      contatoName: ['Telma Paulino Senaubar (Titular)', 'Ilza Harumi Tadano (Suplente)'],
+      contatoEmail: ['telmap@cetsp.com.br', 'ilzah@cetsp.com.br']
+  },
+  {
+      cargo: 'Responsável do Órgão Setorial do SAMSP',
+      contatoName: ['Valquíria dos Santos de Passos'],
+      contatoEmail: ['valquiriap@cetsp.com.br']
+  }
+  ],
+},
+//
+{
+  titulo: 'CONTROLADORIA GERAL DO MUNICÍPIO - CGM',
+  th: [{
+      cargo: 'Líder da Equipe',
+      contatoName: ['Alexsandro Pereira de Almeida (Titular)', 'Thais Almeida Valvassoura (Suplente)'],
+      contatoEmail: ['alexsandropa@prefeitura.sp.gov.br', 'thaisalmeida@prefeitura.sp.gov.br']
+  },
+  {
+      cargo: 'Administrador local do SEI',
+      contatoName: ['Edward Nogueira Junior  (Titular)', 'Leonardo Pizzanelli (Suplente)'],
+      contatoEmail: ['edwardj@cetsp.com.br', 'leonardopizzanelli@gmail.com']
+  },
+  {
+      cargo: 'Submestre do SIMPROC',
+      contatoName: ['Pedro Gabriel Sirna dos Santos'],
+      contatoEmail: ['pedrog@cetsp.com.br']
+  },
+  {
+      cargo: 'Responsável pelo Setor de Protocolo',
+      contatoName: ['Valquíria dos Santos de Passos'],
+      contatoEmail: ['valquiriap@cetsp.com.br']
+  },
+  {
+      cargo: 'Pontos Focais da Tabela de Temporalidade',
+      contatoName: ['Telma Paulino Senaubar (Titular)', 'Ilza Harumi Tadano (Suplente)'],
+      contatoEmail: ['telmap@cetsp.com.br', 'ilzah@cetsp.com.br']
+  },
+  {
+      cargo: 'Responsável do Órgão Setorial do SAMSP',
+      contatoName: ['Valquíria dos Santos de Passos'],
+      contatoEmail: ['valquiriap@cetsp.com.br']
+  }
+  ],
+},
+];
 
 let container = document.getElementById('contatos');
+let content_equipes = document.getElementsByClassName('content-equipes');
+let contato = document.getElementsByClassName('contato-descricao');
+let contatoIndex = 0;
 
-for(let i = 0; i < storyTutoriais.length; i++){
-
-container[0].innerHTML +=  `<button class="collapsible-equipes">${contatos[i].titulo}</button>
-<div class="content-equipes ">
-
+for (let i = 0; i < contatos.length; i++) {
+    container.innerHTML += `
+        <button class="collapsible-equipes">${contatos[i].titulo}</button>
+        <div class="content-equipes ">
             <h3 class="equipes-h3">${contatos[i].titulo}</h3>
+        </div>
+    `;
+
+    for (let j = 0; j < contatos[i].th.length; j++, contatoIndex++) {
+        content_equipes[i].insertAdjacentHTML("beforeend", ` 
             <table>
-                <thead> 
-                  <tr>
-                    <th>Líder da Equipe</th>
-                  </tr>
+                <thead>
+                    <tr>
+                        <th>${contatos[i].th[j].cargo}</th>
+                    </tr>
                 </thead>
-                <tbody>  
-                  <tr>
-                    <td>Rodrigo do Carmo Molina (Titular)</td>
-                    <td>rmolina@cetsp.com.br</td>
-                  </tr>
-                </tbody> 
-            </table> 
-            `;
+                <tbody class="contato-descricao"></tbody>
+            </table>
+        `);
+
+        for (let k = 0; k < contatos[i].th[j].contatoName.length; k++) {
+            contato[contatoIndex].insertAdjacentHTML("beforeend", ` 
+                <tr>
+                    <td>${contatos[i].th[j].contatoName[k]}</td>
+                    <td>${contatos[i].th[j].contatoEmail[k]}</td>
+                </tr>
+            `);
+        }
+    }
 }
 
 /*
