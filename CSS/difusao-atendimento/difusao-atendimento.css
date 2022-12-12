@@ -35,19 +35,46 @@ body {
     font-size: 25px;
 }
 
+.titulos-manuais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.titulos-manuais a, titulos-manuais a:visited {
+    text-decoration: none;
+}
+
 #titulo-inicial {
     padding-left: 10px;
     margin: 0;
     margin-bottom: 10px;
     font-size: 25px;
-    color: #ad6bcd;
+    color: #ff8d17;
     font-family: 'Gilroy-Medium', sans-serif;
     
 }
 
-.card-secao ol li {
-    list-style-type: upper-roman;
-    font-size: 22px;
+.btn-download-manual {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    color: #fff;
+    background-color: #ff8d17;
+    border: none;   
+    margin-right: 20px;
+}
+
+.btn-download-manual a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-download-manual span {
+    margin-left: 5px;
 }
 
 .card-secao {
@@ -57,6 +84,10 @@ body {
 }
 
 .card-secao p {
+    font-size: 22px;
+}
+
+.card-secao ol li {
     font-size: 22px;
 }
 
@@ -74,97 +105,34 @@ body {
     margin: 30px 20%;
 }
 
-.bg-roxo{
-    background: url(../../Assets/pgdoc/Onda-transparente-roxa.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-}
-
-.card-img {
+.card-video {
+    justify-content: space-between;
+    background: url(../../Assets/difusao-atendimento/Onda-transparente-laranja.png);
     display: flex;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.card-img img {
-    max-width: 25%;
-    margin: 30px 20px;
-}
-
-.collapsible-equipes {
-    color: #000000;
-    background-color: #ffffff00;
-    cursor: pointer;
-    padding: 18px;
-    margin-top: 25px;
-    width: 100%;
-    border: none;
-    border-bottom:  4px solid #ad6bcd;
+.card-video p {
     text-align: left;
-    outline: none;
-    font-size: 25px;
+    margin-right: 15px;
 }
 
-.collapsible-equipes:after {
-    content: '\02C3';
-    color: #000000;
-    font-weight: lighter;
-    float: right;
-    margin-left: 5px;
+.card-video video {
+    max-width: 1000px;
 }
 
-.active-equipes:after {
-    content: "\02C5";
-}
-
-.content-equipes {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-size: 18px;
-    padding: 0 18px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #0f0f0f;
-    background-color: #faf0ff;
-} 
-
-.equipes-h3 {
-    text-align: center;
-    color: #ffffff;
-    background-color: #002756 !important; 
-    width: fit-content;
-    margin-top: 40px;
-    padding: 10px 75px;
-    font-weight: 300;
-}
-
-table {
-    margin: 30px 0;
-    width: 80%;
-}
-
-table th {
-    text-align: left;
-}
-
-table td {
-    width: 50%;
-}
-
-@media only screen and (max-width: 950px) {
-    .card-img {
+@media only screen and (max-width: 1380px) {
+    .card-video {
         flex-direction: column;
     }
-
-    .card-img img {
-        max-width: 50%;
-        margin: 25px 10px;
+    .card-video video {
+        width: 90%;
     }
-}
+}    
 
 @media only screen and (max-width: 600px) {
     .container-pagina {
@@ -185,20 +153,7 @@ table td {
     .titulo-txt ol  {
         margin: 5px 0px;
     }
-    .card-secao p {
-        font-size: 18px;
-    }
-    .card-secao ol li {
+    .card-secao ol li, .card-secao p, .card-video p{
         font-size: 18px;
     }   
-    .card-video p {
-        font-size: 18px;
-    }
-    .content-equipes {
-        font-size: 18px;
-    }
-    
-    .collapsible-equipes {
-        font-size: 20px;
-    }
 }
