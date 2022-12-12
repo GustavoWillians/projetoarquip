@@ -596,6 +596,415 @@ const contatos = [
   }
   ],
 }, // Secretaria Municipal de Educação - SME fim  18
+{
+    titulo: 'Secretaria Municipal de Inovação e Tecnologia - SMIT',
+    th: [{
+        cargo: 'Líder da Equipe',
+        contatoName: ['Elisangela da Silva Diniz (Titular)', 'Jarbas Antonio de Biagi Junior (Suplente)'],
+        contatoEmail: ['esdiniz@prefeitura.sp.gov.br', 'jbiagi@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Administrador local do SEI',
+        contatoName: ['Bruno Cesar Molinaro (Titular)', 'Nadia Regina Pecorino Vespa (Suplente)'],
+        contatoEmail: ['lasobral@prefeitura.sp.gov.br', 'nadiavespa@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Submestre do SIMPROC',
+        contatoName: ['Neide Fernandes de Figueredo'],
+        contatoEmail: ['nffigueredo@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável pelo Setor de Protocolo',
+        contatoName: ['Paulo Sérgio Carvalho'],
+        contatoEmail: ['paulocarvalho@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Pontos Focais da Tabela de Temporalidade',
+        contatoName: ['Lilaiane Aparecida Bertolucci Sobral (Titular)', 'Fernanda Ribeiro de Oliveira (Suplente)'],
+        contatoEmail: ['lasobral@prefeitura.sp.gov.br', 'fernandaroliveira@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável do Órgão Setorial do SAMSP',
+        contatoName: ['Neide Fernandes de Figueredo'],
+        contatoEmail: ['nffigueredo@prefeitura.sp.gov.br']
+    }
+    ],
+}, // Secretaria Municipal de Inovação e Tecnologia - SMIT fim  19
+{
+    titulo: 'Secretaria Municipal de Justiça - SMJ',
+    th: [{
+        cargo: 'Líder da Equipe',
+        contatoName: ['Maria Lúcia Palma Latorre (Titular)', 'Bruna Bulhões Schuartz (Suplente)'],
+        contatoEmail: ['mlatorre@prefeitura.sp.gov.br', 'bbulhoes@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Administrador local do SEI',
+        contatoName: ['Bruna Bulhões Schuartz (Titular)', 'Miriam Rose Evans  (Suplente)'],
+        contatoEmail: ['bbulhoes@prefeitura.sp.gov.br', 'mevans@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Submestre do SIMPROC',
+        contatoName: ['Bruna Bulhões Schuartz'],
+        contatoEmail: ['bbulhoes@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável pelo Setor de Protocolo',
+        contatoName: ['Bruna Bulhões Schuartz'],
+        contatoEmail: ['bbulhoes@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Pontos Focais da Tabela de Temporalidade',
+        contatoName: ['Miriam Rose Evans (Titular)', 'Marcelo Maschietto (Suplente)'],
+        contatoEmail: ['mevans@prefeitura.sp.gov.br', 'marcelomaschietto@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável do Órgão Setorial do SAMSP',
+        contatoName: ['Maria Lúcia Palma Latorre'],
+        contatoEmail: ['mlatorre@prefeitura.sp.gov.br']
+    }
+    ],
+}, // Secretaria Municipal de Justiça - SMJ fim  20
+{
+    titulo: 'Secretaria Municipal da Pessoa com Deficiência - SMPED',
+    th: [{
+        cargo: 'Líder da Equipe',
+        contatoName: ['Patrícia Galdi Durante  (Titular)'],
+        contatoEmail: ['pgdurante@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Administrador local do SEI',
+        contatoName: ['Benjamim Lobão da Silveira Filho (Titular)', 'Sandra Maria Paz Olivo (Suplente)'],
+        contatoEmail: ['blobao@prefeitura.sp.gov.br', 'solivo@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Submestre do SIMPROC',
+        contatoName: ['Silvia Regina Gonçalves '],
+        contatoEmail: ['srgoncalves@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável pelo Setor de Protocolo',
+        contatoName: ['Sandra Maria Paz Olivo'],
+        contatoEmail: ['solivo@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Pontos Focais da Tabela de Temporalidade',
+        contatoName: ['Thais Roberto da Silva (Titular)', 'Luiz Carlos Lopes (Suplente)'],
+        contatoEmail: ['thaisrsilva@prefeitura.sp.gov.br', 'lclopes@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável do Órgão Setorial do SAMSP',
+        contatoName: ['Sandra Maria Paz Olivo'],
+        contatoEmail: ['solivo@prefeitura.sp.gov.br']
+    }
+    ],
+}, // Secretaria Municipal da Pessoa com Deficiência - SMPED fim  21
+{
+    titulo: 'Secretaria Municipal da Saúde - SMS',
+    th: [{
+        cargo: 'Líder da Equipe',
+        contatoName: ['Horacio Bonassi Filho (Titular)', 'Suzana Carvalho do Nascimento (Suplente)'],
+        contatoEmail: ['hbonassi@prefeitura.sp.gov.br', 'suzanacnascimento@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Administrador local do SEI',
+        contatoName: ['Creusa Aparecida Vivan (Titular)', 'Tacílio Moreira de Araujo  (Suplente)'],
+        contatoEmail: ['cvivan@prefeitura.sp.gov.br', 'tmaraujo@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Submestre do SIMPROC',
+        contatoName: ['Marcos Farias'],
+        contatoEmail: ['mfarias@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável pelo Setor de Protocolo',
+        contatoName: ['Vera Lúcia Grossi Tzanopoulos'],
+        contatoEmail: ['vtzanopoulos@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Pontos Focais da Tabela de Temporalidade',
+        contatoName: ['Horacio Bonassi Filho (Titular)', 'Suzana Carvalho do Nascimento (Suplente)'],
+        contatoEmail: ['hbonassi@prefeitura.sp.gov.br', 'suzanacnascimento@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável do Órgão Setorial do SAMSP',
+        contatoName: ['Horacio Bonassi Filho'],
+        contatoEmail: ['hbonassi@prefeitura.sp.gov.br']
+    }
+    ],
+}, // Secretaria Municipal da Saúde - SMS fim  22
+{
+    titulo: 'Secretaria Municipal de Segurança Urbana - SMSU',
+    th: [{
+        cargo: 'Líder da Equipe',
+        contatoName: ['Alessandro Montini (Suplente)'],
+        contatoEmail: ['amontini@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Administrador local do SEI',
+        contatoName: ['Marcia Regina G.O.N. da Cruz (Titular)', 'Rose da Silva Anjos (Suplente)'],
+        contatoEmail: ['mgvoliveira@prefeitura.sp.gov.br', 'rsanjos@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Submestre do SIMPROC',
+        contatoName: ['Marcio Lorenzi'],
+        contatoEmail: ['mlourenzi@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável pelo Setor de Protocolo',
+        contatoName: ['Donizete Aparecida Carvalho Redorat'],
+        contatoEmail: ['donizeteredorat@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Pontos Focais da Tabela de Temporalidade',
+        contatoName: ['Eduarda Souza de Oliveira (Titular)', 'Lucimara Couto Araújo (Suplente)'],
+        contatoEmail: ['eduardaoliveira@prefeitura.sp.gov.br', 'lcoutoa@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável do Órgão Setorial do SAMSP',
+        contatoName: ['Ricardo Franco de Melo'],
+        contatoEmail: ['rfrancom@prefeitura.sp.gov.br']
+    }
+    ],
+}, // Secretaria Municipal de Segurança Urbana - SMSU fim  23
+{
+    titulo: 'Secretaria Municipal das Subprefeituras - SMSUB',
+    th: [{
+        cargo: 'Líder da Equipe',
+        contatoName: ['Christiane Telles Siqueira (Titular)', 'Luana Carolina de França Barros (Suplente)'],
+        contatoEmail: ['ctsiqueira@smsub.prefeitura.sp.gov.br', 'lcfranca@smsub.prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Administrador local do SEI',
+        contatoName: ['Beatriz da Rocha (Titular)', 'Jessyca Sousa do Nascimento (Suplente)'],
+        contatoEmail: ['beatrizrocha@smsub.prefeitura.sp.gov.br', 'jessycasousa@smsub.prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Submestre do SIMPROC',
+        contatoName: ['Lenice Cristina Mazzali Martins '],
+        contatoEmail: ['lenicem@smsub.prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável pelo Setor de Protocolo',
+        contatoName: ['Marlene Mathias da Costa Azubuike'],
+        contatoEmail: ['mmcosta@smsub.prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Pontos Focais da Tabela de Temporalidade',
+        contatoName: ['Gislaine Camargo Francelino  (Titular)', 'Arlete Chikos (Suplente)'],
+        contatoEmail: ['gfrancelino@smsub.prefeitura.sp.gov.br', 'achikos@smsub.prefeitura.so.gov.br']
+    },
+    {
+        cargo: 'Responsável do Órgão Setorial do SAMSP',
+        contatoName: ['Silvia Santana'],
+        contatoEmail: ['silviasantana@smsub.prefeitura.sp.gov.br']
+    }
+    ],
+}, // Secretaria Municipal das Subprefeituras - SMSUB fim  24
+{
+    titulo: 'Secretaria Municipal de Urbanismo e Licenciamento - SMUL',
+    th: [{
+        cargo: 'Líder da Equipe',
+        contatoName: ['Waltirene dos Santos Tavares Costa  (Titular)', 'Maria da Conceição Campello de Souza Galli  (Suplente)'],
+        contatoEmail: ['wcosta@prefeitura.sp.gov.br', 'mccgalli@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Administrador local do SEI',
+        contatoName: ['Cheila Souza Sodré (Titular)', 'Juliana Oliveira de Carvalho  (Suplente)'],
+        contatoEmail: ['csodre@prefeitura.sp.gov.br', 'julianacarvalho@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Submestre do SIMPROC',
+        contatoName: ['Rogério da Silva Maciel'],
+        contatoEmail: ['rsmaciel@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável pelo Setor de Protocolo',
+        contatoName: ['Daniel Fernandes de Abreu'],
+        contatoEmail: ['danielfabreu@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Pontos Focais da Tabela de Temporalidade',
+        contatoName: ['Derick Alves Elois (Titular)', 'Dalva Maria de Araújo (Suplente)'],
+        contatoEmail: ['daelois@prefeitura.sp.gov.br', 'dmaraujo@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável do Órgão Setorial do SAMSP',
+        contatoName: ['Derick Alves Elois'],
+        contatoEmail: ['daelois@prefeitura.sp.gov.br']
+    }
+    ],
+}, // Secretaria Municipal de Urbanismo e Licenciamento - SMUL fim  25
+{
+    titulo: 'São Paulo Obras - SPOBRAS',
+    th: [{
+        cargo: 'Líder da Equipe',
+        contatoName: ['Dirceu Geraldo Milani Junior  (Titular)', 'Alvaro da Silva e Souza (Suplente)'],
+        contatoEmail: ['dmilani@spobras.sp.gov.br', 'asilvasouza@spobras.sp.gov.br']
+    },
+    {
+        cargo: 'Administrador local do SEI',
+        contatoName: ['Gilmar Conde Conceição (Titular)', 'Ronaldo Luiz de Andrade (Suplente)'],
+        contatoEmail: ['gconde@spobras.sp.gov.br', 'ronaldoandrade@spobras.sp.gov.br']
+    },
+    {
+        cargo: 'Submestre do SIMPROC',
+        contatoName: ['Silvana Isgroi Carvalho'],
+        contatoEmail: ['scarvalho@spobras.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável pelo Setor de Protocolo',
+        contatoName: ['Thiago Alex Castilha'],
+        contatoEmail: ['tcastilha@spobras.sp.gov.br']
+    },
+    {
+        cargo: 'Pontos Focais da Tabela de Temporalidade',
+        contatoName: ['Valdeli da Silva (Titular)', 'Thiago Alex Castilha (Suplente)'],
+        contatoEmail: ['vsilva@spobras.sp.gov.br', 'tcastilha@spobras.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável do Órgão Setorial do SAMSP',
+        contatoName: ['Silvana Isgroi Carvalho'],
+        contatoEmail: ['scarvalho@spobras.sp.gov.br']
+    }
+    ],
+}, // São Paulo Obras - SPOBRAS fim  26
+{
+    titulo: 'Secretaria Municipal de Esportes e Lazer - SEME',
+    th: [{
+        cargo: 'Líder da Equipe',
+        contatoName: ['Yara Maria Spinola e Castro (Titular)', 'Ronaldo Dantas Menezes (Suplente)'],
+        contatoEmail: ['ycastro@prefeitura.sp.gov.br', 'ronaldomenezes@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Administrador local do SEI',
+        contatoName: ['Paulo Guilherme Santos Rezende (Titular)', 'Regis Augusto Romualdo (Suplente)'],
+        contatoEmail: ['prezende@prefeitura.sp.gov.br', 'rromualdo@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Submestre do SIMPROC',
+        contatoName: ['Sidney Gabriel Silva'],
+        contatoEmail: ['sidneysilva@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável pelo Setor de Protocolo',
+        contatoName: ['Paulo Sergio de Freitas'],
+        contatoEmail: ['pstorres@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Pontos Focais da Tabela de Temporalidade',
+        contatoName: ['Eliana Cespedes  (Titular)', 'Ronei Pereira Farias (Suplente)'],
+        contatoEmail: ['ecespedes@prefeitura.sp.gov.br', 'roneifarias@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável do Órgão Setorial do SAMSP',
+        contatoName: ['Lidiana Celotti Franco da Rocha'],
+        contatoEmail: ['cfrocha@prefeitura.sp.gov.br']
+    }
+    ],
+}, // Secretaria Municipal de Esportes e Lazer - SEME fim  27
+{
+    titulo: 'São Paulo Transporte - SPTRANS',
+    th: [{
+        cargo: 'Líder da Equipe',
+        contatoName: ['Cibele Parmigiani Gonnelli (Titular)', 'Renata da Silva Gonçalves (Suplente)'],
+        contatoEmail: ['cibele.gonnelli@sptrans.com.br', 'renata.goncalves@sptrans.com.br']
+    },
+    {
+        cargo: 'Administrador local do SEI',
+        contatoName: ['Érica Dames de Nóbrega (Titular)', 'Alice Maria dos Santos Alves Menon (Suplente)'],
+        contatoEmail: ['erica.nobrega@sptrans.com.br', 'alice.menon@sptrans.com.br']
+    },
+    {
+        cargo: 'Submestre do SIMPROC',
+        contatoName: ['Antônio Nascimento dos Santos'],
+        contatoEmail: ['antonio.santos@sptrans.com.br']
+    },
+    {
+        cargo: 'Responsável pelo Setor de Protocolo',
+        contatoName: ['Antônio Nascimento dos Santos'],
+        contatoEmail: ['antonio.santos@sptrans.com.br']
+    },
+    {
+        cargo: 'Pontos Focais da Tabela de Temporalidade',
+        contatoName: ['Cibele Parmigiani Gonnelli (Titular)', 'Maria Benedita Aranha (Suplente)'],
+        contatoEmail: ['cibele.gonnelli@sptrans.com.br', 'maria.aranha@sptrans.com.br']
+    },
+    {
+        cargo: 'Responsável do Órgão Setorial do SAMSP',
+        contatoName: ['Antônio Nascimento dos Santos'],
+        contatoEmail: ['antonio.santos@sptrans.com.br']
+    }
+    ],
+}, // São Paulo Transporte - SPTRANS fim  28
+{
+    titulo: 'Secretaria do Verde e Meio Ambiente - SVMA',
+    th: [{
+        cargo: 'Líder da Equipe',
+        contatoName: ['Aristides de Medeiros Júnior (Titular)', 'Carla Cruz Santos (Suplente)'],
+        contatoEmail: ['aristidesmedeiros@prefeitura.sp.gov.br', 'carlacruzsantos@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Administrador local do SEI',
+        contatoName: ['Ana Lúcia F. de Jesus Antunes (Titular)', 'Vera Kasue Ychibassi Sanda  (Suplente)'],
+        contatoEmail: ['analuciaf@prefeitura.sp.gov.br', 'verasanda@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Submestre do SIMPROC',
+        contatoName: ['Anderson Luiz Arcanjo'],
+        contatoEmail: ['aarcanjo@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável pelo Setor de Protocolo',
+        contatoName: ['Antônio Orosco Neto'],
+        contatoEmail: ['aoneto@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Pontos Focais da Tabela de Temporalidade',
+        contatoName: ['Carla Cruz Santos (Titular)', 'Priscila Santana Gonsalves da Fonseca (Suplente)'],
+        contatoEmail: ['carlacruzsantos@prefeitura.sp.gov.br', 'pgonsalves@prefeitura.sp.gov.br']
+    },
+    {
+        cargo: 'Responsável do Órgão Setorial do SAMSP',
+        contatoName: ['Claudio Nauel Coelho Macieira'],
+        contatoEmail: ['cnmacieira@prefeitura.sp.gov.br']
+    }
+    ],
+}, // Secretaria do Verde e Meio Ambiente - SVMA fim  29
+{
+    titulo: 'São Paulo Urbanismo - SPURBANISMO',
+    th: [{
+        cargo: 'Líder da Equipe',
+        contatoName: ['Marcos da Silva Gomes (Titular)', 'Julio Ushiro (Suplente)'],
+        contatoEmail: ['mgomes@spurbanismo.sp.gov.br ', 'jushiro@spurbanismo.sp.gov.br ']
+    },
+    {
+        cargo: 'Administrador local do SEI',
+        contatoName: ['Jonas Ismar Marçal Fonseca (Titular)', 'Ricardo Keiity Takahashi (Suplente)'],
+        contatoEmail: ['jismar@spurbanismo.sp.gov.br', 'rtakahashi@spurbanismo.sp.gov.br ']
+    },
+    {
+        cargo: 'Submestre do SIMPROC',
+        contatoName: ['Antonio Carlos Pereira'],
+        contatoEmail: ['acpereira@spurbanismo.sp.gov.br ']
+    },
+    {
+        cargo: 'Responsável pelo Setor de Protocolo',
+        contatoName: ['Emerson Artes'],
+        contatoEmail: ['emersonartes@spurbanismo.sp.gov.br ']
+    },
+    {
+        cargo: 'Pontos Focais da Tabela de Temporalidade',
+        contatoName: ['Marcos da Silva Gomes (Titular)', 'Julio Ushiro (Suplente)'],
+        contatoEmail: ['mgomes@spurbanismo.sp.gov.br ', 'jushiro@spurbanismo.sp.gov.br ']
+    },
+    {
+        cargo: 'Responsável do Órgão Setorial do SAMSP',
+        contatoName: ['Marcos da Silva Gomes'],
+        contatoEmail: ['mgomes@spurbanismo.sp.gov.br']
+    }
+    ],
+}, // São Paulo Urbanismo - SPURBANISMO fim  30
+
 ];
 
 let container = document.getElementById('contatos');
