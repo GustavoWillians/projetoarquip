@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+body {
+    background-color:#ffffff;
+}
+
+.container-pagina {
+    margin-left: 12%;
+    margin-right: 12%;
+    background-color: #ffffff;
+}
+
+.container-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.titulo-txt h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px 10px;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+
+.container-pagina h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px 10px;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 25px;
+}
+
+#titulo-inicial {
+    padding-left: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #ad6bcd;
+    font-family: 'Gilroy-Medium', sans-serif;
+    
+}
+
+.card-secao ol li {
+    list-style-type: upper-roman;
+    font-size: 22px;
+}
+
+.card-secao {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.card-secao p {
+    font-size: 22px;
+}
+
+.card-secao h3 {
+    float: left;
+    background-color: #ffd197;
+    width: fit-content;
+    margin-top: 40px;
+    padding: 10px 75px;
+    font-weight: 300;
+}
+
+.card-secao img {
+    max-width: 100%;
+    margin: 30px 20%;
+}
+
+.bg-roxo{
+    background: url(../../Assets/pgdoc/Onda-transparente-roxa.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.card-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-img img {
+    max-width: 25%;
+    margin: 30px 20px;
+}
+
+.collapsible-equipes {
+    color: #000000;
+    background-color: #ffffff00;
+    cursor: pointer;
+    padding: 18px;
+    margin-top: 25px;
+    width: 100%;
+    border: none;
+    border-bottom:  4px solid #ad6bcd;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+}
+
+.collapsible-equipes:after {
+    content: '\02C3';
+    color: #000000;
+    font-weight: lighter;
+    float: right;
+    margin-left: 5px;
+}
+
+.active-equipes:after {
+    content: "\02C5";
+}
+
+.content-equipes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0f0f0f;
+    background-color: #faf0ff;
+} 
+
+.equipes-h3 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #002756 !important; 
+    width: fit-content;
+    margin-top: 40px;
+    padding: 10px 75px;
+    font-weight: 300;
+}
+
+table {
+    margin: 30px 0;
+    width: 80%;
+}
+
+table th {
+    text-align: left;
+}
+
+table td {
+    width: 50%;
+}
+
+@media only screen and (max-width: 950px) {
+    .card-img {
+        flex-direction: column;
+    }
+
+    .card-img img {
+        max-width: 50%;
+        margin: 25px 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container-pagina {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .container-titulo {
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+    .titulos-manuais {
+      flex-direction: column;
+    }
+    .titulo-txt ol  {
+        margin: 5px 0px;
+    }
+    .card-secao p {
+        font-size: 18px;
+    }
+    .card-secao ol li {
+        font-size: 18px;
+    }   
+    .card-video p {
+        font-size: 18px;
+    }
+    .content-equipes {
+        font-size: 18px;
+    }
+    
+    .collapsible-equipes {
+        font-size: 20px;
+    }
+}
