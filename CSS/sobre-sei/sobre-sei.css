@@ -7,7 +7,7 @@ body {
 }
 
 .container-pagina {
-    margin: 0 15%;
+    margin: 0 12%;
     font-family: 'Questrial', sans-serif;
     background-color: #fff;
 }
@@ -71,7 +71,7 @@ body {
 .texto-assinatura, .text-dev-sei p {
     font-family: 'Questrial', sans-serif;
     font-size: 20px;
-    text-align: justify;
+    text-align: left;
     margin: 3%;
 }
 
@@ -82,4 +82,30 @@ body {
 
 .text-dev-sei img {
     width: 240px;
+}
+
+@media only screen and (max-width: 1380px) {
+    .video-apresentacao {
+        flex-direction: column;
+        align-items: center;
+    }
+    .video-apresentacao video {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .assinatura-uso {
+        flex-direction: column;
+        align-items: center;
+    }
+    .video-apresentacao video {
+        width: 90%;
+    }
+    .text-dev-sei {
+        flex-direction: column-reverse;
+    }
+    .container-pagina {
+        margin: 0 6%;
+    }
 }
