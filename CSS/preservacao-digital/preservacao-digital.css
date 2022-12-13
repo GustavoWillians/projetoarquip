@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+body {
+    background-color:/* #f8d2d2;*/#fff;
+}
+
+.container-pagina {
+    margin-left: 12%;
+    margin-right: 12%;
+    background-color: #ffffff;
+}
+
+.container-pagina h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px 10px;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 25px;
+}
+
+.titulo-txt {
+    width: 100%;
+}
+
+.titulo-txt h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px 10px;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+
+.card-secao {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.card-secao p {
+    font-size: 22px;
+}
+
+.card-secao h3 {
+    float: left;
+    background-color: #ffd197;
+    width: fit-content;
+    margin-top: 40px;
+    padding: 10px 75px;
+    font-weight: 300;
+}
+
+.card-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-img img {
+    max-width: 200px;
+    margin: 30px 20px;
+}
+
+.card {
+    margin: 10px;
+    text-align: center;
+    border: 1.5px solid #000000;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.card-secao ul {
+    padding: 3% 8%;
+    margin-top: 0;
+}
+
+.card-secao ul li {
+    font-size: 20px;
+    margin: 20px 0;
+}  
+
+@media only screen and (max-width: 1450px) {
+    .card-img {
+        flex-direction: column;
+    }
+
+    .card-img img {
+        max-width: 80%;
+        margin: 25px 10px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .container-pagina {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+    .card-secao h3 {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .container-titulo {
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+    .card-secao p {
+        font-size: 18px;
+    }
+    .card-secao ul li {
+        font-size: 18px;
+    }  
+    
+}
