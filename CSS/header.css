@@ -61,7 +61,17 @@ body {
     background-color: #4cb0e2; 
     color: #ffffff;
 }
+
+.menu button:focus {
+    background-color: #4cb0e2; 
+    color: #ffffff;
+}
+
 .menu button:hover .menu-dropdown-btn-menu {
+    display: flex;
+}
+
+.menu button:focus .menu-dropdown-btn-menu {
     display: flex;
 }
   
@@ -92,6 +102,10 @@ body {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.dropdown:focus .dropdown-content {
+    display: block;
 }
 
 .menu-dropdown-btn-menu {
