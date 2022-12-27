@@ -111,6 +111,7 @@
 a.sm-interno-sistemas{
     text-decoration: none;
 }
+
 @media only screen and (max-width: 1260px) {
     .ms-card-sistemas{
         width: auto;
@@ -141,5 +142,9 @@ a.sm-interno-sistemas{
         padding-bottom: 0%;
         text-align: left;
         vertical-align: baseline;
+    }
+
+    a.sm-interno-sistemas {
+        z-index: 90;
     }
 }
