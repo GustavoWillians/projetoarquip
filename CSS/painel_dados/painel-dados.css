@@ -17,6 +17,7 @@ iframe {
     flex-direction: column;
     padding: 10px;
     background-color: #fff;
+    width: 98vw;
 }
 
 .controls-iframe{
@@ -49,5 +50,7 @@ iframe {
 
 #iframe_dados {
     margin-top: 5px;
-    
+    border:none;
+    width: 98vw;
+    height: 800px;
 }
