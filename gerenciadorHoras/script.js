@@ -18,8 +18,6 @@ anoExibicao.innerText = data.getFullYear();
 indexMes = data.getMonth();
 indexAno = data.getFullYear();
 
-// const firstDayMonth = data.getDay(indexAno, (indexMes + 1) , 1)
-
 for(let i = 0; i < diasNome.length; i++){   
     diaSemana[0].innerHTML +=  `<li>${diasNome[i]}</li>`;
 }
