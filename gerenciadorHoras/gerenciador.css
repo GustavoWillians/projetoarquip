@@ -36,6 +36,10 @@ display: flex;
   letter-spacing: 3px;
 }
 
+.prev, .next{
+  cursor: pointer;
+}
+
 .month .prev {
   float: left;
   padding-top: 10px;
