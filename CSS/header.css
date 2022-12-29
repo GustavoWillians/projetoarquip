@@ -10,12 +10,12 @@ body {
     background-color: #000;
     background-image: url("../Assets/header/cabecalho2.png");
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: right;
     font-family: 'Gilroy-Medium', sans-serif;
    
 }
 .menu-fixo {
-    background-color: #92ccf350;
+    background-color: #0881c8;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -143,7 +143,7 @@ body {
   @media only screen and (max-width: 750px) {
     #logo-arquip{
         text-align: center;
-        margin-top: 5%;
+        margin-top: 20%;
         height: 80px;
     } 
     .menu-fixo {

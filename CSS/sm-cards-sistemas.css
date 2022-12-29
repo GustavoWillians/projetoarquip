@@ -51,7 +51,7 @@
     grid-template-rows: 10% 10% 5% 65% 5% 5%;
     grid-gap: 1px;
     width: 400px;
-    height: fit-content;
+    height: 350px;
     padding: 20px;
     background-color: #f4f4f5ab;
     border-radius: 0;
@@ -115,7 +115,7 @@ a.sm-interno-sistemas{
 @media only screen and (max-width: 1260px) {
     .ms-card-sistemas{
         width: auto;
-        height: auto;
+        height: fit-content;
         margin-top: 90px;
 
     }
