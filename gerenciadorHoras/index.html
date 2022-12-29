@@ -88,6 +88,34 @@
 
             <div class="status">    
 
+              <form>
+                <div>
+                  <label for="festa">Escolha o dia para inserir o horario (compensação de horas à partir de 23/11):</label>
+                  <input type="date" id="festa" name="festa" min="2017-04-01" max="2017-04-20" required>
+                  <span class="validity"></span>
+                </div>
+                <div>
+                  <input type="submit">
+                </div>
+              </form>
+              <table style="width:100%">
+                <tr>
+                  <th> <label for="entrada">Entrada</label></th>
+                  <th> <input type="time" id="entrada" name="entrada" min="06:00" max="20:00" required></th>
+                </tr>
+                <tr></tr>
+                  <th><label for="saidaAlmoco">Inicio Almoço</label></th>
+                  <th><input type="time" id="saidaAlmoco" name="saidaAlmoco" min="06:00" max="20:00" required></th>
+                </tr>
+                <tr>
+                  <th><label for="voltaAlmoco">Termino Almoço</label></th>
+                  <th><input type="time" id="voltaAlmoco" name="voltaAlmoco" min="06:00" max="20:00" required></th>
+                </tr>
+                <tr>
+                  <th><label for="saida">Saida</label> </th>
+                  <th><input type="time" id="saida" name="saida" min="06:00" max="20:00" required></th>
+                </tr>  
+              </table> 
             </div>
         </div>
     </main>

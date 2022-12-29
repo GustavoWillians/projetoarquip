@@ -50,8 +50,6 @@ prev[0].onclick = () => {
     if(indexMes < 0){
         indexMes = 11
         indexAno--
-        data.setMonth(indexMes)
-        data.setFullYear(indexAno)
     }
     data.setMonth(indexMes)
     data.setFullYear(indexAno)

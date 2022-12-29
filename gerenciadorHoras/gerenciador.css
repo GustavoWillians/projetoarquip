@@ -10,11 +10,17 @@ display: flex;
 }
 
 .calendario {
-    width: 750px
+    width: 750px;
+    padding-bottom: 50px;
+    margin-bottom: 15px;
 }
 
 #dataMes, #dataAno{
     margin: 0%;
+}
+
+.status {
+  
 }
 
 .month {
