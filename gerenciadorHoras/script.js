@@ -35,8 +35,8 @@ next[0].onclick = () => {
     data.setFullYear(indexAno)
     mesExibicao.innerText = meses[indexMes];   
     anoExibicao.innerText = indexAno;
-    inicioSemana = data.getDay();
     daysMonth =  new Date(indexAno, (indexMes + 1) , 0).getDate();
+    inicioSemana = data.getDay();
     montarCalendario(inicioSemana)
 
     console.log("dia atual "+ data.getDate(),"mês atual "+ (data.getMonth()+1),"ano atual "+ data.getFullYear())

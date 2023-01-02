@@ -20,9 +20,12 @@ display: flex;
 }
 
 .status {
-  
+  margin: 5%;
 }
 
+th {
+  text-align: right;
+}
 .month {
   padding: 70px 25px;
   width: 100%;
