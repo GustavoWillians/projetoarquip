@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="./CSS/nupubli/footer.css">
     <link rel="stylesheet" href="./CSS/nupubli/cards-story.css">
     <link rel="stylesheet" href="./CSS/nupubli/perg-fqts.css">
+    <link rel="stylesheet" href="./CSS/nupubli/dialogNewsletter.css">
     <title>Diário Oficial</title>
 </head>
 <body>
+  <div id="conteudoForaDialog">
     <header class="capa menu-fixo"> 
         <!-- contem fundo pg inicio header.css -->
         <img id="logo-arquip" src="./Assets/header/Logo-ARQUIP-branco.png" alt="Logo-ARQUIP"> 
@@ -71,7 +73,7 @@
           <div class="texto-card-novidades">
               <h3>PUBLIQUE COM 1 CLIQUE</h3>
               <p>Agora ficou mais fácil publicar!</p>
-              <button>SAIBA MAIS</button>
+              <button id="abreDialog">SAIBA MAIS</button>
           </div>
           <img class="img-novidades" src="./Assets/nupubli/btn-publique.png" alt="NOVO-BOTÃO-PUBLIQUE">
       </div><!-- container-card-novidades fim -->
@@ -158,12 +160,22 @@
         <img src="./Assets/footer/logo-prefeitura.png" alt="Prefeitura da cidade de São Paulo">
         <img src="./Assets/footer/Logo-branco.png" alt="Arquip">
     </footer>
+  </div>  
+    <div class="dialogNewsletter" id="dialogNewsletter" role="dialog" aria-labelledby="tituloDialog">
+      <div class="dialogNewsletter-body">
+        <img src="./Assets/nupubli/passo-a-passo-publicacao.png" style="width: 100%;" alt="imagem com o passo a passo de como fazer publicação">
+        <button class="dialogNewsletter-fechar" type="button" aria-label="Fechar janela modal">
+          Fechar modal
+        </button>
+      </div>
+      <div class="dialogNewsletter-overlay"></div>
+    </div> <!--fim .dialogNewsletter-->
 
 
-    <script defer src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script defer src="sweetalert2.min.js"></script>
     <script defer src="./JS/colapse.js"></script>  
+    <script defer src="./JS/header.js"></script> 
+    <script defer src="./JS/nupubli/dialog.js"></script>
+    <script defer src="./JS/nupubli/inert.js"></script>  
     <script defer src="./JS/nupubli/tutoriais.js"></script>      
-    <script defer src="./JS/header.js"></script>   
 </body>
 </html>
