@@ -10,7 +10,7 @@ let next = document.getElementsByClassName("next");
 let prev = document.getElementsByClassName("prev");
 let diaSemana = document.getElementsByClassName("weekdays");
 let dias = document.getElementsByClassName("days");
-let inicioSemana = data.getDay();
+
 
 mesExibicao.innerText = meses[data.getMonth()];
 anoExibicao.innerText = data.getFullYear();
@@ -22,6 +22,8 @@ for(let i = 0; i < diasNome.length; i++){
     diaSemana[0].innerHTML +=  `<li>${diasNome[i]}</li>`;
 }
 
+let inicioSemana = new Date (indexAno, indexMes, 1);
+console.log( daysMonth, inicioSemana)
 montarCalendario(inicioSemana);
 
 //mostrar mês seguinte
@@ -40,7 +42,7 @@ next[0].onclick = () => {
     montarCalendario(inicioSemana)
 
     console.log("dia atual "+ data.getDate(),"mês atual "+ (data.getMonth()+1),"ano atual "+ data.getFullYear())
-console.log( daysMonth, inicioSemana)
+    console.log( daysMonth, inicioSemana)
 
 }
 
