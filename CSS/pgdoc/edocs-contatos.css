@@ -167,11 +167,12 @@ table td {
 }
 
 @media only screen and (max-width: 600px) {
+    
     .container-pagina {
         margin-left: 6%;
         margin-right: 6%;
+        margin-top: 50px;
     }
-
 }
 
 @media only screen and (max-width: 400px) {

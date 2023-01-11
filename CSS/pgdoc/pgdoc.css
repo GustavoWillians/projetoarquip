@@ -65,13 +65,15 @@ body{
 @media only screen and (max-width: 860px) {
     .container-pagina {
         margin: 0;
-
     }
+
     .btn-leis {
         flex-direction: column;
         margin: 10px 0;
     }
+
     .btn-leis  a{
         margin-top: 10px;
     }
   }
+  

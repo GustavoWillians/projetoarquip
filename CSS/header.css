@@ -143,8 +143,7 @@ body {
   @media only screen and (max-width: 750px) {
     #logo-arquip{
         text-align: center;
-        margin-top: 20%;
-        height: 80px;
+        margin-top: 11%;
     } 
     .menu-fixo {
         flex-direction: column;
