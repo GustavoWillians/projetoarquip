@@ -98,7 +98,7 @@ body {
     .container-pagina {
         margin-left: 6%;
         margin-right: 6%;
-        margin-top: 50px;
+        padding-top: 20px;
     }
 
     .card-secao h3 {
