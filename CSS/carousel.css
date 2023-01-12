@@ -314,3 +314,12 @@ img {vertical-align: middle;}
   }
 
 }  
+
+@media only screen and (max-width: 400px) {
+  .prev, .next {
+    position:initial;
+  }
+  .slideshow-container { 
+    height: 480px;
+  }
+}

@@ -1,0 +1,49 @@
+.palmaDaMao {
+    width: 100%;
+    height: fit-content;
+    background-color: #76b4da;
+    display: none;
+    border-bottom: #1e7cbb solid 5px;
+}
+
+.containerApps {
+    margin: 5%;
+    padding: 20px;
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.sistemApps {
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #76b4da;
+    text-align: center;
+}
+
+.sistemApps img {
+    width: 70px;
+    border-radius: 8px ;
+}
+
+.sistemApps p {
+    margin: 0;
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+@media only screen and (max-width: 400px) {
+    .palmaDaMao {
+        display: flex;
+    }
+  }
