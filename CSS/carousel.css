@@ -315,7 +315,7 @@ img {vertical-align: middle;}
 
 }  
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
   .prev, .next {
     position:initial;
   }

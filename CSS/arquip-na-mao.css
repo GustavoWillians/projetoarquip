@@ -2,8 +2,8 @@
     width: 100%;
     height: fit-content;
     background-color: #76b4da;
-    display: none;
     border-bottom: #1e7cbb solid 5px;
+    display: none;
 }
 
 .containerApps {
@@ -42,7 +42,7 @@
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
     .palmaDaMao {
         display: flex;
     }

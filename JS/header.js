@@ -34,7 +34,17 @@ window.onload = function(e) {
     logoFixo(tela) // Call listener function at run time */
     tela.addListener(logoFixo); //faz a verificação na "tela" pra atender os valores atribuídos  
       
+    let larguraTela = window.innerWidth;
+    
+    if (larguraTela <= 420) {
+        logoMenu.setAttribute('src','./Assets/header/arquip_na_palma_da_mao.png');
+    } else {
+        logoMenu.setAttribute('src','./Assets/header/Logo-ARQUIP-branco.png');
+    }
+
 }
+
+
 
 /*
 let dropdownMenu = document.getElementById('submenu');

@@ -166,6 +166,6 @@ body {
         display: none;
     }
     .menu {
-        display: none;
+        flex-wrap: wrap;
     }
 }
