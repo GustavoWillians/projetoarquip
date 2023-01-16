@@ -173,33 +173,33 @@ const contatos = [
   titulo: 'PROCURADORIA GERAL DO MUNICÍPIO - PGM',
   th: [{
       cargo: 'Líder da Equipe',
-      contatoName: ['Erica Held Fonseca (Titular)', 'Antonio Luiz Emydio (Suplente)'],
-      contatoEmail: ['efonseca@hspm.sp.gov.br', 'ale@hspm.sp.gov.br']
+      contatoName: ['Vinícius Gomes dos Santos (Titular)', 'Daniella Roman da Silva (Suplente)'],
+      contatoEmail: ['vigomes@prefeitura.sp.gov.br', 'daniellaroman@prefeitura.sp.gov.br']
   },
   {
       cargo: 'Administrador local do SEI',
-      contatoName: ['Gerson Giuliangeli  (Titular)', 'Marcela Regina dos Reis (Suplente)'],
-      contatoEmail: ['ggiuliangeli@hspm.sp.gov.br', 'mrreis@hspm.sp.gov.br']
+      contatoName: ['Agnaldo dos Reis  (Titular)', 'Edi Aquino de Souza (Suplente)'],
+      contatoEmail: ['areis@prefeitura.sp.gov.br', 'esouza@prefeitura.sp.gov.br']
   },
   {
       cargo: 'Submestre do SIMPROC',
-      contatoName: ['Marcela Regina dos Reis'],
-      contatoEmail: ['mrreis@hspm.sp.gov.br']
+      contatoName: ['Edi Aquino de Souza'],
+      contatoEmail: ['esouza@prefeitura.sp.gov.br']
   },
   {
       cargo: 'Responsável pelo Setor de Protocolo',
-      contatoName: ['Fábio Mariano Magalhães'],
-      contatoEmail: ['fmagalhaes@hspm.sp.gov.br']
+      contatoName: ['Marcia Donizete Costa Ramos'],
+      contatoEmail: ['mdcramos@prefeitura.sp.gov.br']
   },
   {
       cargo: 'Pontos Focais da Tabela de Temporalidade',
-      contatoName: ['Celina Haruko Imamura Ichinose (Titular)', 'Claúdia Saula de Andrade (Suplente)'],
-      contatoEmail: ['cichinose@hspm.sp.gov.br', 'csaula@hspm.sp.gov.br']
+      contatoName: ['Roseli Aparecida dos Santos Sakihara (Titular)', 'Ana Claudia Labella (Suplente)'],
+      contatoEmail: ['rsakihara@prefeitura.sp.gov.br', 'alabella@prefeitura.sp.gov.br']
   },
   {
       cargo: 'Responsável do Órgão Setorial do SAMSP',
-      contatoName: ['Sandra Regina Pironi de Oliveira'],
-      contatoEmail: ['sandrapironi@hspm.sp.gov.br']
+      contatoName: ['Roseli Aparecida dos Santos Sakihara'],
+      contatoEmail: ['rsakihara@hspm.sp.gov.br']
   }
   ],
 },// PROCURADORIA GERAL DO MUNICÍPIO - PGM fim  6
