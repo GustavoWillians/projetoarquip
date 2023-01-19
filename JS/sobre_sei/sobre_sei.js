@@ -119,6 +119,46 @@ const icones = [
         id: 30,
         nome:'Gerar Arquivo PDF do Processo',
         descricao:'Faz o download de todos os documentos do processo em formato PDF. (Alguns formatos arquivos podem ser incompatíveis).'
+    },{
+        id: 31,
+        nome:'Gerar Arquivo ZIP do Processo',
+        descricao:'Faz o download de todos os documentos do processo em pasta zipada.'
+    },{
+        id: 32,
+        nome:'Remover Marcador',
+        descricao:'Remover marcadores criados pela unidade.'
+    },{
+        id: 33,
+        nome:'Adicionar Marcador',
+        descricao:'Adicionar marcador em processo.'
+    },{
+        id: 34,
+        nome:'Imprimir Web',
+        descricao:'Gera página de impressão web'
+    },{
+        id: 35,
+        nome:'Gerenciar Liberações para Assinatura Externa',
+        descricao:'-----'
+    },{
+        id: 36,
+        nome:'Relacionamento de Processos',
+        descricao:'-----'
+    },{
+        id: 37,
+        nome:'Anotações',
+        descricao:'-----'
+    },{
+        id: 38,
+        nome:'Comunique-se',
+        descricao:'-----'
+    },{
+        id: 39,
+        nome:'Destaque',
+        descricao:'-----'
+    },{
+        id: 40,
+        nome:'Agendar Publicação',
+        descricao:'-----'
     },
 
 ];
