@@ -104,6 +104,47 @@ li.seletor {
     background-color: #03486b;
 }
 
+.tabelasGeradas {
+   display:flex;
+}
+
+table,th,tr, td {
+    border: 2px solid #000000;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+th,tr, td {
+    background-color: #ffffff;
+}
+
+td img {
+    width: 40px;
+    background-color: #ffffff;
+}
+
+.antigo, .novo{
+    height: 96px;
+}
+
+.tdPadrao {
+    width: 90px;
+    text-align: center;
+}
+
+.descricao{
+    padding: 10px 15px;
+    background-color: #ffffff;
+    width: 140px;
+    height: fit-content;
+}
+
+table {
+    background-color: #000000;
+    margin: 10px 15px;
+}
+
 @media only screen and (max-width: 1380px) {
     .video-apresentacao {
         flex-direction: column;
