@@ -104,8 +104,10 @@ li.seletor {
     background-color: #03486b;
 }
 
-.tabelasGeradas {
+#tabelasGeradas {
    display:flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
 }
 
 table,th,tr, td {

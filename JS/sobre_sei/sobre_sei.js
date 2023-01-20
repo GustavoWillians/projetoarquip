@@ -178,8 +178,8 @@ for(let i = 0; i < icones.length; i++){
     </tr>
     
     <tr>
-      <td class="antigo"><img src="${antigo+icones[i].id}.png" alt="Imagem antiga"></td>
-      <td class="novo"><img src="Assets\sobre-sei\icones_sei\atual/${icones[i].id}.png" alt="Imagem nova"></td>
+      <td class="antigo"><img src="../Assets/sobre-sei/icones_sei/antigo/${icones[i].id}.png" alt="Imagem antiga"></td>
+      <td class="novo"><img src="../Assets/sobre-sei/icones_sei/atual/${icones[i].id}.png" alt="Imagem nova"></td>
     </tr>
     <tr>
       <td colspan="2" rowspan="2" class="descricao">${icones[i].descricao}</td>
