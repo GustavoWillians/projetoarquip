@@ -124,12 +124,17 @@ td img {
     background-color: #ffffff;
 }
 
+.titulo {
+    padding: 10px 0;
+}
+
 .antigo, .novo{
     height: 96px;
 }
 
 .tdPadrao {
     width: 90px;
+    padding: 5px 0;
     text-align: center;
 }
 

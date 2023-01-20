@@ -162,3 +162,52 @@ const icones = [
     },
 
 ];
+
+let container = document.getElementById('tabelasGeradas');
+
+for(let i = 0; i < icones.length; i++){
+
+    console.log(icones[i].id == 4);
+    container.innerHTML += ` <table>
+    <tr>
+      <th colspan="2" class="titulo">${icones[i].nome}</th>
+    </tr>
+    <tr>
+      <td class="tdPadrao">ANTIGO</td>
+      <td class="tdPadrao">NOVO</td>
+    </tr>
+    
+    <tr>
+      <td class="antigo"><img src="${antigo+icones[i].id}.png" alt="Imagem antiga"></td>
+      <td class="novo"><img src="Assets\sobre-sei\icones_sei\atual/${icones[i].id}.png" alt="Imagem nova"></td>
+    </tr>
+    <tr>
+      <td colspan="2" rowspan="2" class="descricao">${icones[i].descricao}</td>
+    </tr>
+  </table>
+    
+    `
+}
+
+
+
+
+/* 
+<table>
+                <tr>
+                  <th colspan="2" class="titulo">Incluir Documento</th>
+                </tr>
+                <tr>
+                  <td class="tdPadrao">ANTIGO</td>
+                  <td class="tdPadrao">NOVO</td>
+                </tr>
+                
+                <tr>
+                  <td class="antigo"><img src="Assets\sobre-sei\icones_sei\antigo\2.png" alt="Imagem antiga"></td>
+                  <td class="novo"><img src="Assets\sobre-sei\icones_sei\novo\2.png" alt="Imagem nova"></td>
+                </tr>
+                <tr>
+                  <td colspan="2" rowspan="2" class="descricao">Usado para incluir novos documentos, seja internos ou externos, no processo</td>
+                </tr>
+              </table>
+*/

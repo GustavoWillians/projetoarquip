@@ -8,7 +8,7 @@ const busca = [{
     descricao:'sua busca foi encontrada neste link'
 },{
     buscado: 'diário oficial',
-    link: './nupubli.html',
+    link: './nupubli/index.html',
     descricao:'sua busca foi encontrada neste link'
 },{
     buscado: 'diario oficial',
@@ -20,7 +20,7 @@ const busca = [{
     descricao:'sua busca foi encontrada neste link'
 },{
     buscado: 'diario oficial',
-    link: './nupubli.html',
+    link: './nupubli/index.html',
     descricao:'sua busca foi encontrada neste link'
 },{
     buscado: 'diário',
@@ -32,7 +32,7 @@ const busca = [{
     descricao:'sua busca foi encontrada neste link'
 },{
     buscado: 'diário',
-    link: './nupubli.html',
+    link: './nupubli/index.html',
     descricao:'sua busca foi encontrada neste link'
 },{
     buscado: 'diario',
@@ -44,7 +44,7 @@ const busca = [{
     descricao:'sua busca foi encontrada neste link'
 },{
     buscado: 'diario',
-    link: './nupubli.html',
+    link: './nupubli/index.html',
     descricao:'sua busca foi encontrada neste link'
 }];
 
