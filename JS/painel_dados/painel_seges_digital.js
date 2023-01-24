@@ -14,7 +14,7 @@ let iframe_atual = document.getElementById('iframe_dados');
 
 for(let i = 0; i < iframes.length; i++){
 
-  botoes[0].innerHTML +=  '<div class="botoes"><button>'+ iframes[i].titulo + '</button></div>';
+  botoes[0].innerHTML +=  `<div class="botoes"><button> ${iframes[i].titulo} </button></div>`;
 }
 
 let btn_iframe = document.getElementsByClassName('botoes');

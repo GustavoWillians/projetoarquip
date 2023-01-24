@@ -97,11 +97,70 @@ ul {
 li.seletor {
     cursor: pointer;
     list-style: none;
-    padding: 3px 10px;
+    padding: 5px 10px;
     border: 2px solid #03486b;
     border-radius: 4px;
     color: #efefef;
     background-color: #03486b;
+}
+
+li.seletor:hover {
+    box-shadow: 5px 5px 10px #888888;
+    color: #03486b;
+    background-color: #efefef;
+}
+
+#tabelasGeradas {
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+table,th,tr, td {
+    border: 2px solid #03486b;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+th,tr, td {
+    background-color: #ffffff;
+}
+
+td img {
+    width: 40px;
+    background-color: #ffffff;
+}
+
+.titulo {
+    padding: 10px 0;
+}
+
+.antigo, .novo{
+    height: 96px;
+}
+
+.tdPadrao {
+    width: 90px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.descricao{
+    padding: 10px 15px;
+    background-color: #ffffff;
+    width: 140px;
+    height: fit-content;
+}
+
+li.selecionado {
+    color: #03486b;
+    background-color: #efefef;
+}
+
+table {
+    background-color: #03486b;
+    margin: 10px 15px;
 }
 
 @media only screen and (max-width: 1380px) {
@@ -127,11 +186,20 @@ li.seletor {
     }
     .container-pagina {
         margin: 0px 6%;
+        padding-top: 30px;
     }
 }
 
-@media only screen and (max-width: 1000px) {
-    .container-pagina {
-        padding-top: 30px;
+@media only screen and (max-width: 860px) {
+
+    ul {
+        flex-direction: column;
+        align-items: stretch;
+        margin: 20px;
+    }
+
+    ul li{
+        margin-top: 3px;
+        text-align: center;
     }
 }

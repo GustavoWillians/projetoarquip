@@ -1,17 +1,17 @@
 const storyTutoriais = [{
-      poster: './Assets/nupubli/capa-story-PUBLICAÇÃO-INTERNA.png',
-      src:'./Assets/nupubli/Story-PUBLICAÇÃO-INTERNA.mp4'
+      poster: '../Assets/nupubli/capa-story-PUBLICAÇÃO-INTERNA.png',
+      src:'../Assets/nupubli/Story-PUBLICAÇÃO-INTERNA.mp4'
     },{
-      poster: './Assets/nupubli/capa-story-PUBLICAÇÃO-EXTERNA.png',
-      src:'./Assets/nupubli/Story-PUBLICAÇÃO-EXTERNA.mp4'
+      poster: '../Assets/nupubli/capa-story-PUBLICAÇÃO-EXTERNA.png',
+      src:'../Assets/nupubli/Story-PUBLICAÇÃO-EXTERNA.mp4'
     },
     {
-      poster: './Assets/nupubli/capa-story-MANUTENÇÃO.png',
-      src:'./Assets/nupubli/Story-MANUTENÇÃO.mp4'
+      poster: '../Assets/nupubli/capa-story-MANUTENÇÃO.png',
+      src:'../Assets/nupubli/Story-MANUTENÇÃO.mp4'
     },
     {
-      poster: './Assets/nupubli/capa-story-TABELA.png',
-      src:'./Assets/nupubli/Story-PUBLICAÇÃO-TABELA.mp4'
+      poster: '../Assets/nupubli/capa-story-TABELA.png',
+      src:'../Assets/nupubli/Story-PUBLICAÇÃO-TABELA.mp4'
     }];
 
 let container = document.getElementsByClassName('container-tutoriais');

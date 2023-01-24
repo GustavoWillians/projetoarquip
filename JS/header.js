@@ -37,9 +37,9 @@ window.onload = function(e) {
     let larguraTela = window.innerWidth;
     
     if (larguraTela <= 420) {
-        logoMenu.setAttribute('src','./Assets/header/arquip_na_palma_da_mao.png');
+        logoMenu.setAttribute('src','../Assets/header/arquip_na_palma_da_mao.png');
     } else {
-        logoMenu.setAttribute('src','./Assets/header/Logo-ARQUIP-branco.png');
+        logoMenu.setAttribute('src','../Assets/header/Logo-ARQUIP-branco.png');
     }
 
 }
