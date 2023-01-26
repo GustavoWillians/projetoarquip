@@ -15,7 +15,6 @@ iframe {
     align-items: flex-start;
     justify-content: space-evenly;
     flex-direction: column;
-    padding: 10px;
     background-color: #fff;
     width: 98vw;
 }
