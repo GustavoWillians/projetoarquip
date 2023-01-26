@@ -201,8 +201,8 @@ for (let i = 0; i < select.length; i++) {
                     </tr>
                     
                     <tr>
-                      <td class="antigo"><img src="../Assets/sobre-sei/icones_sei/antigo/${icones[i].id}.png" alt="Imagem antiga"></td>
-                      <td class="novo"><img src="../Assets/sobre-sei/icones_sei/atual/${icones[i].id}.png" alt="Imagem nova"></td>
+                      <td class="antigo"><img src="../../Assets/sobre-sei/icones_sei/antigo/${icones[i].id}.png" alt="Imagem antiga"></td>
+                      <td class="novo"><img src="../../Assets/sobre-sei/icones_sei/atual/${icones[i].id}.png" alt="Imagem nova"></td>
                     </tr>
                     <tr>
                       <td colspan="2" rowspan="2" class="descricao">${icones[i].descricao}</td>
@@ -226,8 +226,8 @@ for (let i = 0; i < select.length; i++) {
                     </tr>
                     
                     <tr>
-                      <td class="antigo"><img src="../Assets/sobre-sei/icones_sei/antigo/${icones[documentos[i]].id}.png" alt="Imagem antiga"></td>
-                      <td class="novo"><img src="../Assets/sobre-sei/icones_sei/atual/${icones[documentos[i]].id}.png" alt="Imagem nova"></td>
+                      <td class="antigo"><img src="../../Assets/sobre-sei/icones_sei/antigo/${icones[documentos[i]].id}.png" alt="Imagem antiga"></td>
+                      <td class="novo"><img src="../../Assets/sobre-sei/icones_sei/atual/${icones[documentos[i]].id}.png" alt="Imagem nova"></td>
                     </tr>
                     <tr>
                       <td colspan="2" rowspan="2" class="descricao">${icones[documentos[i]].descricao}</td>
@@ -251,8 +251,8 @@ for (let i = 0; i < select.length; i++) {
                     </tr>
                     
                     <tr>
-                      <td class="antigo"><img src="../Assets/sobre-sei/icones_sei/antigo/${icones[processos[i]].id}.png" alt="Imagem antiga"></td>
-                      <td class="novo"><img src="../Assets/sobre-sei/icones_sei/atual/${icones[processos[i]].id}.png" alt="Imagem nova"></td>
+                      <td class="antigo"><img src="../../Assets/sobre-sei/icones_sei/antigo/${icones[processos[i]].id}.png" alt="Imagem antiga"></td>
+                      <td class="novo"><img src="../../Assets/sobre-sei/icones_sei/atual/${icones[processos[i]].id}.png" alt="Imagem nova"></td>
                     </tr>
                     <tr>
                       <td colspan="2" rowspan="2" class="descricao">${icones[processos[i]].descricao}</td>
@@ -276,8 +276,8 @@ for (let i = 0; i < select.length; i++) {
                     </tr>
                     
                     <tr>
-                      <td class="antigo"><img src="../Assets/sobre-sei/icones_sei/antigo/${icones[comunicacao[i]].id}.png" alt="Imagem antiga"></td>
-                      <td class="novo"><img src="../Assets/sobre-sei/icones_sei/atual/${icones[comunicacao[i]].id}.png" alt="Imagem nova"></td>
+                      <td class="antigo"><img src="../../Assets/sobre-sei/icones_sei/antigo/${icones[comunicacao[i]].id}.png" alt="Imagem antiga"></td>
+                      <td class="novo"><img src="../../Assets/sobre-sei/icones_sei/atual/${icones[comunicacao[i]].id}.png" alt="Imagem nova"></td>
                     </tr>
                     <tr>
                       <td colspan="2" rowspan="2" class="descricao">${icones[comunicacao[i]].descricao}</td>
@@ -301,8 +301,8 @@ for (let i = 0; i < select.length; i++) {
                     </tr>
                     
                     <tr>
-                      <td class="antigo"><img src="../Assets/sobre-sei/icones_sei/antigo/${icones[controle[i]].id}.png" alt="Imagem antiga"></td>
-                      <td class="novo"><img src="../Assets/sobre-sei/icones_sei/atual/${icones[controle[i]].id}.png" alt="Imagem nova"></td>
+                      <td class="antigo"><img src="../../Assets/sobre-sei/icones_sei/antigo/${icones[controle[i]].id}.png" alt="Imagem antiga"></td>
+                      <td class="novo"><img src="../../Assets/sobre-sei/icones_sei/atual/${icones[controle[i]].id}.png" alt="Imagem nova"></td>
                     </tr>
                     <tr>
                       <td colspan="2" rowspan="2" class="descricao">${icones[controle[i]].descricao}</td>
@@ -326,8 +326,8 @@ for (let i = 0; i < select.length; i++) {
                     </tr>
                     
                     <tr>
-                      <td class="antigo"><img src="../Assets/sobre-sei/icones_sei/antigo/${icones[novidades[i]].id}.png" alt="Imagem antiga"></td>
-                      <td class="novo"><img src="../Assets/sobre-sei/icones_sei/atual/${icones[novidades[i]].id}.png" alt="Imagem nova"></td>
+                      <td class="antigo"><img src="../../Assets/sobre-sei/icones_sei/antigo/${icones[novidades[i]].id}.png" alt="Imagem antiga"></td>
+                      <td class="novo"><img src="../../Assets/sobre-sei/icones_sei/atual/${icones[novidades[i]].id}.png" alt="Imagem nova"></td>
                     </tr>
                     <tr>
                       <td colspan="2" rowspan="2" class="descricao">${icones[novidades[i]].descricao}</td>
