@@ -58,7 +58,7 @@
               </div>
             </div>
             <div>
-              <button><a href="https://gestaodocumental.prefeitura.sp.gov.br/chat/">Contato</a></button>
+              <button><a href="https://arquip.prefeitura.sp.gov.br/chat/">Contato</a></button>
             </div>
             <div>
               <button><a href="./busca.html">Buscar</a></button>
@@ -244,6 +244,16 @@
       <img src="./Assets/footer/Logo-branco.png" alt="Arquip">
     </footer>
     
+    <script defer type="text/javascript">
+      var LHCChatOptions = {};
+      LHCChatOptions.opt = {widget_height:340,widget_width:300,popup_height:520,popup_width:500};
+      (function() {
+      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+      var referrer = (document.referrer) ? encodeURIComponent(document.referrer.substr(document.referrer.indexOf('://')+1)) : '';
+      var location  = (document.location) ? encodeURIComponent(window.location.href.substring(window.location.protocol.length)) : '';
+      po.src = '//arquip.prefeitura.sp.gov.br/chat/index.php/chat/getstatus/(click)/internal/(position)/bottom_right/(ma)/br/(top)/350/(units)/pixels/(leaveamessage)/true?r='+referrer+'&l='+location;
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();</script>
 <script defer src="./JS/header.js"></script>
 <script defer src="./JS/carousel.js"></script>
 </body>
