@@ -1,52 +1,101 @@
-const busca = [{
-    buscado: 'diário oficial',
-    link: 'https://epubli.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=inicio',
-    descricao:'sua busca foi encontrada neste link'
-},{
-    buscado: 'diário oficial',
-    link: 'http://www.docidadesp.imprensaoficial.com.br/Busca.aspx',
-    descricao:'sua busca foi encontrada neste link'
-},{
-    buscado: 'diário oficial',
-    link: './nupubli/index.html',
-    descricao:'sua busca foi encontrada neste link'
-},{
-    buscado: 'diario oficial',
-    link: 'https://epubli.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=inicio',
-    descricao:'sua busca foi encontrada neste link'
-},{
-    buscado: 'diario oficial',
-    link: 'http://www.docidadesp.imprensaoficial.com.br/Busca.aspx',
-    descricao:'sua busca foi encontrada neste link'
-},{
-    buscado: 'diario oficial',
-    link: './nupubli/index.html',
-    descricao:'sua busca foi encontrada neste link'
-},{
-    buscado: 'diário',
-    link: 'https://epubli.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=inicio',
-    descricao:'sua busca foi encontrada neste link'
-},{
-    buscado: 'diário',
-    link: 'http://www.docidadesp.imprensaoficial.com.br/Busca.aspx',
-    descricao:'sua busca foi encontrada neste link'
-},{
-    buscado: 'diário',
-    link: './nupubli/index.html',
-    descricao:'sua busca foi encontrada neste link'
-},{
-    buscado: 'diario',
-    link: 'https://epubli.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=inicio',
-    descricao:'sua busca foi encontrada neste link'
-},{
-    buscado: 'diario',
-    link: 'http://www.docidadesp.imprensaoficial.com.br/Busca.aspx',
-    descricao:'sua busca foi encontrada neste link'
-},{
-    buscado: 'diario',
-    link: './nupubli/index.html',
-    descricao:'sua busca foi encontrada neste link'
-}];
+const busca = [
+    {
+        buscado: 'diário oficial',
+        link: 'https://epubli.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=inicio',
+        descricao:'epubli.prefeitura.sp.gov.br'
+    },{
+        buscado: 'diário oficial',
+        link: 'http://www.docidadesp.imprensaoficial.com.br/Busca.aspx',
+        descricao:'www.docidadesp.imprensaoficial.com.br'
+    },{
+        buscado: 'diário oficial',
+        link: './app/nupubli/',
+        descricao:'Arquip.nupubli'
+    },{
+        buscado: 'diario oficial',
+        link: 'https://epubli.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=inicio',
+        descricao:'epubli.prefeitura.sp.gov.br'
+    },{
+        buscado: 'diario oficial',
+        link: 'http://www.docidadesp.imprensaoficial.com.br/Busca.aspx',
+        descricao:'www.docidadesp.imprensaoficial.com.br'
+    },{
+        buscado: 'diario oficial',
+        link: './app/nupubli/',
+        descricao:'sua busca foi encontrada neste link'
+    },{
+        buscado: 'diário',
+        link: 'https://epubli.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=inicio',
+        descricao:'epubli.prefeitura.sp.gov.br'
+    },{
+        buscado: 'diário',
+        link: 'http://www.docidadesp.imprensaoficial.com.br/Busca.aspx',
+        descricao:'www.docidadesp.imprensaoficial.com.br'
+    },{
+        buscado: 'diário',
+        link: './app/nupubli/',
+        descricao:'sua busca foi encontrada neste link'
+    },{
+        buscado: 'diario',
+        link: 'https://epubli.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=inicio',
+        descricao:'epubli.prefeitura.sp.gov.br'
+    },{
+        buscado: 'diario',
+        link: 'http://www.docidadesp.imprensaoficial.com.br/Busca.aspx',
+        descricao:'www.docidadesp.imprensaoficial.com.br'
+    },{
+        buscado: 'diario',
+        link: './app/nupubli/',
+        descricao:'sua busca foi encontrada neste link'
+    },{
+        buscado: 'Diário Oficial',
+        link: 'https://epubli.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=inicio',
+        descricao:'epubli.prefeitura.sp.gov.br'
+    },{
+        buscado: 'Diário Oficial',
+        link: 'http://www.docidadesp.imprensaoficial.com.br/Busca.aspx',
+        descricao:'www.docidadesp.imprensaoficial.com.br'
+    },{
+        buscado: 'Diário Oficial',
+        link: './app/nupubli/',
+        descricao:'sua busca foi encontrada neste link'
+    },{
+        buscado: 'Diario oficial',
+        link: 'https://epubli.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=inicio',
+        descricao:'epubli.prefeitura.sp.gov.br'
+    },{
+        buscado: 'Diario oficial',
+        link: 'http://www.docidadesp.imprensaoficial.com.br/Busca.aspx',
+        descricao:'www.docidadesp.imprensaoficial.com.br'
+    },{
+        buscado: 'Diario oficial',
+        link: './app/nupubli/',
+        descricao:'sua busca foi encontrada neste link'
+    },{
+        buscado: 'Diário',
+        link: 'https://epubli.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=inicio',
+        descricao:'epubli.prefeitura.sp.gov.br'
+    },{
+        buscado: 'Diário',
+        link: 'http://www.docidadesp.imprensaoficial.com.br/Busca.aspx',
+        descricao:'www.docidadesp.imprensaoficial.com.br'
+    },{
+        buscado: 'Diário',
+        link: './app/nupubli/',
+        descricao:'sua busca foi encontrada neste link'
+    },{
+        buscado: 'Diario',
+        link: 'https://epubli.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=inicio',
+        descricao:'epubli.prefeitura.sp.gov.br'
+    },{
+        buscado: 'Diario',
+        link: 'http://www.docidadesp.imprensaoficial.com.br/Busca.aspx',
+        descricao:'sua busca foi encontrada neste link'
+    },{
+        buscado: 'Diario',
+        link: './app/nupubli/',
+        descricao:'sua busca foi encontrada neste link'
+    }];
 
 let submitBtn = document.getElementById('btn-submit');
 let links = document.getElementsByClassName('resultado-busca');
