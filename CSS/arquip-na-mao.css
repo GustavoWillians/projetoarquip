@@ -21,24 +21,23 @@
 
 .sistemApps {
     list-style: none;
-    width: 80px;
+    width: 90px;
     height: fit-content;
     border-radius: 5px;
     margin: 5px;
     padding: 5px;
-    text-align: center;
 }
 
 .sistemApps img {
-    border: #1e7cbb 5px solid;
-    width: 70px;
-    border-radius: 8px ;
+    width: 100%;    
 }
 
 .sistemApps p {
     margin-top: 5px;
     color: #1e7cbb;
     padding-bottom: 0px;
+    text-align: center;
+    font-size: 0.7em;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
