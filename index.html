@@ -67,24 +67,12 @@
         
     </header> <!-- header fim -->
 
-    <!--
     <div class="palmaDaMao">
       <div class="containerApps">
-        <div class="sistemApps">
-          <img src="./Assets/sistemas/SEI.png" alt="sistema SEI!">
-          <p>SEI!</p>
-        </div>
-        <div class="sistemApps"></div>
-        <div class="sistemApps"></div>
-        <div class="sistemApps"></div>
-        <div class="sistemApps"></div>
-        <div class="sistemApps"></div>
-        <div class="sistemApps"></div>
-        <div class="sistemApps"></div>
-        <div class="sistemApps"></div>
+       <!-- insere via js -->
       </div>
-    </div> -->  
-    <!-- Arquip na palma da mão fim -->
+    </div> <!-- Arquip na palma da mão fim -->
+
     <!-- Carousel -->
     <div class="slideshow-container">
 <!-- slide 5 -->        
@@ -250,10 +238,11 @@
       (function() {
       var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
       var referrer = (document.referrer) ? encodeURIComponent(document.referrer.substr(document.referrer.indexOf('://')+1)) : '';
-      var location  = (document.location) ? encodeURIComponent(window.location.href.substring(window.location.protocol.length)) : '';
+      var location = (document.location) ? encodeURIComponent(window.location.href.substring(window.location.protocol.length)) : '';
       po.src = '//arquip.prefeitura.sp.gov.br/chat/index.php/chat/getstatus/(click)/internal/(position)/bottom_right/(ma)/br/(top)/350/(units)/pixels/(leaveamessage)/true?r='+referrer+'&l='+location;
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
       })();</script>
+<script defer src="./JS/palma_da_mao.js"></script>      
 <script defer src="./JS/header.js"></script>
 <script defer src="./JS/carousel.js"></script>
 </body>
