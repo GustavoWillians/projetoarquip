@@ -69,67 +69,7 @@
 
     <div class="palmaDaMao">
       <div class="containerApps">
-        <div class="sistemApps">
-          <a href="./app/nupubli/">
-            <img src="./Assets/arquip-na-mao/SEI.png" alt="sistema SEI!">
-            <p>SEI!</p>
-          </a>
-        </div>
-        <div class="sistemApps">
-          <a href="./app/nupubli/">
-            <img src="./Assets/arquip-na-mao/SEI-TREINAMENTO.png" alt="sistema SEI!">
-            <p>SEI!</p>
-          </a>
-        </div>
-        <div class="sistemApps">
-          <a href="./app/nupubli/">
-            <img src="./Assets/arquip-na-mao/TID.png" alt="sistema SEI!">
-            <p>SEI!</p>
-          </a>
-        </div>
-        <div class="sistemApps">
-          <a href="./app/nupubli/">
-            <img src="./Assets/arquip-na-mao/simproc.png" alt="sistema SEI!">
-            <p>SEI!</p>
-          </a>
-        </div>
-        <div class="sistemApps">
-          <a href="./app/nupubli/">
-            <img src="./Assets/arquip-na-mao/simproc-web.png" alt="sistema SEI!">
-            <p>SEI!</p>
-          </a>
-        </div>
-        <div class="sistemApps">
-          <a href="./app/nupubli/">
-            <img src="./Assets/arquip-na-mao/PORTAL-PROCESSOS.png" alt="sistema SEI!">
-            <p>SEI!</p>
-          </a>
-        </div>
-        <div class="sistemApps">
-          <a href="./app/nupubli/">
-            <img src="./Assets/arquip-na-mao/diario2.png" alt="sistema SEI!">
-            <p>SEI!</p>
-          </a>
-        </div>
-        <div class="sistemApps">
-          <a href="./app/nupubli/">
-            <img src="./Assets/arquip-na-mao/DIARIO-OFICIAL-NOVO.png" alt="sistema SEI!">
-            <p>SEI!</p>
-          </a>
-        </div>
-        <div class="sistemApps">
-          <a href="./app/nupubli/">
-            <img src="./Assets/arquip-na-mao/cac.png" alt="sistema SEI!">
-            <p>SEI!</p>
-          </a>
-        </div>
-        <div class="sistemApps">
-          <a href="./app/nupubli/">
-            <img src="./Assets/arquip-na-mao/sip.png" alt="sistema SEI!">
-            <p>SEI!</p>
-          </a>
-        </div>
-        
+       <!-- insere via js -->
       </div>
     </div> <!-- Arquip na palma da mão fim -->
 
@@ -298,10 +238,11 @@
       (function() {
       var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
       var referrer = (document.referrer) ? encodeURIComponent(document.referrer.substr(document.referrer.indexOf('://')+1)) : '';
-      var location  = (document.location) ? encodeURIComponent(window.location.href.substring(window.location.protocol.length)) : '';
+      var location = (document.location) ? encodeURIComponent(window.location.href.substring(window.location.protocol.length)) : '';
       po.src = '//arquip.prefeitura.sp.gov.br/chat/index.php/chat/getstatus/(click)/internal/(position)/bottom_right/(ma)/br/(top)/350/(units)/pixels/(leaveamessage)/true?r='+referrer+'&l='+location;
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
       })();</script>
+<script defer src="./JS/palma_da_mao.js"></script>      
 <script defer src="./JS/header.js"></script>
 <script defer src="./JS/carousel.js"></script>
 </body>
