@@ -48,7 +48,7 @@ for(let i = 0; i < apps.length; i++){
 
   container[0].innerHTML +=  `
         <div class="sistemApps">
-          <a href="${apps[i].link}">
+          <a target="_blank" href="${apps[i].link}">
             <img src="./Assets/arquip-na-mao/${apps[i].img}" alt="link sistema ${apps[i].nome}">
             <p>${apps[i].nome}</p>
           </a>
