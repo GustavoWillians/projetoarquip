@@ -23,6 +23,14 @@ const cards_sistemas = [
                 de licitação, nomeações e exonerações dentre outros.`,
     link: 'http://www.docidadesp.imprensaoficial.com.br/Busca.aspx'
   },{
+    img:'./Assets/sistemas/GLPI.png',
+    titulo: 'GLPI',
+    descricao: `Esta plataforma reúne serviços prestados aos servidores 
+                de SG para a abertura de chamados para Assessoria de 
+                Informática; Reservas de salas no Ed. Jockey e no 
+                Ed. Matarazzo; e Cadastro de Usuários (GLPI) de CGDOC.`,
+    link: 'https://smgsuporte.prefeitura.sp.gov.br/'
+  },{
     img:'./Assets/sistemas/PORTAL-PROCESSOS.png',
     titulo: 'Portal de Processos ',
     descricao: `Efetue consultas a processos administrativos municipais, 
