@@ -169,14 +169,37 @@ const container = document.getElementById('tabelasGeradas');
 const documentos = [1, 2, 3, 4, 5, 6];
 const processos = [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19];
 const comunicacao = [20, 21, 22, 23];
-const controle = [24, 25, 27, 30, 31];
-const novidades = [8, 19, 20, 22, 23, 27, 32, 33];
+const controle = [24, 25, 27, 28, 30, 31, 32];
+const novidades = [8, 19, 20, 22, 23, 27, 31, 32, 33, 38, 39];
 
 
 const select = document.querySelectorAll('.seletor');
 
+for (let i = 0; i < icones.length; i++) { //inicio com TUDO selecionado
+
+  container.innerHTML += ` <table>
+   <tr>
+     <th colspan="2" class="titulo">${icones[i].nome}</th>
+   </tr>
+   <tr>
+     <td class="tdPadrao">ANTIGO</td>
+     <td class="tdPadrao">NOVO</td>
+   </tr>
+   
+   <tr>
+     <td class="antigo"><img src="../../Assets/sobre-sei/icones_sei/antigo/${icones[i].id}.png" alt="Imagem antiga"></td>
+     <td class="novo"><img src="../../Assets/sobre-sei/icones_sei/atual/${icones[i].id}.png" alt="Imagem nova"></td>
+   </tr>
+   <tr>
+     <td colspan="2" rowspan="2" class="descricao">${icones[i].descricao}</td>
+   </tr>
+  </table>  
+  `
+}
+
 for (let i = 0; i < select.length; i++) {
-    
+
+   
     const selecionado = select[i];
     
     selecionado.onclick = function () {
@@ -184,7 +207,7 @@ for (let i = 0; i < select.length; i++) {
         for (let i = 0; i < select.length; i++) {
             select[i].classList.remove('selecionado');
         }
-        
+        console.log(select[i].classList[1])
         switch (selecionado.classList[1]) {
             case '0': // todas as referências 
                 container.innerHTML = '';
@@ -326,8 +349,8 @@ for (let i = 0; i < select.length; i++) {
                     </tr>
                     
                     <tr>
-                      <td class="antigo"><img src="../../Assets/sobre-sei/icones_sei/antigo/${icones[novidades[i]].id}.png" alt="Imagem antiga"></td>
-                      <td class="novo"><img src="../../Assets/sobre-sei/icones_sei/atual/${icones[novidades[i]].id}.png" alt="Imagem nova"></td>
+                      <td class="antigo"><img src="../../Assets/sobre-sei/icones_sei/antigo/${icones[novidades[i]].id}.png" alt="Imagem antiga referência de ${icones[novidades[i]].nome}"></td>
+                      <td class="novo"><img src="../../Assets/sobre-sei/icones_sei/atual/${icones[novidades[i]].id}.png" alt="Imagem nova referência de ${icones[novidades[i]].nome}"></td>
                     </tr>
                     <tr>
                       <td colspan="2" rowspan="2" class="descricao">${icones[novidades[i]].descricao}</td>
