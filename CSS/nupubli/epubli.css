@@ -105,10 +105,6 @@ body {
     border-radius: 30px;
 }
 
-.video-novidades video{
-    width: 100%;
-}
-
 .container-segunda-parte-novidades{
     display: flex;
     margin: 10px 0;
@@ -130,9 +126,42 @@ body {
     font-weight: bolder;
     font-family: 'Questrial', sans-serif;
 }
+.card-secao {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Titillium Web', sans-serif;
+}
 
-.space {
-    margin-top: 35px !important; 
+.card-secao p {
+    font-size: 22px;
+}
+
+.card-secao h3 {
+    float: left;
+    background-color: #ffd197;
+    width: fit-content;
+    margin-top: 40px;
+    padding: 10px 75px;
+    font-weight: 300;
+}
+
+.card-video {
+    background: url(../../../Assets/avaliacao-documental/requerimento/onda-verde-fundo.png);
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.card-video video {
+    max-width: 1000px;
+    padding-bottom: 10px;
+}
+
+.card-video p {
+    text-align: justify;
+    margin-right: 15px;
 }
 
 .container-texto-novidades p {
@@ -140,6 +169,12 @@ body {
     font-family: 'Gilroy', sans-serif;
     color: #413f3f;
 }
+
+@media only screen and (max-width: 1380px) {
+    .card-video {
+        flex-direction: column;
+    }
+}  
 
 @media only screen and (max-width: 1253px) {
     
@@ -223,5 +258,9 @@ body {
     .container-titulo {
         margin-bottom: 10px;
         flex-direction: column;
+    }
+
+    .card-video p {
+        font-size: 18px;
     }
 }
