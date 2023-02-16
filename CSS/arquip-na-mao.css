@@ -1,3 +1,8 @@
+:root {
+    --border-line: #1e7cbba0;
+    --lineStyle: 5px solid var(--border-line);
+}
+
 .palmaDaMao {
     width: 100%;
     height: fit-content;
@@ -6,26 +11,76 @@
     display: none;
 }
 
-.containerApps {
+.bg-color {
+    margin-top: 30px;
     margin: 5%;
     padding: 15px;
-    margin-top: 30px;
-    width: 100%;
     border-radius: 15px;
-    background-color: #ffffff;
+}
+
+.containerApps {
+    margin-top: 30px;
+    width: fit-content;
+    height: 100%;
+    padding: 0%;
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .sistemApps {
-    list-style: none;
-    width: 90px;
-    height: fit-content;
-    border-radius: 5px;
-    margin: 5px;
-    padding: 5px;
+    text-align: center;
+    width: 110px;
+    height: 110px;
+    margin: 0;
+    padding: 1%;
+    background-color: #ffffff;
+}
+
+.sistemApps:nth-child(1) {
+    border-bottom: var(--lineStyle);
+    border-right: var(--lineStyle);
+}
+.sistemApps:nth-child(2) {
+    border-bottom: var(--lineStyle);
+    border-right: var(--lineStyle);
+}
+.sistemApps:nth-child(3) {
+    border-bottom: var(--lineStyle);
+}
+.sistemApps:nth-child(4) {
+    border-bottom: var(--lineStyle);
+    border-right: var(--lineStyle);
+}
+.sistemApps:nth-child(5) {
+    border-bottom: var(--lineStyle);
+    border-right: var(--lineStyle);
+}
+.sistemApps:nth-child(6) {
+    border-bottom: var(--lineStyle);
+}
+.sistemApps:nth-child(7) {
+    border-bottom: var(--lineStyle);
+    border-right: var(--lineStyle);
+}
+.sistemApps:nth-child(8) {
+    border-bottom: var(--lineStyle);
+    border-right: var(--lineStyle);
+}
+.sistemApps:nth-child(9) {
+    border-bottom: var(--lineStyle);
+}
+.sistemApps:nth-child(10) {
+    border-right: var(--lineStyle);
+    border-bottom: var(--lineStyle);
+}
+.sistemApps:nth-child(11) {
+    border-right: var(--lineStyle);
+    border-bottom: var(--lineStyle);
+}
+.sistemApps:nth-child(12) {
+    border-bottom: var(--lineStyle);
 }
 
 .sistemApps img {
@@ -46,7 +101,86 @@
 }
 
 @media only screen and (max-width: 420px) {
+    body {
+        background-color: #1e7cbba0;
+    }
     .palmaDaMao {
         display: flex;
     }
-  }
+    .slideshow-container { 
+        display: none;
+    }
+    .dots {
+        display: none;
+    }
+    .container-cards-sm {
+        display: none;
+    }
+    .container-sistemas {
+        display: none;
+    }
+    #lhc_status_container{ /* icone flutuante do chat */
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .sistemApps:nth-child(1) {
+        border-bottom: var(--lineStyle);
+        border-right: var(--lineStyle);
+    }
+    .sistemApps:nth-child(2) {
+        border-bottom: var(--lineStyle);
+    }
+    .sistemApps:nth-child(3) {
+        border-bottom: var(--lineStyle);
+        border-right: var(--lineStyle);
+    }
+    .sistemApps:nth-child(4) {
+        border-bottom: var(--lineStyle);
+    }
+    .sistemApps:nth-child(5) {
+        border-bottom: var(--lineStyle);
+        border-right: var(--lineStyle);
+    }
+    .sistemApps:nth-child(6) {
+        border-bottom: var(--lineStyle);
+        border-right: var(--lineStyle);
+    }
+    .sistemApps:nth-child(7) {
+        border-bottom: var(--lineStyle);
+        border-right: var(--lineStyle);
+    }
+    .sistemApps:nth-child(8) {
+        border-bottom: var(--lineStyle);
+       
+    }
+    .sistemApps:nth-child(9) {
+        border-bottom: var(--lineStyle);
+        border-right: var(--lineStyle);
+    }
+    .sistemApps:nth-child(10) {
+        border-bottom: var(--lineStyle);
+        border-right: var(--lineStyle);
+    }
+    .sistemApps:nth-child(11) {
+        border-right: var(--lineStyle);
+    }
+    .sistemApps:nth-child(12) {
+        border-right: var(--lineStyle);
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .sistemApps {
+        width: 90px;
+        height: 90px;
+    }
+
+    .containerApps {
+        margin-top: 50px;
+    }
+}
