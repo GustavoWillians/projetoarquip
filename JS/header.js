@@ -1,22 +1,26 @@
 window.onload = function(e) {
     var offset = document.getElementsByClassName('menu-fixo')[0].offsetTop;
     var menu = document.getElementsByClassName('menu-fixo')[0];
-
+    let larguraTela = window.innerWidth;
     let logoMenu = document.getElementById('logo-arquip');
     
     document.addEventListener('scroll', function() {
-        if (document.body.scrollTop > offset || document.documentElement.scrollTop > offset) {
-            menu.style.position = 'fixed';
-            menu.style.width = '100%';
-            menu.style.marginTop = '-95px';
-            logoMenu.style.height = '60px';
-            logoMenu.style.marginBottom = '10px';
-        } else { // retorna os parametros iniciais
-            menu.style.position = 'initial';
-            menu.style.display = 'flex';
-            menu.style.marginTop = '0';
-            logoMenu.style.height = '80px';
-            logoMenu.style.marginBottom = '3%';
+        if (larguraTela > '420px') {
+            if (document.body.scrollTop > offset || document.documentElement.scrollTop > offset) {
+                menu.style.position = 'fixed';
+                menu.style.width = '100%';
+                menu.style.marginTop = '-95px';
+                logoMenu.style.height = '60px';
+                logoMenu.style.marginBottom = '10px';
+            } else { // retorna os parametros iniciais
+                menu.style.position = 'initial';
+                menu.style.display = 'flex';
+                menu.style.marginTop = '0';
+                logoMenu.style.height = '80px';
+                logoMenu.style.marginBottom = '3%';
+            }
+        } else {
+            // retorna aos valores anteriores
         }
 
     });
@@ -34,8 +38,6 @@ window.onload = function(e) {
     logoFixo(tela) // Call listener function at run time */
     tela.addListener(logoFixo); //faz a verificação na "tela" pra atender os valores atribuídos  
       
-    let larguraTela = window.innerWidth;
-    
     if (larguraTela <= 420) {
         logoMenu.setAttribute('src','../../Assets/header/arquip_na_palma_da_mao.png');
     } else {
@@ -43,17 +45,3 @@ window.onload = function(e) {
     }
 
 }
-
-
-
-/*
-let dropdownMenu = document.getElementById('submenu');
-let submenuAba = document.getElementsByClassName('submenu-aba');
-
-dropdownMenu.addEventListener("mouseover", onMenu);
-
-function onMenu(){
-    submenuAba.style.display = "block";
-    submenuAba.style.zIndex = "2";
-}
-*/
