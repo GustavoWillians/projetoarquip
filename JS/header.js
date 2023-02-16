@@ -5,23 +5,21 @@ window.onload = function(e) {
     let logoMenu = document.getElementById('logo-arquip');
     
     document.addEventListener('scroll', function() {
-        if (larguraTela > '420px') {
-            if (document.body.scrollTop > offset || document.documentElement.scrollTop > offset) {
-                menu.style.position = 'fixed';
-                menu.style.width = '100%';
-                menu.style.marginTop = '-95px';
-                logoMenu.style.height = '60px';
-                logoMenu.style.marginBottom = '10px';
-            } else { // retorna os parametros iniciais
-                menu.style.position = 'initial';
-                menu.style.display = 'flex';
-                menu.style.marginTop = '0';
-                logoMenu.style.height = '80px';
-                logoMenu.style.marginBottom = '3%';
-            }
-        } else {
-            // retorna aos valores anteriores
+          
+        if ((document.body.scrollTop > offset || document.documentElement.scrollTop > offset) && (larguraTela > 420)){
+            menu.style.position = 'fixed';
+            menu.style.width = '100%';
+            menu.style.marginTop = '-95px';
+            logoMenu.style.height = '60px';
+            logoMenu.style.marginBottom = '10px';
+        } else { // retorna os parametros iniciais
+            menu.style.position = 'initial';
+            menu.style.display = 'flex';
+            menu.style.marginTop = '0';
+            logoMenu.style.height = '80px';
+            logoMenu.style.marginBottom = '3%';
         }
+        
 
     });
    
