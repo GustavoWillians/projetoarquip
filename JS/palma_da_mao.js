@@ -32,7 +32,7 @@ const apps = [
     nome: 'Infográficos',
     link: ''
   },{
-    img:'Suporte.png',
+    img:'suporte.png',
     nome: 'Suporte',
     link: 'https://arquip.prefeitura.sp.gov.br/chat/'
   },{
