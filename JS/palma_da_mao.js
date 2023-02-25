@@ -35,7 +35,7 @@ const apps = [
     img:'suporte.png',
     nome: 'Suporte',
     link: 'https://arquip.prefeitura.sp.gov.br/chat/'
-  },{
+  },/*{
     img:'----.png',
     nome: '------',
     link: ''
@@ -47,7 +47,7 @@ const apps = [
     img:'----.png',
     nome: '------',
     link: ''
-  },
+  },*/
 ];
     
 let container = document.getElementsByClassName('containerApps');
