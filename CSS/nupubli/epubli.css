@@ -39,7 +39,7 @@ body {
     margin: 0;
     margin-bottom: 15px;
     font-size: 25px;
-    color: #ff6e6e;
+    color: #008bd2;
     font-family: 'Gilroy-Medium', sans-serif;
 }
 
@@ -48,15 +48,15 @@ body {
     font-size: 20px;
     padding: 10px 15px;
     border-radius: 12px;
-    color: #fff;
-    background-color: #ff6e6e;
+    color: #000000;
+    background-color: #bae2ff;
     border: none;   
     margin-right: 20px;
 }
 
 #btn-download-manual a {
     text-decoration: none;
-    color: #fff;
+    color: #000000;
 }
 
 #btn-download-manual span {

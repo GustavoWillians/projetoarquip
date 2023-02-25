@@ -22,7 +22,7 @@
 .card-story a {
     text-decoration: none;
     color: #fff;
-    background-color: #fc5252;
+    background-color: #008bd2;
     font-size: 17px;
     font-weight: bolder;
 }
@@ -32,7 +32,7 @@
     margin: 10px;
     border: 0;
     border-radius: 7px;
-    background-color: #fc5252;
+    background-color: #008bd2;
 }
 
 @media only screen and (max-width: 680px) {
