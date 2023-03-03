@@ -4,6 +4,14 @@ const apps = [
     nome: 'Diário Oficial NOVO',
     link: 'https://epubli.prefeitura.sp.gov.br/md_epubli_controlador.php?acao=inicio'
   },{
+    img:'novodoc.png',
+    nome: 'Novodoc',
+    link: 'https://arquip.prefeitura.sp.gov.br/novodoc/'
+  },{
+    img:'suporte.png',
+    nome: 'Suporte',
+    link: 'https://arquip.prefeitura.sp.gov.br/chat/'
+  },{
     img:'PORTAL-PROCESSOS.png',
     nome: 'Portal de Processos ',
     link: 'https://processos.prefeitura.sp.gov.br/Forms/Principal.aspx'
@@ -31,10 +39,6 @@ const apps = [
     img:'infograficos.png',
     nome: 'Infográficos',
     link: ''
-  },{
-    img:'suporte.png',
-    nome: 'Suporte',
-    link: 'https://arquip.prefeitura.sp.gov.br/chat/'
   },/*{
     img:'----.png',
     nome: '------',
