@@ -19,11 +19,21 @@ body {
     flex-direction: row;
 }
 
+.titulo-txt {
+    width: 100%;
+}
+
 .titulo-txt h2 {
     margin-top: 0;
     margin-bottom: 0;
     padding: 15px 0px;
     font-family: 'Gilroy-Medium', sans-serif;
+}
+
+.titulo-txt ul  {
+    margin: 5px -20px;
+    border: solid 2px #008bd2;
+    border-radius: 5px;
 }
 
 .container-pagina h3 {
@@ -35,6 +45,18 @@ body {
     font-size: 25px;
 }
 
+.titulos-manuais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.titulos-manuais a, titulos-manuais a:visited {
+    text-decoration: none;
+}
+
 #titulo-inicial {
     margin: 0;
     margin-bottom: 15px;
@@ -43,7 +65,7 @@ body {
     font-family: 'Gilroy-Medium', sans-serif;
 }
 
-#btn-download-manual {
+.btn-download-manual {
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
     padding: 10px 15px;
@@ -54,12 +76,12 @@ body {
     margin-right: 20px;
 }
 
-#btn-download-manual a {
+.btn-download-manual a {
     text-decoration: none;
     color: #000000;
 }
 
-#btn-download-manual span {
+.btn-download-manual span {
     margin-left: 5px;
 }
 
