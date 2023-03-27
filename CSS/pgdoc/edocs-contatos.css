@@ -40,7 +40,7 @@ body {
     margin: 0;
     margin-bottom: 10px;
     font-size: 25px;
-    color: #ad6bcd;
+    color: #008bd2;
     font-family: 'Gilroy-Medium', sans-serif;
     
 }
@@ -75,7 +75,7 @@ body {
 }
 
 .bg-roxo{
-    background: url(../../Assets/pgdoc/Onda-transparente-roxa.png);
+    background: url(../../Assets/sobre-sei/onda-transparente-azul.png);
     background-repeat: no-repeat;
     background-position: bottom;
 }
@@ -100,7 +100,7 @@ body {
     margin-top: 25px;
     width: 100%;
     border: none;
-    border-bottom:  4px solid #ad6bcd;
+    border-bottom:  4px solid #008bd2;
     text-align: left;
     outline: none;
     font-size: 25px;

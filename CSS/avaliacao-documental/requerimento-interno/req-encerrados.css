@@ -32,7 +32,7 @@ body {
 
 .titulo-txt ul  {
     margin: 5px -20px;
-    border: solid 2px #326120;
+    border: solid 2px #008bd2;
     border-radius: 5px;
 }
 
@@ -62,7 +62,7 @@ body {
     margin: 0;
     margin-bottom: 10px;
     font-size: 25px;
-    color: #326120;
+    color: #008bd2;
     font-family: 'Gilroy-Medium', sans-serif;
     
 }
@@ -72,8 +72,8 @@ body {
     font-size: 20px;
     padding: 10px 15px;
     border-radius: 12px;
-    color: #fff;
-    background-color: #326120;
+    color: #000000;
+    background-color: #bae2ff;
     border: none;   
     margin-right: 20px;
 }
@@ -153,7 +153,7 @@ body {
     font-size: 28px;
     font-family: 'Titillium Web', sans-serif;
     padding: 10px 0;
-    background-color: #326120;
+    background-color: #008bd2;
     color: #fff;
 }
 

@@ -52,7 +52,7 @@ body {
     margin: 0;
     margin-bottom: 10px;
     font-size: 25px;
-    color: #ff8d17;
+    color: #008bd2;
     font-family: 'Gilroy-Medium', sans-serif;
     
 }
@@ -62,8 +62,8 @@ body {
     font-size: 20px;
     padding: 10px 15px;
     border-radius: 12px;
-    color: #fff;
-    background-color: #ff8d17;
+    color: #000000;
+    background-color: #bae2ff;
     border: none;   
     margin-right: 20px;
 }
@@ -107,7 +107,7 @@ body {
 
 .card-video {
     justify-content: space-between;
-    background: url(../../Assets/difusao-atendimento/Onda-transparente-laranja.png);
+    background: url(../../Assets/sobre-sei/onda-transparente-azul.png);
     display: flex;
     font-family: 'Titillium Web', sans-serif;
     font-size: 22px;

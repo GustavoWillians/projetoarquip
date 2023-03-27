@@ -117,7 +117,7 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-.texto-card-novidades button {
+/*.texto-card-novidades button {
     font-size: 15px;
     font-family: 'Questrial', sans-serif;
     background-color: #e57976;
@@ -125,7 +125,7 @@ body {
     padding: 15px 25px;
     border: none;
     border-radius: 30px;
-}
+}*/
 
 .container-segunda-parte-novidades{
     display: flex;
