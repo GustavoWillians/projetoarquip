@@ -101,9 +101,14 @@ body {
     height: 110%;
 }
 
-.texto-card-novidades, .texto-card-novidades-negocios {
+.texto-card-novidades {
     text-align: center;
     font-size: 30px;
+    padding-top: 0; 
+}
+.texto-card-novidades-negocios {
+    text-align: center;
+    font-size: 22px;
     padding-top: 0;
 }
 
@@ -119,7 +124,7 @@ body {
 
 .texto-card-novidades-negocios p, .texto-rodape-card-novidades-negocios {
     text-align: left;
-    font-size: 30px;
+    font-size: 22px;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -174,6 +179,7 @@ body {
     background-color: #ffd197;
     width: fit-content;
     margin-top: 40px;
+    margin-bottom: 40px;
     padding: 10px 75px;
     font-weight: 300;
 }
