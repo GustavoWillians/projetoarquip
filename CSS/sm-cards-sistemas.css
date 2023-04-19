@@ -9,6 +9,7 @@
     grid-template-rows: 10% 90%;
     grid-gap: 0;
     background-image: url("/Assets/sm-cards-sistemas/Fundo_tela_de_Sistemas_de_Arquivos_SP.png");
+    background-size: cover;
     height: 900px;
 }
 
