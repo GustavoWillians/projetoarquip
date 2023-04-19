@@ -101,7 +101,7 @@ body {
     height: 110%;
 }
 
-.texto-card-novidades {
+.texto-card-novidades, .texto-card-novidades-negocios {
     text-align: center;
     font-size: 30px;
     padding-top: 0;
@@ -110,6 +110,17 @@ body {
 .texto-card-novidades h3 {
     font-size: 50px;
     font-family: 'Questrial', sans-serif;
+}
+.texto-card-novidades-negocios h3 {
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.texto-card-novidades-negocios p, .texto-rodape-card-novidades-negocios {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .texto-card-novidades p {
@@ -154,7 +165,7 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-.card-secao p {
+.card-secao p, .card-secao ul {
     font-size: 22px;
 }
 
@@ -191,6 +202,12 @@ body {
     font-family: 'Gilroy', sans-serif;
     color: #413f3f;
 }
+.bg-white{
+    background-color: #ffffff !important;
+}
+.f-black{
+    color: #000000 !important;
+}
 
 @media only screen and (max-width: 1380px) {
     .card-video {
@@ -200,12 +217,12 @@ body {
 
 @media only screen and (max-width: 1253px) {
     
-    .texto-card-novidades h3 {
+    .texto-card-novidades h3, .texto-card-novidades-negocios h3  {
         text-align: center;
         font-size: 35px;
     }
     
-    .texto-card-novidades p {
+    .texto-card-novidades p, .texto-card-novidades-negocios p {
         text-align: center;
         font-size: 25px;
     }
@@ -224,11 +241,11 @@ body {
 
 @media only screen and (max-width: 800px) {
     
-    .texto-card-novidades h3 {
+    .texto-card-novidades h3, .texto-card-novidades-negocios h3 {
         font-size: 25px;
     }
 
-    .texto-card-novidades p {
+    .texto-card-novidades p, .texto-card-novidades-negocios p , .texto-rodape-card-novidades-negocios {
         font-size: 20px;
     }
 
@@ -250,15 +267,15 @@ body {
         flex-direction: column-reverse;
     }
 
-    .texto-card-novidades {
+    .texto-card-novidades, .texto-card-novidades-negocios {
         padding: 0;
     }
 
-    .texto-card-novidades h3 {
+    .texto-card-novidades h3, .texto-card-novidades-negocios h3 {
         padding: 0;
     }
 
-    .texto-card-novidades p {
+    .texto-card-novidades p, .texto-card-novidades-negocios p {
         padding: 0;
         margin: 5px 0;
     }
