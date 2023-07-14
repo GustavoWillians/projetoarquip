@@ -37,5 +37,5 @@ function showSlides(n) {
   }
   slides[slideIndex - 1].style.display = "block";
   clearTimeout(timer);
-  timer = setTimeout(() => plusSlides(1), 9000);
+  timer = setTimeout(() => plusSlides(1), 12000);
 }

@@ -108,8 +108,7 @@ body {
     padding-top: 0; 
 }
 .texto-card-novidades-negocios {
-    text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     padding-top: 0;
 }
 
@@ -124,8 +123,8 @@ body {
 }
 
 .texto-card-novidades-negocios p, .texto-rodape-card-novidades-negocios {
-    text-align: left;
-    font-size: 22px;
+    text-align: justify;
+    font-size: 20px;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -210,6 +209,14 @@ body {
     color: #413f3f;
 }
 
+.lista-docs{
+    margin-top: 10px;
+    font-size: 1em;
+    font-family: 'Gilroy', sans-serif;
+    color: #413f3f;
+    column-count: 2;
+}
+
 @media only screen and (max-width: 1380px) {
     .card-video {
         flex-direction: column;
@@ -283,6 +290,12 @@ body {
 
     .container-segunda-parte-novidades video{
         width: 300px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .lista-docs{
+        column-count: 1;
     }
 }
 
