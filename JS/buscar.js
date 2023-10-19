@@ -102,7 +102,6 @@ let links = document.getElementsByClassName('resultado-busca');
 let caixaBusca = document.getElementById('buscador');
 
 
-
 submitBtn.onclick = function buscadorLista(){
     
     caixaBusca.style.marginTop = "1%";

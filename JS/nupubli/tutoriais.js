@@ -25,3 +25,4 @@ for(let i = 0; i < storyTutoriais.length; i++){
   <button><a href="${storyTutoriais[i].src}" download >Download</a></button>
 </div>`;
 }
+
